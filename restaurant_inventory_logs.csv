@@ -1,0 +1,2197 @@
+Date,Item_Name,Category,Forecasted_Prep_Qty,Actual_Demand_Qty,Spoiled_Qty,Unit_Cost,Salvage_Value
+2024-01-01,Chicken Lollipop 6pcs,Starter,34,33,1,70,0
+2024-01-01,Chilli Baby Corn (dry),Starter,44,35,9,50,0
+2024-01-01,Chicken Pepper Bbq Pizza (Medium),Pizza,28,28,0,90,0
+2024-01-01,Bbq Fried Wings 6 Pcs.,Snacks,47,42,5,65,0
+2024-01-01,Cold Coffee,Cold Beverages,30,26,4,25,0
+2024-01-01,Virgin Mojito,Mocktails,26,26,0,30,0
+2024-01-02,Chicken Lollipop 6pcs,Starter,24,31,0,70,0
+2024-01-02,Chilli Baby Corn (dry),Starter,16,16,0,50,0
+2024-01-02,Chicken Pepper Bbq Pizza (Medium),Pizza,24,21,3,90,0
+2024-01-02,Bbq Fried Wings 6 Pcs.,Snacks,17,22,0,65,0
+2024-01-02,Cold Coffee,Cold Beverages,41,41,0,25,0
+2024-01-02,Virgin Mojito,Mocktails,25,30,0,30,0
+2024-01-03,Chicken Lollipop 6pcs,Starter,27,25,2,70,0
+2024-01-03,Chilli Baby Corn (dry),Starter,23,20,3,50,0
+2024-01-03,Chicken Pepper Bbq Pizza (Medium),Pizza,25,25,0,90,0
+2024-01-03,Bbq Fried Wings 6 Pcs.,Snacks,36,25,11,65,0
+2024-01-03,Cold Coffee,Cold Beverages,26,29,0,25,0
+2024-01-03,Virgin Mojito,Mocktails,32,36,0,30,0
+2024-01-04,Chicken Lollipop 6pcs,Starter,24,31,0,70,0
+2024-01-04,Chilli Baby Corn (dry),Starter,21,19,2,50,0
+2024-01-04,Chicken Pepper Bbq Pizza (Medium),Pizza,37,35,2,90,0
+2024-01-04,Bbq Fried Wings 6 Pcs.,Snacks,29,29,0,65,0
+2024-01-04,Cold Coffee,Cold Beverages,17,18,0,25,0
+2024-01-04,Virgin Mojito,Mocktails,33,26,7,30,0
+2024-01-05,Chicken Lollipop 6pcs,Starter,26,32,0,70,0
+2024-01-05,Chilli Baby Corn (dry),Starter,32,32,0,50,0
+2024-01-05,Chicken Pepper Bbq Pizza (Medium),Pizza,29,24,5,90,0
+2024-01-05,Bbq Fried Wings 6 Pcs.,Snacks,44,38,6,65,0
+2024-01-05,Cold Coffee,Cold Beverages,23,23,0,25,0
+2024-01-05,Virgin Mojito,Mocktails,38,32,6,30,0
+2024-01-06,Chicken Lollipop 6pcs,Starter,27,26,1,70,0
+2024-01-06,Chilli Baby Corn (dry),Starter,18,21,0,50,0
+2024-01-06,Chicken Pepper Bbq Pizza (Medium),Pizza,44,36,8,90,0
+2024-01-06,Bbq Fried Wings 6 Pcs.,Snacks,36,29,7,65,0
+2024-01-06,Cold Coffee,Cold Beverages,31,32,0,25,0
+2024-01-06,Virgin Mojito,Mocktails,41,32,9,30,0
+2024-01-07,Chicken Lollipop 6pcs,Starter,38,29,9,70,0
+2024-01-07,Chilli Baby Corn (dry),Starter,15,9,6,50,0
+2024-01-07,Chicken Pepper Bbq Pizza (Medium),Pizza,30,30,0,90,0
+2024-01-07,Bbq Fried Wings 6 Pcs.,Snacks,23,30,0,65,0
+2024-01-07,Cold Coffee,Cold Beverages,31,28,3,25,0
+2024-01-07,Virgin Mojito,Mocktails,41,41,0,30,0
+2024-01-08,Chicken Lollipop 6pcs,Starter,23,23,0,70,0
+2024-01-08,Chilli Baby Corn (dry),Starter,40,37,3,50,0
+2024-01-08,Chicken Pepper Bbq Pizza (Medium),Pizza,29,25,4,90,0
+2024-01-08,Bbq Fried Wings 6 Pcs.,Snacks,36,30,6,65,0
+2024-01-08,Cold Coffee,Cold Beverages,24,24,0,25,0
+2024-01-08,Virgin Mojito,Mocktails,21,26,0,30,0
+2024-01-09,Chicken Lollipop 6pcs,Starter,35,32,3,70,0
+2024-01-09,Chilli Baby Corn (dry),Starter,30,30,0,50,0
+2024-01-09,Chicken Pepper Bbq Pizza (Medium),Pizza,18,18,0,90,0
+2024-01-09,Bbq Fried Wings 6 Pcs.,Snacks,25,27,0,65,0
+2024-01-09,Cold Coffee,Cold Beverages,32,28,4,25,0
+2024-01-09,Virgin Mojito,Mocktails,47,45,2,30,0
+2024-01-10,Chicken Lollipop 6pcs,Starter,33,32,1,70,0
+2024-01-10,Chilli Baby Corn (dry),Starter,15,14,1,50,0
+2024-01-10,Chicken Pepper Bbq Pizza (Medium),Pizza,44,30,14,90,0
+2024-01-10,Bbq Fried Wings 6 Pcs.,Snacks,31,28,3,65,0
+2024-01-10,Cold Coffee,Cold Beverages,26,29,0,25,0
+2024-01-10,Virgin Mojito,Mocktails,44,39,5,30,0
+2024-01-11,Chicken Lollipop 6pcs,Starter,34,36,0,70,0
+2024-01-11,Chilli Baby Corn (dry),Starter,36,41,0,50,0
+2024-01-11,Chicken Pepper Bbq Pizza (Medium),Pizza,46,34,12,90,0
+2024-01-11,Bbq Fried Wings 6 Pcs.,Snacks,22,22,0,65,0
+2024-01-11,Cold Coffee,Cold Beverages,30,30,0,25,0
+2024-01-11,Virgin Mojito,Mocktails,19,17,2,30,0
+2024-01-12,Chicken Lollipop 6pcs,Starter,25,21,4,70,0
+2024-01-12,Chilli Baby Corn (dry),Starter,31,22,9,50,0
+2024-01-12,Chicken Pepper Bbq Pizza (Medium),Pizza,23,23,0,90,0
+2024-01-12,Bbq Fried Wings 6 Pcs.,Snacks,32,36,0,65,0
+2024-01-12,Cold Coffee,Cold Beverages,39,31,8,25,0
+2024-01-12,Virgin Mojito,Mocktails,19,17,2,30,0
+2024-01-13,Chicken Lollipop 6pcs,Starter,37,32,5,70,0
+2024-01-13,Chilli Baby Corn (dry),Starter,16,20,0,50,0
+2024-01-13,Chicken Pepper Bbq Pizza (Medium),Pizza,37,34,3,90,0
+2024-01-13,Bbq Fried Wings 6 Pcs.,Snacks,35,32,3,65,0
+2024-01-13,Cold Coffee,Cold Beverages,27,24,3,25,0
+2024-01-13,Virgin Mojito,Mocktails,31,32,0,30,0
+2024-01-14,Chicken Lollipop 6pcs,Starter,48,44,4,70,0
+2024-01-14,Chilli Baby Corn (dry),Starter,25,20,5,50,0
+2024-01-14,Chicken Pepper Bbq Pizza (Medium),Pizza,27,22,5,90,0
+2024-01-14,Bbq Fried Wings 6 Pcs.,Snacks,37,39,0,65,0
+2024-01-14,Cold Coffee,Cold Beverages,41,37,4,25,0
+2024-01-14,Virgin Mojito,Mocktails,47,36,11,30,0
+2024-01-15,Chicken Lollipop 6pcs,Starter,27,28,0,70,0
+2024-01-15,Chilli Baby Corn (dry),Starter,20,22,0,50,0
+2024-01-15,Chicken Pepper Bbq Pizza (Medium),Pizza,32,29,3,90,0
+2024-01-15,Bbq Fried Wings 6 Pcs.,Snacks,38,32,6,65,0
+2024-01-15,Cold Coffee,Cold Beverages,39,30,9,25,0
+2024-01-15,Virgin Mojito,Mocktails,42,27,15,30,0
+2024-01-16,Chicken Lollipop 6pcs,Starter,33,35,0,70,0
+2024-01-16,Chilli Baby Corn (dry),Starter,25,21,4,50,0
+2024-01-16,Chicken Pepper Bbq Pizza (Medium),Pizza,33,28,5,90,0
+2024-01-16,Bbq Fried Wings 6 Pcs.,Snacks,34,33,1,65,0
+2024-01-16,Cold Coffee,Cold Beverages,18,23,0,25,0
+2024-01-16,Virgin Mojito,Mocktails,32,26,6,30,0
+2024-01-17,Chicken Lollipop 6pcs,Starter,27,31,0,70,0
+2024-01-17,Chilli Baby Corn (dry),Starter,34,31,3,50,0
+2024-01-17,Chicken Pepper Bbq Pizza (Medium),Pizza,24,22,2,90,0
+2024-01-17,Bbq Fried Wings 6 Pcs.,Snacks,27,30,0,65,0
+2024-01-17,Cold Coffee,Cold Beverages,36,32,4,25,0
+2024-01-17,Virgin Mojito,Mocktails,45,38,7,30,0
+2024-01-18,Chicken Lollipop 6pcs,Starter,16,18,0,70,0
+2024-01-18,Chilli Baby Corn (dry),Starter,38,34,4,50,0
+2024-01-18,Chicken Pepper Bbq Pizza (Medium),Pizza,55,34,21,90,0
+2024-01-18,Bbq Fried Wings 6 Pcs.,Snacks,41,34,7,65,0
+2024-01-18,Cold Coffee,Cold Beverages,42,37,5,25,0
+2024-01-18,Virgin Mojito,Mocktails,32,27,5,30,0
+2024-01-19,Chicken Lollipop 6pcs,Starter,23,23,0,70,0
+2024-01-19,Chilli Baby Corn (dry),Starter,28,26,2,50,0
+2024-01-19,Chicken Pepper Bbq Pizza (Medium),Pizza,41,48,0,90,0
+2024-01-19,Bbq Fried Wings 6 Pcs.,Snacks,29,35,0,65,0
+2024-01-19,Cold Coffee,Cold Beverages,33,26,7,25,0
+2024-01-19,Virgin Mojito,Mocktails,27,30,0,30,0
+2024-01-20,Chicken Lollipop 6pcs,Starter,29,24,5,70,0
+2024-01-20,Chilli Baby Corn (dry),Starter,27,24,3,50,0
+2024-01-20,Chicken Pepper Bbq Pizza (Medium),Pizza,29,30,0,90,0
+2024-01-20,Bbq Fried Wings 6 Pcs.,Snacks,52,47,5,65,0
+2024-01-20,Cold Coffee,Cold Beverages,15,13,2,25,0
+2024-01-20,Virgin Mojito,Mocktails,30,24,6,30,0
+2024-01-21,Chicken Lollipop 6pcs,Starter,24,23,1,70,0
+2024-01-21,Chilli Baby Corn (dry),Starter,40,34,6,50,0
+2024-01-21,Chicken Pepper Bbq Pizza (Medium),Pizza,20,20,0,90,0
+2024-01-21,Bbq Fried Wings 6 Pcs.,Snacks,25,26,0,65,0
+2024-01-21,Cold Coffee,Cold Beverages,48,44,4,25,0
+2024-01-21,Virgin Mojito,Mocktails,25,19,6,30,0
+2024-01-22,Chicken Lollipop 6pcs,Starter,53,46,7,70,0
+2024-01-22,Chilli Baby Corn (dry),Starter,17,17,0,50,0
+2024-01-22,Chicken Pepper Bbq Pizza (Medium),Pizza,39,40,0,90,0
+2024-01-22,Bbq Fried Wings 6 Pcs.,Snacks,38,33,5,65,0
+2024-01-22,Cold Coffee,Cold Beverages,23,22,1,25,0
+2024-01-22,Virgin Mojito,Mocktails,1,4,0,30,0
+2024-01-23,Chicken Lollipop 6pcs,Starter,23,27,0,70,0
+2024-01-23,Chilli Baby Corn (dry),Starter,38,43,0,50,0
+2024-01-23,Chicken Pepper Bbq Pizza (Medium),Pizza,28,26,2,90,0
+2024-01-23,Bbq Fried Wings 6 Pcs.,Snacks,36,41,0,65,0
+2024-01-23,Cold Coffee,Cold Beverages,41,39,2,25,0
+2024-01-23,Virgin Mojito,Mocktails,26,22,4,30,0
+2024-01-24,Chicken Lollipop 6pcs,Starter,30,31,0,70,0
+2024-01-24,Chilli Baby Corn (dry),Starter,30,30,0,50,0
+2024-01-24,Chicken Pepper Bbq Pizza (Medium),Pizza,35,30,5,90,0
+2024-01-24,Bbq Fried Wings 6 Pcs.,Snacks,38,42,0,65,0
+2024-01-24,Cold Coffee,Cold Beverages,40,47,0,25,0
+2024-01-24,Virgin Mojito,Mocktails,32,28,4,30,0
+2024-01-25,Chicken Lollipop 6pcs,Starter,31,32,0,70,0
+2024-01-25,Chilli Baby Corn (dry),Starter,28,28,0,50,0
+2024-01-25,Chicken Pepper Bbq Pizza (Medium),Pizza,31,25,6,90,0
+2024-01-25,Bbq Fried Wings 6 Pcs.,Snacks,31,32,0,65,0
+2024-01-25,Cold Coffee,Cold Beverages,40,37,3,25,0
+2024-01-25,Virgin Mojito,Mocktails,41,36,5,30,0
+2024-01-26,Chicken Lollipop 6pcs,Starter,23,23,0,70,0
+2024-01-26,Chilli Baby Corn (dry),Starter,40,35,5,50,0
+2024-01-26,Chicken Pepper Bbq Pizza (Medium),Pizza,31,29,2,90,0
+2024-01-26,Bbq Fried Wings 6 Pcs.,Snacks,40,40,0,65,0
+2024-01-26,Cold Coffee,Cold Beverages,34,34,0,25,0
+2024-01-26,Virgin Mojito,Mocktails,35,28,7,30,0
+2024-01-27,Chicken Lollipop 6pcs,Starter,42,36,6,70,0
+2024-01-27,Chilli Baby Corn (dry),Starter,42,40,2,50,0
+2024-01-27,Chicken Pepper Bbq Pizza (Medium),Pizza,35,35,0,90,0
+2024-01-27,Bbq Fried Wings 6 Pcs.,Snacks,33,32,1,65,0
+2024-01-27,Cold Coffee,Cold Beverages,34,30,4,25,0
+2024-01-27,Virgin Mojito,Mocktails,35,23,12,30,0
+2024-01-28,Chicken Lollipop 6pcs,Starter,17,21,0,70,0
+2024-01-28,Chilli Baby Corn (dry),Starter,44,39,5,50,0
+2024-01-28,Chicken Pepper Bbq Pizza (Medium),Pizza,39,34,5,90,0
+2024-01-28,Bbq Fried Wings 6 Pcs.,Snacks,27,29,0,65,0
+2024-01-28,Cold Coffee,Cold Beverages,29,30,0,25,0
+2024-01-28,Virgin Mojito,Mocktails,38,37,1,30,0
+2024-01-29,Chicken Lollipop 6pcs,Starter,23,23,0,70,0
+2024-01-29,Chilli Baby Corn (dry),Starter,33,33,0,50,0
+2024-01-29,Chicken Pepper Bbq Pizza (Medium),Pizza,26,23,3,90,0
+2024-01-29,Bbq Fried Wings 6 Pcs.,Snacks,31,31,0,65,0
+2024-01-29,Cold Coffee,Cold Beverages,29,26,3,25,0
+2024-01-29,Virgin Mojito,Mocktails,13,18,0,30,0
+2024-01-30,Chicken Lollipop 6pcs,Starter,24,24,0,70,0
+2024-01-30,Chilli Baby Corn (dry),Starter,41,32,9,50,0
+2024-01-30,Chicken Pepper Bbq Pizza (Medium),Pizza,37,36,1,90,0
+2024-01-30,Bbq Fried Wings 6 Pcs.,Snacks,26,29,0,65,0
+2024-01-30,Cold Coffee,Cold Beverages,29,29,0,25,0
+2024-01-30,Virgin Mojito,Mocktails,30,32,0,30,0
+2024-01-31,Chicken Lollipop 6pcs,Starter,43,34,9,70,0
+2024-01-31,Chilli Baby Corn (dry),Starter,33,29,4,50,0
+2024-01-31,Chicken Pepper Bbq Pizza (Medium),Pizza,35,35,0,90,0
+2024-01-31,Bbq Fried Wings 6 Pcs.,Snacks,33,31,2,65,0
+2024-01-31,Cold Coffee,Cold Beverages,29,30,0,25,0
+2024-01-31,Virgin Mojito,Mocktails,34,30,4,30,0
+2024-02-01,Chicken Lollipop 6pcs,Starter,47,41,6,70,0
+2024-02-01,Chilli Baby Corn (dry),Starter,46,47,0,50,0
+2024-02-01,Chicken Pepper Bbq Pizza (Medium),Pizza,38,36,2,90,0
+2024-02-01,Bbq Fried Wings 6 Pcs.,Snacks,45,47,0,65,0
+2024-02-01,Cold Coffee,Cold Beverages,23,23,0,25,0
+2024-02-01,Virgin Mojito,Mocktails,13,13,0,30,0
+2024-02-02,Chicken Lollipop 6pcs,Starter,25,23,2,70,0
+2024-02-02,Chilli Baby Corn (dry),Starter,43,32,11,50,0
+2024-02-02,Chicken Pepper Bbq Pizza (Medium),Pizza,37,37,0,90,0
+2024-02-02,Bbq Fried Wings 6 Pcs.,Snacks,26,22,4,65,0
+2024-02-02,Cold Coffee,Cold Beverages,30,19,11,25,0
+2024-02-02,Virgin Mojito,Mocktails,39,39,0,30,0
+2024-02-03,Chicken Lollipop 6pcs,Starter,24,16,8,70,0
+2024-02-03,Chilli Baby Corn (dry),Starter,37,29,8,50,0
+2024-02-03,Chicken Pepper Bbq Pizza (Medium),Pizza,17,17,0,90,0
+2024-02-03,Bbq Fried Wings 6 Pcs.,Snacks,32,30,2,65,0
+2024-02-03,Cold Coffee,Cold Beverages,31,26,5,25,0
+2024-02-03,Virgin Mojito,Mocktails,22,21,1,30,0
+2024-02-04,Chicken Lollipop 6pcs,Starter,34,30,4,70,0
+2024-02-04,Chilli Baby Corn (dry),Starter,32,35,0,50,0
+2024-02-04,Chicken Pepper Bbq Pizza (Medium),Pizza,25,17,8,90,0
+2024-02-04,Bbq Fried Wings 6 Pcs.,Snacks,31,32,0,65,0
+2024-02-04,Cold Coffee,Cold Beverages,44,42,2,25,0
+2024-02-04,Virgin Mojito,Mocktails,41,39,2,30,0
+2024-02-05,Chicken Lollipop 6pcs,Starter,56,46,10,70,0
+2024-02-05,Chilli Baby Corn (dry),Starter,34,28,6,50,0
+2024-02-05,Chicken Pepper Bbq Pizza (Medium),Pizza,43,35,8,90,0
+2024-02-05,Bbq Fried Wings 6 Pcs.,Snacks,27,22,5,65,0
+2024-02-05,Cold Coffee,Cold Beverages,32,38,0,25,0
+2024-02-05,Virgin Mojito,Mocktails,12,20,0,30,0
+2024-02-06,Chicken Lollipop 6pcs,Starter,32,27,5,70,0
+2024-02-06,Chilli Baby Corn (dry),Starter,44,42,2,50,0
+2024-02-06,Chicken Pepper Bbq Pizza (Medium),Pizza,39,43,0,90,0
+2024-02-06,Bbq Fried Wings 6 Pcs.,Snacks,17,16,1,65,0
+2024-02-06,Cold Coffee,Cold Beverages,34,33,1,25,0
+2024-02-06,Virgin Mojito,Mocktails,14,13,1,30,0
+2024-02-07,Chicken Lollipop 6pcs,Starter,24,19,5,70,0
+2024-02-07,Chilli Baby Corn (dry),Starter,30,32,0,50,0
+2024-02-07,Chicken Pepper Bbq Pizza (Medium),Pizza,22,25,0,90,0
+2024-02-07,Bbq Fried Wings 6 Pcs.,Snacks,35,29,6,65,0
+2024-02-07,Cold Coffee,Cold Beverages,26,22,4,25,0
+2024-02-07,Virgin Mojito,Mocktails,24,25,0,30,0
+2024-02-08,Chicken Lollipop 6pcs,Starter,26,29,0,70,0
+2024-02-08,Chilli Baby Corn (dry),Starter,22,25,0,50,0
+2024-02-08,Chicken Pepper Bbq Pizza (Medium),Pizza,47,45,2,90,0
+2024-02-08,Bbq Fried Wings 6 Pcs.,Snacks,27,24,3,65,0
+2024-02-08,Cold Coffee,Cold Beverages,29,29,0,25,0
+2024-02-08,Virgin Mojito,Mocktails,39,34,5,30,0
+2024-02-09,Chicken Lollipop 6pcs,Starter,25,25,0,70,0
+2024-02-09,Chilli Baby Corn (dry),Starter,18,27,0,50,0
+2024-02-09,Chicken Pepper Bbq Pizza (Medium),Pizza,25,17,8,90,0
+2024-02-09,Bbq Fried Wings 6 Pcs.,Snacks,43,43,0,65,0
+2024-02-09,Cold Coffee,Cold Beverages,37,34,3,25,0
+2024-02-09,Virgin Mojito,Mocktails,61,54,7,30,0
+2024-02-10,Chicken Lollipop 6pcs,Starter,26,28,0,70,0
+2024-02-10,Chilli Baby Corn (dry),Starter,20,17,3,50,0
+2024-02-10,Chicken Pepper Bbq Pizza (Medium),Pizza,18,23,0,90,0
+2024-02-10,Bbq Fried Wings 6 Pcs.,Snacks,21,24,0,65,0
+2024-02-10,Cold Coffee,Cold Beverages,49,43,6,25,0
+2024-02-10,Virgin Mojito,Mocktails,38,29,9,30,0
+2024-02-11,Chicken Lollipop 6pcs,Starter,28,30,0,70,0
+2024-02-11,Chilli Baby Corn (dry),Starter,46,42,4,50,0
+2024-02-11,Chicken Pepper Bbq Pizza (Medium),Pizza,22,21,1,90,0
+2024-02-11,Bbq Fried Wings 6 Pcs.,Snacks,18,22,0,65,0
+2024-02-11,Cold Coffee,Cold Beverages,48,37,11,25,0
+2024-02-11,Virgin Mojito,Mocktails,22,18,4,30,0
+2024-02-12,Chicken Lollipop 6pcs,Starter,24,24,0,70,0
+2024-02-12,Chilli Baby Corn (dry),Starter,23,25,0,50,0
+2024-02-12,Chicken Pepper Bbq Pizza (Medium),Pizza,28,30,0,90,0
+2024-02-12,Bbq Fried Wings 6 Pcs.,Snacks,33,32,1,65,0
+2024-02-12,Cold Coffee,Cold Beverages,26,28,0,25,0
+2024-02-12,Virgin Mojito,Mocktails,30,25,5,30,0
+2024-02-13,Chicken Lollipop 6pcs,Starter,32,34,0,70,0
+2024-02-13,Chilli Baby Corn (dry),Starter,35,30,5,50,0
+2024-02-13,Chicken Pepper Bbq Pizza (Medium),Pizza,20,16,4,90,0
+2024-02-13,Bbq Fried Wings 6 Pcs.,Snacks,28,24,4,65,0
+2024-02-13,Cold Coffee,Cold Beverages,16,23,0,25,0
+2024-02-13,Virgin Mojito,Mocktails,18,16,2,30,0
+2024-02-14,Chicken Lollipop 6pcs,Starter,30,32,0,70,0
+2024-02-14,Chilli Baby Corn (dry),Starter,29,35,0,50,0
+2024-02-14,Chicken Pepper Bbq Pizza (Medium),Pizza,25,29,0,90,0
+2024-02-14,Bbq Fried Wings 6 Pcs.,Snacks,26,24,2,65,0
+2024-02-14,Cold Coffee,Cold Beverages,23,23,0,25,0
+2024-02-14,Virgin Mojito,Mocktails,38,38,0,30,0
+2024-02-15,Chicken Lollipop 6pcs,Starter,33,36,0,70,0
+2024-02-15,Chilli Baby Corn (dry),Starter,43,34,9,50,0
+2024-02-15,Chicken Pepper Bbq Pizza (Medium),Pizza,9,10,0,90,0
+2024-02-15,Bbq Fried Wings 6 Pcs.,Snacks,34,34,0,65,0
+2024-02-15,Cold Coffee,Cold Beverages,31,32,0,25,0
+2024-02-15,Virgin Mojito,Mocktails,31,30,1,30,0
+2024-02-16,Chicken Lollipop 6pcs,Starter,42,39,3,70,0
+2024-02-16,Chilli Baby Corn (dry),Starter,32,32,0,50,0
+2024-02-16,Chicken Pepper Bbq Pizza (Medium),Pizza,26,26,0,90,0
+2024-02-16,Bbq Fried Wings 6 Pcs.,Snacks,33,33,0,65,0
+2024-02-16,Cold Coffee,Cold Beverages,44,32,12,25,0
+2024-02-16,Virgin Mojito,Mocktails,36,36,0,30,0
+2024-02-17,Chicken Lollipop 6pcs,Starter,39,39,0,70,0
+2024-02-17,Chilli Baby Corn (dry),Starter,10,13,0,50,0
+2024-02-17,Chicken Pepper Bbq Pizza (Medium),Pizza,15,15,0,90,0
+2024-02-17,Bbq Fried Wings 6 Pcs.,Snacks,40,30,10,65,0
+2024-02-17,Cold Coffee,Cold Beverages,32,32,0,25,0
+2024-02-17,Virgin Mojito,Mocktails,27,36,0,30,0
+2024-02-18,Chicken Lollipop 6pcs,Starter,36,31,5,70,0
+2024-02-18,Chilli Baby Corn (dry),Starter,25,18,7,50,0
+2024-02-18,Chicken Pepper Bbq Pizza (Medium),Pizza,32,32,0,90,0
+2024-02-18,Bbq Fried Wings 6 Pcs.,Snacks,48,35,13,65,0
+2024-02-18,Cold Coffee,Cold Beverages,34,31,3,25,0
+2024-02-18,Virgin Mojito,Mocktails,24,26,0,30,0
+2024-02-19,Chicken Lollipop 6pcs,Starter,34,36,0,70,0
+2024-02-19,Chilli Baby Corn (dry),Starter,30,30,0,50,0
+2024-02-19,Chicken Pepper Bbq Pizza (Medium),Pizza,36,33,3,90,0
+2024-02-19,Bbq Fried Wings 6 Pcs.,Snacks,38,38,0,65,0
+2024-02-19,Cold Coffee,Cold Beverages,25,27,0,25,0
+2024-02-19,Virgin Mojito,Mocktails,29,26,3,30,0
+2024-02-20,Chicken Lollipop 6pcs,Starter,34,36,0,70,0
+2024-02-20,Chilli Baby Corn (dry),Starter,44,36,8,50,0
+2024-02-20,Chicken Pepper Bbq Pizza (Medium),Pizza,44,33,11,90,0
+2024-02-20,Bbq Fried Wings 6 Pcs.,Snacks,19,23,0,65,0
+2024-02-20,Cold Coffee,Cold Beverages,24,15,9,25,0
+2024-02-20,Virgin Mojito,Mocktails,36,35,1,30,0
+2024-02-21,Chicken Lollipop 6pcs,Starter,29,32,0,70,0
+2024-02-21,Chilli Baby Corn (dry),Starter,51,49,2,50,0
+2024-02-21,Chicken Pepper Bbq Pizza (Medium),Pizza,35,30,5,90,0
+2024-02-21,Bbq Fried Wings 6 Pcs.,Snacks,36,33,3,65,0
+2024-02-21,Cold Coffee,Cold Beverages,27,23,4,25,0
+2024-02-21,Virgin Mojito,Mocktails,53,45,8,30,0
+2024-02-22,Chicken Lollipop 6pcs,Starter,42,42,0,70,0
+2024-02-22,Chilli Baby Corn (dry),Starter,23,22,1,50,0
+2024-02-22,Chicken Pepper Bbq Pizza (Medium),Pizza,37,30,7,90,0
+2024-02-22,Bbq Fried Wings 6 Pcs.,Snacks,25,16,9,65,0
+2024-02-22,Cold Coffee,Cold Beverages,28,28,0,25,0
+2024-02-22,Virgin Mojito,Mocktails,15,21,0,30,0
+2024-02-23,Chicken Lollipop 6pcs,Starter,38,36,2,70,0
+2024-02-23,Chilli Baby Corn (dry),Starter,15,19,0,50,0
+2024-02-23,Chicken Pepper Bbq Pizza (Medium),Pizza,37,27,10,90,0
+2024-02-23,Bbq Fried Wings 6 Pcs.,Snacks,22,27,0,65,0
+2024-02-23,Cold Coffee,Cold Beverages,28,28,0,25,0
+2024-02-23,Virgin Mojito,Mocktails,9,8,1,30,0
+2024-02-24,Chicken Lollipop 6pcs,Starter,33,28,5,70,0
+2024-02-24,Chilli Baby Corn (dry),Starter,51,44,7,50,0
+2024-02-24,Chicken Pepper Bbq Pizza (Medium),Pizza,24,27,0,90,0
+2024-02-24,Bbq Fried Wings 6 Pcs.,Snacks,52,50,2,65,0
+2024-02-24,Cold Coffee,Cold Beverages,31,30,1,25,0
+2024-02-24,Virgin Mojito,Mocktails,32,31,1,30,0
+2024-02-25,Chicken Lollipop 6pcs,Starter,25,25,0,70,0
+2024-02-25,Chilli Baby Corn (dry),Starter,29,29,0,50,0
+2024-02-25,Chicken Pepper Bbq Pizza (Medium),Pizza,26,24,2,90,0
+2024-02-25,Bbq Fried Wings 6 Pcs.,Snacks,36,27,9,65,0
+2024-02-25,Cold Coffee,Cold Beverages,15,8,7,25,0
+2024-02-25,Virgin Mojito,Mocktails,31,39,0,30,0
+2024-02-26,Chicken Lollipop 6pcs,Starter,27,27,0,70,0
+2024-02-26,Chilli Baby Corn (dry),Starter,17,18,0,50,0
+2024-02-26,Chicken Pepper Bbq Pizza (Medium),Pizza,31,21,10,90,0
+2024-02-26,Bbq Fried Wings 6 Pcs.,Snacks,45,37,8,65,0
+2024-02-26,Cold Coffee,Cold Beverages,32,35,0,25,0
+2024-02-26,Virgin Mojito,Mocktails,29,25,4,30,0
+2024-02-27,Chicken Lollipop 6pcs,Starter,25,20,5,70,0
+2024-02-27,Chilli Baby Corn (dry),Starter,28,28,0,50,0
+2024-02-27,Chicken Pepper Bbq Pizza (Medium),Pizza,39,35,4,90,0
+2024-02-27,Bbq Fried Wings 6 Pcs.,Snacks,34,27,7,65,0
+2024-02-27,Cold Coffee,Cold Beverages,26,21,5,25,0
+2024-02-27,Virgin Mojito,Mocktails,34,34,0,30,0
+2024-02-28,Chicken Lollipop 6pcs,Starter,28,32,0,70,0
+2024-02-28,Chilli Baby Corn (dry),Starter,38,37,1,50,0
+2024-02-28,Chicken Pepper Bbq Pizza (Medium),Pizza,32,25,7,90,0
+2024-02-28,Bbq Fried Wings 6 Pcs.,Snacks,19,24,0,65,0
+2024-02-28,Cold Coffee,Cold Beverages,22,17,5,25,0
+2024-02-28,Virgin Mojito,Mocktails,29,19,10,30,0
+2024-02-29,Chicken Lollipop 6pcs,Starter,23,13,10,70,0
+2024-02-29,Chilli Baby Corn (dry),Starter,32,31,1,50,0
+2024-02-29,Chicken Pepper Bbq Pizza (Medium),Pizza,28,25,3,90,0
+2024-02-29,Bbq Fried Wings 6 Pcs.,Snacks,36,29,7,65,0
+2024-02-29,Cold Coffee,Cold Beverages,32,30,2,25,0
+2024-02-29,Virgin Mojito,Mocktails,28,27,1,30,0
+2024-03-01,Chicken Lollipop 6pcs,Starter,26,32,0,70,0
+2024-03-01,Chilli Baby Corn (dry),Starter,24,19,5,50,0
+2024-03-01,Chicken Pepper Bbq Pizza (Medium),Pizza,32,31,1,90,0
+2024-03-01,Bbq Fried Wings 6 Pcs.,Snacks,33,30,3,65,0
+2024-03-01,Cold Coffee,Cold Beverages,24,25,0,25,0
+2024-03-01,Virgin Mojito,Mocktails,29,31,0,30,0
+2024-03-02,Chicken Lollipop 6pcs,Starter,27,33,0,70,0
+2024-03-02,Chilli Baby Corn (dry),Starter,42,38,4,50,0
+2024-03-02,Chicken Pepper Bbq Pizza (Medium),Pizza,38,32,6,90,0
+2024-03-02,Bbq Fried Wings 6 Pcs.,Snacks,50,43,7,65,0
+2024-03-02,Cold Coffee,Cold Beverages,11,15,0,25,0
+2024-03-02,Virgin Mojito,Mocktails,27,25,2,30,0
+2024-03-03,Chicken Lollipop 6pcs,Starter,33,34,0,70,0
+2024-03-03,Chilli Baby Corn (dry),Starter,30,31,0,50,0
+2024-03-03,Chicken Pepper Bbq Pizza (Medium),Pizza,20,25,0,90,0
+2024-03-03,Bbq Fried Wings 6 Pcs.,Snacks,18,22,0,65,0
+2024-03-03,Cold Coffee,Cold Beverages,29,22,7,25,0
+2024-03-03,Virgin Mojito,Mocktails,37,22,15,30,0
+2024-03-04,Chicken Lollipop 6pcs,Starter,35,33,2,70,0
+2024-03-04,Chilli Baby Corn (dry),Starter,28,23,5,50,0
+2024-03-04,Chicken Pepper Bbq Pizza (Medium),Pizza,27,25,2,90,0
+2024-03-04,Bbq Fried Wings 6 Pcs.,Snacks,51,50,1,65,0
+2024-03-04,Cold Coffee,Cold Beverages,38,39,0,25,0
+2024-03-04,Virgin Mojito,Mocktails,39,29,10,30,0
+2024-03-05,Chicken Lollipop 6pcs,Starter,35,24,11,70,0
+2024-03-05,Chilli Baby Corn (dry),Starter,35,35,0,50,0
+2024-03-05,Chicken Pepper Bbq Pizza (Medium),Pizza,41,35,6,90,0
+2024-03-05,Bbq Fried Wings 6 Pcs.,Snacks,29,34,0,65,0
+2024-03-05,Cold Coffee,Cold Beverages,24,24,0,25,0
+2024-03-05,Virgin Mojito,Mocktails,34,29,5,30,0
+2024-03-06,Chicken Lollipop 6pcs,Starter,27,31,0,70,0
+2024-03-06,Chilli Baby Corn (dry),Starter,38,33,5,50,0
+2024-03-06,Chicken Pepper Bbq Pizza (Medium),Pizza,41,34,7,90,0
+2024-03-06,Bbq Fried Wings 6 Pcs.,Snacks,40,36,4,65,0
+2024-03-06,Cold Coffee,Cold Beverages,23,29,0,25,0
+2024-03-06,Virgin Mojito,Mocktails,36,33,3,30,0
+2024-03-07,Chicken Lollipop 6pcs,Starter,28,32,0,70,0
+2024-03-07,Chilli Baby Corn (dry),Starter,28,21,7,50,0
+2024-03-07,Chicken Pepper Bbq Pizza (Medium),Pizza,34,29,5,90,0
+2024-03-07,Bbq Fried Wings 6 Pcs.,Snacks,32,30,2,65,0
+2024-03-07,Cold Coffee,Cold Beverages,37,37,0,25,0
+2024-03-07,Virgin Mojito,Mocktails,30,30,0,30,0
+2024-03-08,Chicken Lollipop 6pcs,Starter,26,26,0,70,0
+2024-03-08,Chilli Baby Corn (dry),Starter,31,31,0,50,0
+2024-03-08,Chicken Pepper Bbq Pizza (Medium),Pizza,38,40,0,90,0
+2024-03-08,Bbq Fried Wings 6 Pcs.,Snacks,28,28,0,65,0
+2024-03-08,Cold Coffee,Cold Beverages,43,41,2,25,0
+2024-03-08,Virgin Mojito,Mocktails,33,38,0,30,0
+2024-03-09,Chicken Lollipop 6pcs,Starter,38,32,6,70,0
+2024-03-09,Chilli Baby Corn (dry),Starter,37,30,7,50,0
+2024-03-09,Chicken Pepper Bbq Pizza (Medium),Pizza,34,25,9,90,0
+2024-03-09,Bbq Fried Wings 6 Pcs.,Snacks,48,48,0,65,0
+2024-03-09,Cold Coffee,Cold Beverages,35,26,9,25,0
+2024-03-09,Virgin Mojito,Mocktails,42,42,0,30,0
+2024-03-10,Chicken Lollipop 6pcs,Starter,26,26,0,70,0
+2024-03-10,Chilli Baby Corn (dry),Starter,17,19,0,50,0
+2024-03-10,Chicken Pepper Bbq Pizza (Medium),Pizza,20,21,0,90,0
+2024-03-10,Bbq Fried Wings 6 Pcs.,Snacks,32,29,3,65,0
+2024-03-10,Cold Coffee,Cold Beverages,40,42,0,25,0
+2024-03-10,Virgin Mojito,Mocktails,37,37,0,30,0
+2024-03-11,Chicken Lollipop 6pcs,Starter,34,29,5,70,0
+2024-03-11,Chilli Baby Corn (dry),Starter,24,21,3,50,0
+2024-03-11,Chicken Pepper Bbq Pizza (Medium),Pizza,35,31,4,90,0
+2024-03-11,Bbq Fried Wings 6 Pcs.,Snacks,46,32,14,65,0
+2024-03-11,Cold Coffee,Cold Beverages,24,24,0,25,0
+2024-03-11,Virgin Mojito,Mocktails,25,25,0,30,0
+2024-03-12,Chicken Lollipop 6pcs,Starter,31,24,7,70,0
+2024-03-12,Chilli Baby Corn (dry),Starter,41,41,0,50,0
+2024-03-12,Chicken Pepper Bbq Pizza (Medium),Pizza,27,23,4,90,0
+2024-03-12,Bbq Fried Wings 6 Pcs.,Snacks,30,25,5,65,0
+2024-03-12,Cold Coffee,Cold Beverages,26,31,0,25,0
+2024-03-12,Virgin Mojito,Mocktails,52,42,10,30,0
+2024-03-13,Chicken Lollipop 6pcs,Starter,25,25,0,70,0
+2024-03-13,Chilli Baby Corn (dry),Starter,35,32,3,50,0
+2024-03-13,Chicken Pepper Bbq Pizza (Medium),Pizza,47,35,12,90,0
+2024-03-13,Bbq Fried Wings 6 Pcs.,Snacks,27,28,0,65,0
+2024-03-13,Cold Coffee,Cold Beverages,17,18,0,25,0
+2024-03-13,Virgin Mojito,Mocktails,39,29,10,30,0
+2024-03-14,Chicken Lollipop 6pcs,Starter,28,25,3,70,0
+2024-03-14,Chilli Baby Corn (dry),Starter,36,29,7,50,0
+2024-03-14,Chicken Pepper Bbq Pizza (Medium),Pizza,50,50,0,90,0
+2024-03-14,Bbq Fried Wings 6 Pcs.,Snacks,33,26,7,65,0
+2024-03-14,Cold Coffee,Cold Beverages,46,35,11,25,0
+2024-03-14,Virgin Mojito,Mocktails,34,34,0,30,0
+2024-03-15,Chicken Lollipop 6pcs,Starter,41,34,7,70,0
+2024-03-15,Chilli Baby Corn (dry),Starter,40,36,4,50,0
+2024-03-15,Chicken Pepper Bbq Pizza (Medium),Pizza,45,38,7,90,0
+2024-03-15,Bbq Fried Wings 6 Pcs.,Snacks,46,41,5,65,0
+2024-03-15,Cold Coffee,Cold Beverages,30,28,2,25,0
+2024-03-15,Virgin Mojito,Mocktails,37,39,0,30,0
+2024-03-16,Chicken Lollipop 6pcs,Starter,32,32,0,70,0
+2024-03-16,Chilli Baby Corn (dry),Starter,38,30,8,50,0
+2024-03-16,Chicken Pepper Bbq Pizza (Medium),Pizza,33,31,2,90,0
+2024-03-16,Bbq Fried Wings 6 Pcs.,Snacks,24,19,5,65,0
+2024-03-16,Cold Coffee,Cold Beverages,47,35,12,25,0
+2024-03-16,Virgin Mojito,Mocktails,30,27,3,30,0
+2024-03-17,Chicken Lollipop 6pcs,Starter,40,31,9,70,0
+2024-03-17,Chilli Baby Corn (dry),Starter,32,29,3,50,0
+2024-03-17,Chicken Pepper Bbq Pizza (Medium),Pizza,36,34,2,90,0
+2024-03-17,Bbq Fried Wings 6 Pcs.,Snacks,28,26,2,65,0
+2024-03-17,Cold Coffee,Cold Beverages,35,38,0,25,0
+2024-03-17,Virgin Mojito,Mocktails,30,31,0,30,0
+2024-03-18,Chicken Lollipop 6pcs,Starter,34,39,0,70,0
+2024-03-18,Chilli Baby Corn (dry),Starter,28,25,3,50,0
+2024-03-18,Chicken Pepper Bbq Pizza (Medium),Pizza,43,42,1,90,0
+2024-03-18,Bbq Fried Wings 6 Pcs.,Snacks,36,25,11,65,0
+2024-03-18,Cold Coffee,Cold Beverages,10,18,0,25,0
+2024-03-18,Virgin Mojito,Mocktails,33,33,0,30,0
+2024-03-19,Chicken Lollipop 6pcs,Starter,26,21,5,70,0
+2024-03-19,Chilli Baby Corn (dry),Starter,31,31,0,50,0
+2024-03-19,Chicken Pepper Bbq Pizza (Medium),Pizza,25,19,6,90,0
+2024-03-19,Bbq Fried Wings 6 Pcs.,Snacks,36,35,1,65,0
+2024-03-19,Cold Coffee,Cold Beverages,41,44,0,25,0
+2024-03-19,Virgin Mojito,Mocktails,16,17,0,30,0
+2024-03-20,Chicken Lollipop 6pcs,Starter,32,29,3,70,0
+2024-03-20,Chilli Baby Corn (dry),Starter,31,28,3,50,0
+2024-03-20,Chicken Pepper Bbq Pizza (Medium),Pizza,28,19,9,90,0
+2024-03-20,Bbq Fried Wings 6 Pcs.,Snacks,36,29,7,65,0
+2024-03-20,Cold Coffee,Cold Beverages,36,32,4,25,0
+2024-03-20,Virgin Mojito,Mocktails,38,34,4,30,0
+2024-03-21,Chicken Lollipop 6pcs,Starter,43,35,8,70,0
+2024-03-21,Chilli Baby Corn (dry),Starter,36,31,5,50,0
+2024-03-21,Chicken Pepper Bbq Pizza (Medium),Pizza,38,29,9,90,0
+2024-03-21,Bbq Fried Wings 6 Pcs.,Snacks,35,24,11,65,0
+2024-03-21,Cold Coffee,Cold Beverages,24,29,0,25,0
+2024-03-21,Virgin Mojito,Mocktails,30,31,0,30,0
+2024-03-22,Chicken Lollipop 6pcs,Starter,35,36,0,70,0
+2024-03-22,Chilli Baby Corn (dry),Starter,19,26,0,50,0
+2024-03-22,Chicken Pepper Bbq Pizza (Medium),Pizza,16,26,0,90,0
+2024-03-22,Bbq Fried Wings 6 Pcs.,Snacks,22,17,5,65,0
+2024-03-22,Cold Coffee,Cold Beverages,40,36,4,25,0
+2024-03-22,Virgin Mojito,Mocktails,23,22,1,30,0
+2024-03-23,Chicken Lollipop 6pcs,Starter,26,29,0,70,0
+2024-03-23,Chilli Baby Corn (dry),Starter,48,42,6,50,0
+2024-03-23,Chicken Pepper Bbq Pizza (Medium),Pizza,30,28,2,90,0
+2024-03-23,Bbq Fried Wings 6 Pcs.,Snacks,23,31,0,65,0
+2024-03-23,Cold Coffee,Cold Beverages,27,28,0,25,0
+2024-03-23,Virgin Mojito,Mocktails,21,21,0,30,0
+2024-03-24,Chicken Lollipop 6pcs,Starter,49,44,5,70,0
+2024-03-24,Chilli Baby Corn (dry),Starter,29,25,4,50,0
+2024-03-24,Chicken Pepper Bbq Pizza (Medium),Pizza,47,41,6,90,0
+2024-03-24,Bbq Fried Wings 6 Pcs.,Snacks,29,30,0,65,0
+2024-03-24,Cold Coffee,Cold Beverages,38,35,3,25,0
+2024-03-24,Virgin Mojito,Mocktails,42,37,5,30,0
+2024-03-25,Chicken Lollipop 6pcs,Starter,38,38,0,70,0
+2024-03-25,Chilli Baby Corn (dry),Starter,42,40,2,50,0
+2024-03-25,Chicken Pepper Bbq Pizza (Medium),Pizza,45,46,0,90,0
+2024-03-25,Bbq Fried Wings 6 Pcs.,Snacks,45,43,2,65,0
+2024-03-25,Cold Coffee,Cold Beverages,24,24,0,25,0
+2024-03-25,Virgin Mojito,Mocktails,31,27,4,30,0
+2024-03-26,Chicken Lollipop 6pcs,Starter,34,34,0,70,0
+2024-03-26,Chilli Baby Corn (dry),Starter,41,29,12,50,0
+2024-03-26,Chicken Pepper Bbq Pizza (Medium),Pizza,47,43,4,90,0
+2024-03-26,Bbq Fried Wings 6 Pcs.,Snacks,32,30,2,65,0
+2024-03-26,Cold Coffee,Cold Beverages,31,34,0,25,0
+2024-03-26,Virgin Mojito,Mocktails,21,27,0,30,0
+2024-03-27,Chicken Lollipop 6pcs,Starter,38,33,5,70,0
+2024-03-27,Chilli Baby Corn (dry),Starter,35,26,9,50,0
+2024-03-27,Chicken Pepper Bbq Pizza (Medium),Pizza,15,20,0,90,0
+2024-03-27,Bbq Fried Wings 6 Pcs.,Snacks,38,31,7,65,0
+2024-03-27,Cold Coffee,Cold Beverages,43,43,0,25,0
+2024-03-27,Virgin Mojito,Mocktails,39,38,1,30,0
+2024-03-28,Chicken Lollipop 6pcs,Starter,34,28,6,70,0
+2024-03-28,Chilli Baby Corn (dry),Starter,30,35,0,50,0
+2024-03-28,Chicken Pepper Bbq Pizza (Medium),Pizza,49,41,8,90,0
+2024-03-28,Bbq Fried Wings 6 Pcs.,Snacks,27,24,3,65,0
+2024-03-28,Cold Coffee,Cold Beverages,36,33,3,25,0
+2024-03-28,Virgin Mojito,Mocktails,24,25,0,30,0
+2024-03-29,Chicken Lollipop 6pcs,Starter,36,29,7,70,0
+2024-03-29,Chilli Baby Corn (dry),Starter,34,34,0,50,0
+2024-03-29,Chicken Pepper Bbq Pizza (Medium),Pizza,24,36,0,90,0
+2024-03-29,Bbq Fried Wings 6 Pcs.,Snacks,33,39,0,65,0
+2024-03-29,Cold Coffee,Cold Beverages,24,27,0,25,0
+2024-03-29,Virgin Mojito,Mocktails,26,19,7,30,0
+2024-03-30,Chicken Lollipop 6pcs,Starter,29,26,3,70,0
+2024-03-30,Chilli Baby Corn (dry),Starter,33,29,4,50,0
+2024-03-30,Chicken Pepper Bbq Pizza (Medium),Pizza,26,30,0,90,0
+2024-03-30,Bbq Fried Wings 6 Pcs.,Snacks,37,37,0,65,0
+2024-03-30,Cold Coffee,Cold Beverages,17,17,0,25,0
+2024-03-30,Virgin Mojito,Mocktails,48,42,6,30,0
+2024-03-31,Chicken Lollipop 6pcs,Starter,27,27,0,70,0
+2024-03-31,Chilli Baby Corn (dry),Starter,39,27,12,50,0
+2024-03-31,Chicken Pepper Bbq Pizza (Medium),Pizza,37,33,4,90,0
+2024-03-31,Bbq Fried Wings 6 Pcs.,Snacks,41,38,3,65,0
+2024-03-31,Cold Coffee,Cold Beverages,28,27,1,25,0
+2024-03-31,Virgin Mojito,Mocktails,30,29,1,30,0
+2024-04-01,Chicken Lollipop 6pcs,Starter,37,35,2,70,0
+2024-04-01,Chilli Baby Corn (dry),Starter,36,35,1,50,0
+2024-04-01,Chicken Pepper Bbq Pizza (Medium),Pizza,23,30,0,90,0
+2024-04-01,Bbq Fried Wings 6 Pcs.,Snacks,40,37,3,65,0
+2024-04-01,Cold Coffee,Cold Beverages,25,37,0,25,0
+2024-04-01,Virgin Mojito,Mocktails,47,46,1,30,0
+2024-04-02,Chicken Lollipop 6pcs,Starter,35,38,0,70,0
+2024-04-02,Chilli Baby Corn (dry),Starter,31,34,0,50,0
+2024-04-02,Chicken Pepper Bbq Pizza (Medium),Pizza,36,25,11,90,0
+2024-04-02,Bbq Fried Wings 6 Pcs.,Snacks,31,28,3,65,0
+2024-04-02,Cold Coffee,Cold Beverages,40,36,4,25,0
+2024-04-02,Virgin Mojito,Mocktails,34,31,3,30,0
+2024-04-03,Chicken Lollipop 6pcs,Starter,50,49,1,70,0
+2024-04-03,Chilli Baby Corn (dry),Starter,38,31,7,50,0
+2024-04-03,Chicken Pepper Bbq Pizza (Medium),Pizza,45,38,7,90,0
+2024-04-03,Bbq Fried Wings 6 Pcs.,Snacks,32,35,0,65,0
+2024-04-03,Cold Coffee,Cold Beverages,40,43,0,25,0
+2024-04-03,Virgin Mojito,Mocktails,31,32,0,30,0
+2024-04-04,Chicken Lollipop 6pcs,Starter,32,29,3,70,0
+2024-04-04,Chilli Baby Corn (dry),Starter,36,32,4,50,0
+2024-04-04,Chicken Pepper Bbq Pizza (Medium),Pizza,46,42,4,90,0
+2024-04-04,Bbq Fried Wings 6 Pcs.,Snacks,34,28,6,65,0
+2024-04-04,Cold Coffee,Cold Beverages,35,39,0,25,0
+2024-04-04,Virgin Mojito,Mocktails,39,34,5,30,0
+2024-04-05,Chicken Lollipop 6pcs,Starter,35,27,8,70,0
+2024-04-05,Chilli Baby Corn (dry),Starter,30,28,2,50,0
+2024-04-05,Chicken Pepper Bbq Pizza (Medium),Pizza,30,28,2,90,0
+2024-04-05,Bbq Fried Wings 6 Pcs.,Snacks,16,21,0,65,0
+2024-04-05,Cold Coffee,Cold Beverages,40,42,0,25,0
+2024-04-05,Virgin Mojito,Mocktails,14,22,0,30,0
+2024-04-06,Chicken Lollipop 6pcs,Starter,20,24,0,70,0
+2024-04-06,Chilli Baby Corn (dry),Starter,50,43,7,50,0
+2024-04-06,Chicken Pepper Bbq Pizza (Medium),Pizza,37,24,13,90,0
+2024-04-06,Bbq Fried Wings 6 Pcs.,Snacks,37,37,0,65,0
+2024-04-06,Cold Coffee,Cold Beverages,23,10,13,25,0
+2024-04-06,Virgin Mojito,Mocktails,12,18,0,30,0
+2024-04-07,Chicken Lollipop 6pcs,Starter,52,38,14,70,0
+2024-04-07,Chilli Baby Corn (dry),Starter,45,41,4,50,0
+2024-04-07,Chicken Pepper Bbq Pizza (Medium),Pizza,40,34,6,90,0
+2024-04-07,Bbq Fried Wings 6 Pcs.,Snacks,39,36,3,65,0
+2024-04-07,Cold Coffee,Cold Beverages,31,30,1,25,0
+2024-04-07,Virgin Mojito,Mocktails,23,23,0,30,0
+2024-04-08,Chicken Lollipop 6pcs,Starter,17,16,1,70,0
+2024-04-08,Chilli Baby Corn (dry),Starter,19,22,0,50,0
+2024-04-08,Chicken Pepper Bbq Pizza (Medium),Pizza,39,31,8,90,0
+2024-04-08,Bbq Fried Wings 6 Pcs.,Snacks,32,37,0,65,0
+2024-04-08,Cold Coffee,Cold Beverages,28,22,6,25,0
+2024-04-08,Virgin Mojito,Mocktails,22,22,0,30,0
+2024-04-09,Chicken Lollipop 6pcs,Starter,32,34,0,70,0
+2024-04-09,Chilli Baby Corn (dry),Starter,26,30,0,50,0
+2024-04-09,Chicken Pepper Bbq Pizza (Medium),Pizza,28,25,3,90,0
+2024-04-09,Bbq Fried Wings 6 Pcs.,Snacks,21,17,4,65,0
+2024-04-09,Cold Coffee,Cold Beverages,33,29,4,25,0
+2024-04-09,Virgin Mojito,Mocktails,39,31,8,30,0
+2024-04-10,Chicken Lollipop 6pcs,Starter,31,31,0,70,0
+2024-04-10,Chilli Baby Corn (dry),Starter,34,30,4,50,0
+2024-04-10,Chicken Pepper Bbq Pizza (Medium),Pizza,32,30,2,90,0
+2024-04-10,Bbq Fried Wings 6 Pcs.,Snacks,23,24,0,65,0
+2024-04-10,Cold Coffee,Cold Beverages,28,18,10,25,0
+2024-04-10,Virgin Mojito,Mocktails,19,20,0,30,0
+2024-04-11,Chicken Lollipop 6pcs,Starter,30,24,6,70,0
+2024-04-11,Chilli Baby Corn (dry),Starter,35,27,8,50,0
+2024-04-11,Chicken Pepper Bbq Pizza (Medium),Pizza,27,24,3,90,0
+2024-04-11,Bbq Fried Wings 6 Pcs.,Snacks,35,23,12,65,0
+2024-04-11,Cold Coffee,Cold Beverages,23,20,3,25,0
+2024-04-11,Virgin Mojito,Mocktails,39,35,4,30,0
+2024-04-12,Chicken Lollipop 6pcs,Starter,29,28,1,70,0
+2024-04-12,Chilli Baby Corn (dry),Starter,31,30,1,50,0
+2024-04-12,Chicken Pepper Bbq Pizza (Medium),Pizza,50,37,13,90,0
+2024-04-12,Bbq Fried Wings 6 Pcs.,Snacks,21,25,0,65,0
+2024-04-12,Cold Coffee,Cold Beverages,43,29,14,25,0
+2024-04-12,Virgin Mojito,Mocktails,33,23,10,30,0
+2024-04-13,Chicken Lollipop 6pcs,Starter,43,43,0,70,0
+2024-04-13,Chilli Baby Corn (dry),Starter,44,34,10,50,0
+2024-04-13,Chicken Pepper Bbq Pizza (Medium),Pizza,26,26,0,90,0
+2024-04-13,Bbq Fried Wings 6 Pcs.,Snacks,22,25,0,65,0
+2024-04-13,Cold Coffee,Cold Beverages,20,24,0,25,0
+2024-04-13,Virgin Mojito,Mocktails,29,30,0,30,0
+2024-04-14,Chicken Lollipop 6pcs,Starter,26,31,0,70,0
+2024-04-14,Chilli Baby Corn (dry),Starter,38,32,6,50,0
+2024-04-14,Chicken Pepper Bbq Pizza (Medium),Pizza,17,14,3,90,0
+2024-04-14,Bbq Fried Wings 6 Pcs.,Snacks,35,39,0,65,0
+2024-04-14,Cold Coffee,Cold Beverages,47,43,4,25,0
+2024-04-14,Virgin Mojito,Mocktails,25,24,1,30,0
+2024-04-15,Chicken Lollipop 6pcs,Starter,36,34,2,70,0
+2024-04-15,Chilli Baby Corn (dry),Starter,32,34,0,50,0
+2024-04-15,Chicken Pepper Bbq Pizza (Medium),Pizza,26,31,0,90,0
+2024-04-15,Bbq Fried Wings 6 Pcs.,Snacks,27,29,0,65,0
+2024-04-15,Cold Coffee,Cold Beverages,32,24,8,25,0
+2024-04-15,Virgin Mojito,Mocktails,43,38,5,30,0
+2024-04-16,Chicken Lollipop 6pcs,Starter,21,21,0,70,0
+2024-04-16,Chilli Baby Corn (dry),Starter,41,39,2,50,0
+2024-04-16,Chicken Pepper Bbq Pizza (Medium),Pizza,51,48,3,90,0
+2024-04-16,Bbq Fried Wings 6 Pcs.,Snacks,31,31,0,65,0
+2024-04-16,Cold Coffee,Cold Beverages,32,31,1,25,0
+2024-04-16,Virgin Mojito,Mocktails,41,35,6,30,0
+2024-04-17,Chicken Lollipop 6pcs,Starter,19,23,0,70,0
+2024-04-17,Chilli Baby Corn (dry),Starter,19,15,4,50,0
+2024-04-17,Chicken Pepper Bbq Pizza (Medium),Pizza,13,21,0,90,0
+2024-04-17,Bbq Fried Wings 6 Pcs.,Snacks,47,33,14,65,0
+2024-04-17,Cold Coffee,Cold Beverages,35,29,6,25,0
+2024-04-17,Virgin Mojito,Mocktails,31,30,1,30,0
+2024-04-18,Chicken Lollipop 6pcs,Starter,37,37,0,70,0
+2024-04-18,Chilli Baby Corn (dry),Starter,35,32,3,50,0
+2024-04-18,Chicken Pepper Bbq Pizza (Medium),Pizza,30,24,6,90,0
+2024-04-18,Bbq Fried Wings 6 Pcs.,Snacks,27,28,0,65,0
+2024-04-18,Cold Coffee,Cold Beverages,32,34,0,25,0
+2024-04-18,Virgin Mojito,Mocktails,31,30,1,30,0
+2024-04-19,Chicken Lollipop 6pcs,Starter,42,38,4,70,0
+2024-04-19,Chilli Baby Corn (dry),Starter,35,29,6,50,0
+2024-04-19,Chicken Pepper Bbq Pizza (Medium),Pizza,45,41,4,90,0
+2024-04-19,Bbq Fried Wings 6 Pcs.,Snacks,26,30,0,65,0
+2024-04-19,Cold Coffee,Cold Beverages,21,21,0,25,0
+2024-04-19,Virgin Mojito,Mocktails,26,25,1,30,0
+2024-04-20,Chicken Lollipop 6pcs,Starter,34,30,4,70,0
+2024-04-20,Chilli Baby Corn (dry),Starter,33,29,4,50,0
+2024-04-20,Chicken Pepper Bbq Pizza (Medium),Pizza,23,30,0,90,0
+2024-04-20,Bbq Fried Wings 6 Pcs.,Snacks,23,22,1,65,0
+2024-04-20,Cold Coffee,Cold Beverages,24,20,4,25,0
+2024-04-20,Virgin Mojito,Mocktails,50,42,8,30,0
+2024-04-21,Chicken Lollipop 6pcs,Starter,37,28,9,70,0
+2024-04-21,Chilli Baby Corn (dry),Starter,31,31,0,50,0
+2024-04-21,Chicken Pepper Bbq Pizza (Medium),Pizza,25,25,0,90,0
+2024-04-21,Bbq Fried Wings 6 Pcs.,Snacks,28,26,2,65,0
+2024-04-21,Cold Coffee,Cold Beverages,33,31,2,25,0
+2024-04-21,Virgin Mojito,Mocktails,40,33,7,30,0
+2024-04-22,Chicken Lollipop 6pcs,Starter,32,37,0,70,0
+2024-04-22,Chilli Baby Corn (dry),Starter,15,9,6,50,0
+2024-04-22,Chicken Pepper Bbq Pizza (Medium),Pizza,19,19,0,90,0
+2024-04-22,Bbq Fried Wings 6 Pcs.,Snacks,13,20,0,65,0
+2024-04-22,Cold Coffee,Cold Beverages,39,34,5,25,0
+2024-04-22,Virgin Mojito,Mocktails,15,25,0,30,0
+2024-04-23,Chicken Lollipop 6pcs,Starter,28,25,3,70,0
+2024-04-23,Chilli Baby Corn (dry),Starter,20,18,2,50,0
+2024-04-23,Chicken Pepper Bbq Pizza (Medium),Pizza,33,29,4,90,0
+2024-04-23,Bbq Fried Wings 6 Pcs.,Snacks,28,30,0,65,0
+2024-04-23,Cold Coffee,Cold Beverages,40,39,1,25,0
+2024-04-23,Virgin Mojito,Mocktails,27,29,0,30,0
+2024-04-24,Chicken Lollipop 6pcs,Starter,24,26,0,70,0
+2024-04-24,Chilli Baby Corn (dry),Starter,38,28,10,50,0
+2024-04-24,Chicken Pepper Bbq Pizza (Medium),Pizza,13,19,0,90,0
+2024-04-24,Bbq Fried Wings 6 Pcs.,Snacks,41,41,0,65,0
+2024-04-24,Cold Coffee,Cold Beverages,31,24,7,25,0
+2024-04-24,Virgin Mojito,Mocktails,36,25,11,30,0
+2024-04-25,Chicken Lollipop 6pcs,Starter,35,35,0,70,0
+2024-04-25,Chilli Baby Corn (dry),Starter,46,47,0,50,0
+2024-04-25,Chicken Pepper Bbq Pizza (Medium),Pizza,38,35,3,90,0
+2024-04-25,Bbq Fried Wings 6 Pcs.,Snacks,49,40,9,65,0
+2024-04-25,Cold Coffee,Cold Beverages,29,30,0,25,0
+2024-04-25,Virgin Mojito,Mocktails,32,33,0,30,0
+2024-04-26,Chicken Lollipop 6pcs,Starter,48,46,2,70,0
+2024-04-26,Chilli Baby Corn (dry),Starter,29,27,2,50,0
+2024-04-26,Chicken Pepper Bbq Pizza (Medium),Pizza,17,19,0,90,0
+2024-04-26,Bbq Fried Wings 6 Pcs.,Snacks,38,39,0,65,0
+2024-04-26,Cold Coffee,Cold Beverages,25,21,4,25,0
+2024-04-26,Virgin Mojito,Mocktails,44,39,5,30,0
+2024-04-27,Chicken Lollipop 6pcs,Starter,36,37,0,70,0
+2024-04-27,Chilli Baby Corn (dry),Starter,27,18,9,50,0
+2024-04-27,Chicken Pepper Bbq Pizza (Medium),Pizza,27,27,0,90,0
+2024-04-27,Bbq Fried Wings 6 Pcs.,Snacks,44,40,4,65,0
+2024-04-27,Cold Coffee,Cold Beverages,45,33,12,25,0
+2024-04-27,Virgin Mojito,Mocktails,30,24,6,30,0
+2024-04-28,Chicken Lollipop 6pcs,Starter,33,30,3,70,0
+2024-04-28,Chilli Baby Corn (dry),Starter,46,42,4,50,0
+2024-04-28,Chicken Pepper Bbq Pizza (Medium),Pizza,41,34,7,90,0
+2024-04-28,Bbq Fried Wings 6 Pcs.,Snacks,25,27,0,65,0
+2024-04-28,Cold Coffee,Cold Beverages,14,21,0,25,0
+2024-04-28,Virgin Mojito,Mocktails,43,46,0,30,0
+2024-04-29,Chicken Lollipop 6pcs,Starter,28,28,0,70,0
+2024-04-29,Chilli Baby Corn (dry),Starter,38,32,6,50,0
+2024-04-29,Chicken Pepper Bbq Pizza (Medium),Pizza,36,36,0,90,0
+2024-04-29,Bbq Fried Wings 6 Pcs.,Snacks,31,28,3,65,0
+2024-04-29,Cold Coffee,Cold Beverages,38,28,10,25,0
+2024-04-29,Virgin Mojito,Mocktails,38,33,5,30,0
+2024-04-30,Chicken Lollipop 6pcs,Starter,42,35,7,70,0
+2024-04-30,Chilli Baby Corn (dry),Starter,27,31,0,50,0
+2024-04-30,Chicken Pepper Bbq Pizza (Medium),Pizza,32,33,0,90,0
+2024-04-30,Bbq Fried Wings 6 Pcs.,Snacks,29,25,4,65,0
+2024-04-30,Cold Coffee,Cold Beverages,41,39,2,25,0
+2024-04-30,Virgin Mojito,Mocktails,42,32,10,30,0
+2024-05-01,Chicken Lollipop 6pcs,Starter,46,31,15,70,0
+2024-05-01,Chilli Baby Corn (dry),Starter,28,34,0,50,0
+2024-05-01,Chicken Pepper Bbq Pizza (Medium),Pizza,39,36,3,90,0
+2024-05-01,Bbq Fried Wings 6 Pcs.,Snacks,45,40,5,65,0
+2024-05-01,Cold Coffee,Cold Beverages,24,28,0,25,0
+2024-05-01,Virgin Mojito,Mocktails,26,28,0,30,0
+2024-05-02,Chicken Lollipop 6pcs,Starter,29,25,4,70,0
+2024-05-02,Chilli Baby Corn (dry),Starter,46,43,3,50,0
+2024-05-02,Chicken Pepper Bbq Pizza (Medium),Pizza,24,20,4,90,0
+2024-05-02,Bbq Fried Wings 6 Pcs.,Snacks,38,39,0,65,0
+2024-05-02,Cold Coffee,Cold Beverages,30,28,2,25,0
+2024-05-02,Virgin Mojito,Mocktails,28,23,5,30,0
+2024-05-03,Chicken Lollipop 6pcs,Starter,33,29,4,70,0
+2024-05-03,Chilli Baby Corn (dry),Starter,22,22,0,50,0
+2024-05-03,Chicken Pepper Bbq Pizza (Medium),Pizza,35,35,0,90,0
+2024-05-03,Bbq Fried Wings 6 Pcs.,Snacks,43,43,0,65,0
+2024-05-03,Cold Coffee,Cold Beverages,37,31,6,25,0
+2024-05-03,Virgin Mojito,Mocktails,12,18,0,30,0
+2024-05-04,Chicken Lollipop 6pcs,Starter,25,17,8,70,0
+2024-05-04,Chilli Baby Corn (dry),Starter,39,25,14,50,0
+2024-05-04,Chicken Pepper Bbq Pizza (Medium),Pizza,27,25,2,90,0
+2024-05-04,Bbq Fried Wings 6 Pcs.,Snacks,54,42,12,65,0
+2024-05-04,Cold Coffee,Cold Beverages,54,46,8,25,0
+2024-05-04,Virgin Mojito,Mocktails,42,38,4,30,0
+2024-05-05,Chicken Lollipop 6pcs,Starter,36,36,0,70,0
+2024-05-05,Chilli Baby Corn (dry),Starter,24,23,1,50,0
+2024-05-05,Chicken Pepper Bbq Pizza (Medium),Pizza,28,28,0,90,0
+2024-05-05,Bbq Fried Wings 6 Pcs.,Snacks,41,35,6,65,0
+2024-05-05,Cold Coffee,Cold Beverages,39,30,9,25,0
+2024-05-05,Virgin Mojito,Mocktails,21,20,1,30,0
+2024-05-06,Chicken Lollipop 6pcs,Starter,17,24,0,70,0
+2024-05-06,Chilli Baby Corn (dry),Starter,30,29,1,50,0
+2024-05-06,Chicken Pepper Bbq Pizza (Medium),Pizza,47,42,5,90,0
+2024-05-06,Bbq Fried Wings 6 Pcs.,Snacks,32,21,11,65,0
+2024-05-06,Cold Coffee,Cold Beverages,43,39,4,25,0
+2024-05-06,Virgin Mojito,Mocktails,26,28,0,30,0
+2024-05-07,Chicken Lollipop 6pcs,Starter,34,27,7,70,0
+2024-05-07,Chilli Baby Corn (dry),Starter,54,45,9,50,0
+2024-05-07,Chicken Pepper Bbq Pizza (Medium),Pizza,23,26,0,90,0
+2024-05-07,Bbq Fried Wings 6 Pcs.,Snacks,25,31,0,65,0
+2024-05-07,Cold Coffee,Cold Beverages,33,32,1,25,0
+2024-05-07,Virgin Mojito,Mocktails,21,26,0,30,0
+2024-05-08,Chicken Lollipop 6pcs,Starter,34,34,0,70,0
+2024-05-08,Chilli Baby Corn (dry),Starter,8,20,0,50,0
+2024-05-08,Chicken Pepper Bbq Pizza (Medium),Pizza,39,29,10,90,0
+2024-05-08,Bbq Fried Wings 6 Pcs.,Snacks,43,43,0,65,0
+2024-05-08,Cold Coffee,Cold Beverages,29,25,4,25,0
+2024-05-08,Virgin Mojito,Mocktails,25,22,3,30,0
+2024-05-09,Chicken Lollipop 6pcs,Starter,44,36,8,70,0
+2024-05-09,Chilli Baby Corn (dry),Starter,29,29,0,50,0
+2024-05-09,Chicken Pepper Bbq Pizza (Medium),Pizza,20,22,0,90,0
+2024-05-09,Bbq Fried Wings 6 Pcs.,Snacks,31,28,3,65,0
+2024-05-09,Cold Coffee,Cold Beverages,35,37,0,25,0
+2024-05-09,Virgin Mojito,Mocktails,41,41,0,30,0
+2024-05-10,Chicken Lollipop 6pcs,Starter,28,29,0,70,0
+2024-05-10,Chilli Baby Corn (dry),Starter,16,10,6,50,0
+2024-05-10,Chicken Pepper Bbq Pizza (Medium),Pizza,35,35,0,90,0
+2024-05-10,Bbq Fried Wings 6 Pcs.,Snacks,34,30,4,65,0
+2024-05-10,Cold Coffee,Cold Beverages,17,17,0,25,0
+2024-05-10,Virgin Mojito,Mocktails,32,36,0,30,0
+2024-05-11,Chicken Lollipop 6pcs,Starter,28,32,0,70,0
+2024-05-11,Chilli Baby Corn (dry),Starter,34,33,1,50,0
+2024-05-11,Chicken Pepper Bbq Pizza (Medium),Pizza,24,17,7,90,0
+2024-05-11,Bbq Fried Wings 6 Pcs.,Snacks,22,24,0,65,0
+2024-05-11,Cold Coffee,Cold Beverages,38,31,7,25,0
+2024-05-11,Virgin Mojito,Mocktails,23,21,2,30,0
+2024-05-12,Chicken Lollipop 6pcs,Starter,38,33,5,70,0
+2024-05-12,Chilli Baby Corn (dry),Starter,31,31,0,50,0
+2024-05-12,Chicken Pepper Bbq Pizza (Medium),Pizza,25,23,2,90,0
+2024-05-12,Bbq Fried Wings 6 Pcs.,Snacks,9,21,0,65,0
+2024-05-12,Cold Coffee,Cold Beverages,39,33,6,25,0
+2024-05-12,Virgin Mojito,Mocktails,8,11,0,30,0
+2024-05-13,Chicken Lollipop 6pcs,Starter,46,34,12,70,0
+2024-05-13,Chilli Baby Corn (dry),Starter,29,30,0,50,0
+2024-05-13,Chicken Pepper Bbq Pizza (Medium),Pizza,36,28,8,90,0
+2024-05-13,Bbq Fried Wings 6 Pcs.,Snacks,23,24,0,65,0
+2024-05-13,Cold Coffee,Cold Beverages,24,26,0,25,0
+2024-05-13,Virgin Mojito,Mocktails,40,30,10,30,0
+2024-05-14,Chicken Lollipop 6pcs,Starter,32,32,0,70,0
+2024-05-14,Chilli Baby Corn (dry),Starter,22,27,0,50,0
+2024-05-14,Chicken Pepper Bbq Pizza (Medium),Pizza,38,37,1,90,0
+2024-05-14,Bbq Fried Wings 6 Pcs.,Snacks,45,28,17,65,0
+2024-05-14,Cold Coffee,Cold Beverages,31,32,0,25,0
+2024-05-14,Virgin Mojito,Mocktails,33,26,7,30,0
+2024-05-15,Chicken Lollipop 6pcs,Starter,25,30,0,70,0
+2024-05-15,Chilli Baby Corn (dry),Starter,36,37,0,50,0
+2024-05-15,Chicken Pepper Bbq Pizza (Medium),Pizza,51,44,7,90,0
+2024-05-15,Bbq Fried Wings 6 Pcs.,Snacks,34,26,8,65,0
+2024-05-15,Cold Coffee,Cold Beverages,36,30,6,25,0
+2024-05-15,Virgin Mojito,Mocktails,31,33,0,30,0
+2024-05-16,Chicken Lollipop 6pcs,Starter,31,24,7,70,0
+2024-05-16,Chilli Baby Corn (dry),Starter,27,27,0,50,0
+2024-05-16,Chicken Pepper Bbq Pizza (Medium),Pizza,26,22,4,90,0
+2024-05-16,Bbq Fried Wings 6 Pcs.,Snacks,43,46,0,65,0
+2024-05-16,Cold Coffee,Cold Beverages,39,30,9,25,0
+2024-05-16,Virgin Mojito,Mocktails,33,29,4,30,0
+2024-05-17,Chicken Lollipop 6pcs,Starter,25,21,4,70,0
+2024-05-17,Chilli Baby Corn (dry),Starter,34,28,6,50,0
+2024-05-17,Chicken Pepper Bbq Pizza (Medium),Pizza,53,39,14,90,0
+2024-05-17,Bbq Fried Wings 6 Pcs.,Snacks,37,34,3,65,0
+2024-05-17,Cold Coffee,Cold Beverages,31,31,0,25,0
+2024-05-17,Virgin Mojito,Mocktails,32,32,0,30,0
+2024-05-18,Chicken Lollipop 6pcs,Starter,39,31,8,70,0
+2024-05-18,Chilli Baby Corn (dry),Starter,28,21,7,50,0
+2024-05-18,Chicken Pepper Bbq Pizza (Medium),Pizza,41,40,1,90,0
+2024-05-18,Bbq Fried Wings 6 Pcs.,Snacks,12,13,0,65,0
+2024-05-18,Cold Coffee,Cold Beverages,41,40,1,25,0
+2024-05-18,Virgin Mojito,Mocktails,22,22,0,30,0
+2024-05-19,Chicken Lollipop 6pcs,Starter,40,36,4,70,0
+2024-05-19,Chilli Baby Corn (dry),Starter,28,28,0,50,0
+2024-05-19,Chicken Pepper Bbq Pizza (Medium),Pizza,24,26,0,90,0
+2024-05-19,Bbq Fried Wings 6 Pcs.,Snacks,42,42,0,65,0
+2024-05-19,Cold Coffee,Cold Beverages,48,39,9,25,0
+2024-05-19,Virgin Mojito,Mocktails,37,37,0,30,0
+2024-05-20,Chicken Lollipop 6pcs,Starter,34,33,1,70,0
+2024-05-20,Chilli Baby Corn (dry),Starter,25,22,3,50,0
+2024-05-20,Chicken Pepper Bbq Pizza (Medium),Pizza,27,20,7,90,0
+2024-05-20,Bbq Fried Wings 6 Pcs.,Snacks,29,26,3,65,0
+2024-05-20,Cold Coffee,Cold Beverages,32,32,0,25,0
+2024-05-20,Virgin Mojito,Mocktails,34,34,0,30,0
+2024-05-21,Chicken Lollipop 6pcs,Starter,32,36,0,70,0
+2024-05-21,Chilli Baby Corn (dry),Starter,42,31,11,50,0
+2024-05-21,Chicken Pepper Bbq Pizza (Medium),Pizza,20,21,0,90,0
+2024-05-21,Bbq Fried Wings 6 Pcs.,Snacks,36,34,2,65,0
+2024-05-21,Cold Coffee,Cold Beverages,36,32,4,25,0
+2024-05-21,Virgin Mojito,Mocktails,42,35,7,30,0
+2024-05-22,Chicken Lollipop 6pcs,Starter,33,33,0,70,0
+2024-05-22,Chilli Baby Corn (dry),Starter,46,35,11,50,0
+2024-05-22,Chicken Pepper Bbq Pizza (Medium),Pizza,26,28,0,90,0
+2024-05-22,Bbq Fried Wings 6 Pcs.,Snacks,39,38,1,65,0
+2024-05-22,Cold Coffee,Cold Beverages,18,12,6,25,0
+2024-05-22,Virgin Mojito,Mocktails,26,25,1,30,0
+2024-05-23,Chicken Lollipop 6pcs,Starter,34,32,2,70,0
+2024-05-23,Chilli Baby Corn (dry),Starter,35,35,0,50,0
+2024-05-23,Chicken Pepper Bbq Pizza (Medium),Pizza,34,34,0,90,0
+2024-05-23,Bbq Fried Wings 6 Pcs.,Snacks,40,35,5,65,0
+2024-05-23,Cold Coffee,Cold Beverages,29,22,7,25,0
+2024-05-23,Virgin Mojito,Mocktails,31,25,6,30,0
+2024-05-24,Chicken Lollipop 6pcs,Starter,43,32,11,70,0
+2024-05-24,Chilli Baby Corn (dry),Starter,28,28,0,50,0
+2024-05-24,Chicken Pepper Bbq Pizza (Medium),Pizza,29,29,0,90,0
+2024-05-24,Bbq Fried Wings 6 Pcs.,Snacks,30,36,0,65,0
+2024-05-24,Cold Coffee,Cold Beverages,18,21,0,25,0
+2024-05-24,Virgin Mojito,Mocktails,47,37,10,30,0
+2024-05-25,Chicken Lollipop 6pcs,Starter,30,29,1,70,0
+2024-05-25,Chilli Baby Corn (dry),Starter,37,30,7,50,0
+2024-05-25,Chicken Pepper Bbq Pizza (Medium),Pizza,25,22,3,90,0
+2024-05-25,Bbq Fried Wings 6 Pcs.,Snacks,41,37,4,65,0
+2024-05-25,Cold Coffee,Cold Beverages,38,31,7,25,0
+2024-05-25,Virgin Mojito,Mocktails,13,8,5,30,0
+2024-05-26,Chicken Lollipop 6pcs,Starter,17,24,0,70,0
+2024-05-26,Chilli Baby Corn (dry),Starter,42,34,8,50,0
+2024-05-26,Chicken Pepper Bbq Pizza (Medium),Pizza,34,28,6,90,0
+2024-05-26,Bbq Fried Wings 6 Pcs.,Snacks,50,42,8,65,0
+2024-05-26,Cold Coffee,Cold Beverages,48,43,5,25,0
+2024-05-26,Virgin Mojito,Mocktails,24,30,0,30,0
+2024-05-27,Chicken Lollipop 6pcs,Starter,26,28,0,70,0
+2024-05-27,Chilli Baby Corn (dry),Starter,48,47,1,50,0
+2024-05-27,Chicken Pepper Bbq Pizza (Medium),Pizza,34,30,4,90,0
+2024-05-27,Bbq Fried Wings 6 Pcs.,Snacks,40,30,10,65,0
+2024-05-27,Cold Coffee,Cold Beverages,27,25,2,25,0
+2024-05-27,Virgin Mojito,Mocktails,20,24,0,30,0
+2024-05-28,Chicken Lollipop 6pcs,Starter,26,25,1,70,0
+2024-05-28,Chilli Baby Corn (dry),Starter,25,26,0,50,0
+2024-05-28,Chicken Pepper Bbq Pizza (Medium),Pizza,19,18,1,90,0
+2024-05-28,Bbq Fried Wings 6 Pcs.,Snacks,22,17,5,65,0
+2024-05-28,Cold Coffee,Cold Beverages,25,30,0,25,0
+2024-05-28,Virgin Mojito,Mocktails,26,27,0,30,0
+2024-05-29,Chicken Lollipop 6pcs,Starter,40,32,8,70,0
+2024-05-29,Chilli Baby Corn (dry),Starter,16,14,2,50,0
+2024-05-29,Chicken Pepper Bbq Pizza (Medium),Pizza,33,28,5,90,0
+2024-05-29,Bbq Fried Wings 6 Pcs.,Snacks,30,31,0,65,0
+2024-05-29,Cold Coffee,Cold Beverages,26,27,0,25,0
+2024-05-29,Virgin Mojito,Mocktails,40,38,2,30,0
+2024-05-30,Chicken Lollipop 6pcs,Starter,46,45,1,70,0
+2024-05-30,Chilli Baby Corn (dry),Starter,19,24,0,50,0
+2024-05-30,Chicken Pepper Bbq Pizza (Medium),Pizza,10,15,0,90,0
+2024-05-30,Bbq Fried Wings 6 Pcs.,Snacks,36,32,4,65,0
+2024-05-30,Cold Coffee,Cold Beverages,23,17,6,25,0
+2024-05-30,Virgin Mojito,Mocktails,28,26,2,30,0
+2024-05-31,Chicken Lollipop 6pcs,Starter,48,42,6,70,0
+2024-05-31,Chilli Baby Corn (dry),Starter,25,27,0,50,0
+2024-05-31,Chicken Pepper Bbq Pizza (Medium),Pizza,11,12,0,90,0
+2024-05-31,Bbq Fried Wings 6 Pcs.,Snacks,26,28,0,65,0
+2024-05-31,Cold Coffee,Cold Beverages,30,28,2,25,0
+2024-05-31,Virgin Mojito,Mocktails,27,28,0,30,0
+2024-06-01,Chicken Lollipop 6pcs,Starter,35,31,4,70,0
+2024-06-01,Chilli Baby Corn (dry),Starter,30,21,9,50,0
+2024-06-01,Chicken Pepper Bbq Pizza (Medium),Pizza,31,29,2,90,0
+2024-06-01,Bbq Fried Wings 6 Pcs.,Snacks,38,35,3,65,0
+2024-06-01,Cold Coffee,Cold Beverages,40,37,3,25,0
+2024-06-01,Virgin Mojito,Mocktails,28,25,3,30,0
+2024-06-02,Chicken Lollipop 6pcs,Starter,22,20,2,70,0
+2024-06-02,Chilli Baby Corn (dry),Starter,29,29,0,50,0
+2024-06-02,Chicken Pepper Bbq Pizza (Medium),Pizza,21,28,0,90,0
+2024-06-02,Bbq Fried Wings 6 Pcs.,Snacks,27,25,2,65,0
+2024-06-02,Cold Coffee,Cold Beverages,28,31,0,25,0
+2024-06-02,Virgin Mojito,Mocktails,38,40,0,30,0
+2024-06-03,Chicken Lollipop 6pcs,Starter,41,37,4,70,0
+2024-06-03,Chilli Baby Corn (dry),Starter,34,24,10,50,0
+2024-06-03,Chicken Pepper Bbq Pizza (Medium),Pizza,26,20,6,90,0
+2024-06-03,Bbq Fried Wings 6 Pcs.,Snacks,37,38,0,65,0
+2024-06-03,Cold Coffee,Cold Beverages,41,41,0,25,0
+2024-06-03,Virgin Mojito,Mocktails,35,32,3,30,0
+2024-06-04,Chicken Lollipop 6pcs,Starter,34,28,6,70,0
+2024-06-04,Chilli Baby Corn (dry),Starter,30,36,0,50,0
+2024-06-04,Chicken Pepper Bbq Pizza (Medium),Pizza,34,40,0,90,0
+2024-06-04,Bbq Fried Wings 6 Pcs.,Snacks,45,38,7,65,0
+2024-06-04,Cold Coffee,Cold Beverages,21,21,0,25,0
+2024-06-04,Virgin Mojito,Mocktails,21,21,0,30,0
+2024-06-05,Chicken Lollipop 6pcs,Starter,32,27,5,70,0
+2024-06-05,Chilli Baby Corn (dry),Starter,48,40,8,50,0
+2024-06-05,Chicken Pepper Bbq Pizza (Medium),Pizza,25,25,0,90,0
+2024-06-05,Bbq Fried Wings 6 Pcs.,Snacks,14,16,0,65,0
+2024-06-05,Cold Coffee,Cold Beverages,47,37,10,25,0
+2024-06-05,Virgin Mojito,Mocktails,20,20,0,30,0
+2024-06-06,Chicken Lollipop 6pcs,Starter,32,29,3,70,0
+2024-06-06,Chilli Baby Corn (dry),Starter,27,23,4,50,0
+2024-06-06,Chicken Pepper Bbq Pizza (Medium),Pizza,27,26,1,90,0
+2024-06-06,Bbq Fried Wings 6 Pcs.,Snacks,36,34,2,65,0
+2024-06-06,Cold Coffee,Cold Beverages,27,26,1,25,0
+2024-06-06,Virgin Mojito,Mocktails,29,29,0,30,0
+2024-06-07,Chicken Lollipop 6pcs,Starter,36,27,9,70,0
+2024-06-07,Chilli Baby Corn (dry),Starter,34,34,0,50,0
+2024-06-07,Chicken Pepper Bbq Pizza (Medium),Pizza,35,35,0,90,0
+2024-06-07,Bbq Fried Wings 6 Pcs.,Snacks,42,39,3,65,0
+2024-06-07,Cold Coffee,Cold Beverages,33,29,4,25,0
+2024-06-07,Virgin Mojito,Mocktails,14,17,0,30,0
+2024-06-08,Chicken Lollipop 6pcs,Starter,22,20,2,70,0
+2024-06-08,Chilli Baby Corn (dry),Starter,56,43,13,50,0
+2024-06-08,Chicken Pepper Bbq Pizza (Medium),Pizza,39,35,4,90,0
+2024-06-08,Bbq Fried Wings 6 Pcs.,Snacks,15,15,0,65,0
+2024-06-08,Cold Coffee,Cold Beverages,22,23,0,25,0
+2024-06-08,Virgin Mojito,Mocktails,28,28,0,30,0
+2024-06-09,Chicken Lollipop 6pcs,Starter,19,14,5,70,0
+2024-06-09,Chilli Baby Corn (dry),Starter,24,21,3,50,0
+2024-06-09,Chicken Pepper Bbq Pizza (Medium),Pizza,44,46,0,90,0
+2024-06-09,Bbq Fried Wings 6 Pcs.,Snacks,9,9,0,65,0
+2024-06-09,Cold Coffee,Cold Beverages,49,38,11,25,0
+2024-06-09,Virgin Mojito,Mocktails,24,20,4,30,0
+2024-06-10,Chicken Lollipop 6pcs,Starter,27,26,1,70,0
+2024-06-10,Chilli Baby Corn (dry),Starter,46,51,0,50,0
+2024-06-10,Chicken Pepper Bbq Pizza (Medium),Pizza,36,32,4,90,0
+2024-06-10,Bbq Fried Wings 6 Pcs.,Snacks,40,38,2,65,0
+2024-06-10,Cold Coffee,Cold Beverages,32,32,0,25,0
+2024-06-10,Virgin Mojito,Mocktails,32,32,0,30,0
+2024-06-11,Chicken Lollipop 6pcs,Starter,34,34,0,70,0
+2024-06-11,Chilli Baby Corn (dry),Starter,34,33,1,50,0
+2024-06-11,Chicken Pepper Bbq Pizza (Medium),Pizza,40,39,1,90,0
+2024-06-11,Bbq Fried Wings 6 Pcs.,Snacks,23,15,8,65,0
+2024-06-11,Cold Coffee,Cold Beverages,21,22,0,25,0
+2024-06-11,Virgin Mojito,Mocktails,33,25,8,30,0
+2024-06-12,Chicken Lollipop 6pcs,Starter,29,12,17,70,0
+2024-06-12,Chilli Baby Corn (dry),Starter,41,38,3,50,0
+2024-06-12,Chicken Pepper Bbq Pizza (Medium),Pizza,32,29,3,90,0
+2024-06-12,Bbq Fried Wings 6 Pcs.,Snacks,39,34,5,65,0
+2024-06-12,Cold Coffee,Cold Beverages,36,34,2,25,0
+2024-06-12,Virgin Mojito,Mocktails,29,28,1,30,0
+2024-06-13,Chicken Lollipop 6pcs,Starter,35,28,7,70,0
+2024-06-13,Chilli Baby Corn (dry),Starter,22,34,0,50,0
+2024-06-13,Chicken Pepper Bbq Pizza (Medium),Pizza,37,35,2,90,0
+2024-06-13,Bbq Fried Wings 6 Pcs.,Snacks,29,29,0,65,0
+2024-06-13,Cold Coffee,Cold Beverages,44,38,6,25,0
+2024-06-13,Virgin Mojito,Mocktails,27,23,4,30,0
+2024-06-14,Chicken Lollipop 6pcs,Starter,18,22,0,70,0
+2024-06-14,Chilli Baby Corn (dry),Starter,30,24,6,50,0
+2024-06-14,Chicken Pepper Bbq Pizza (Medium),Pizza,41,37,4,90,0
+2024-06-14,Bbq Fried Wings 6 Pcs.,Snacks,39,35,4,65,0
+2024-06-14,Cold Coffee,Cold Beverages,28,24,4,25,0
+2024-06-14,Virgin Mojito,Mocktails,41,36,5,30,0
+2024-06-15,Chicken Lollipop 6pcs,Starter,44,39,5,70,0
+2024-06-15,Chilli Baby Corn (dry),Starter,39,32,7,50,0
+2024-06-15,Chicken Pepper Bbq Pizza (Medium),Pizza,27,29,0,90,0
+2024-06-15,Bbq Fried Wings 6 Pcs.,Snacks,27,28,0,65,0
+2024-06-15,Cold Coffee,Cold Beverages,25,24,1,25,0
+2024-06-15,Virgin Mojito,Mocktails,23,23,0,30,0
+2024-06-16,Chicken Lollipop 6pcs,Starter,17,14,3,70,0
+2024-06-16,Chilli Baby Corn (dry),Starter,28,30,0,50,0
+2024-06-16,Chicken Pepper Bbq Pizza (Medium),Pizza,41,35,6,90,0
+2024-06-16,Bbq Fried Wings 6 Pcs.,Snacks,16,17,0,65,0
+2024-06-16,Cold Coffee,Cold Beverages,21,23,0,25,0
+2024-06-16,Virgin Mojito,Mocktails,37,36,1,30,0
+2024-06-17,Chicken Lollipop 6pcs,Starter,19,27,0,70,0
+2024-06-17,Chilli Baby Corn (dry),Starter,31,35,0,50,0
+2024-06-17,Chicken Pepper Bbq Pizza (Medium),Pizza,33,30,3,90,0
+2024-06-17,Bbq Fried Wings 6 Pcs.,Snacks,36,40,0,65,0
+2024-06-17,Cold Coffee,Cold Beverages,7,5,2,25,0
+2024-06-17,Virgin Mojito,Mocktails,52,44,8,30,0
+2024-06-18,Chicken Lollipop 6pcs,Starter,31,31,0,70,0
+2024-06-18,Chilli Baby Corn (dry),Starter,34,36,0,50,0
+2024-06-18,Chicken Pepper Bbq Pizza (Medium),Pizza,37,33,4,90,0
+2024-06-18,Bbq Fried Wings 6 Pcs.,Snacks,53,38,15,65,0
+2024-06-18,Cold Coffee,Cold Beverages,33,33,0,25,0
+2024-06-18,Virgin Mojito,Mocktails,23,29,0,30,0
+2024-06-19,Chicken Lollipop 6pcs,Starter,24,24,0,70,0
+2024-06-19,Chilli Baby Corn (dry),Starter,27,25,2,50,0
+2024-06-19,Chicken Pepper Bbq Pizza (Medium),Pizza,30,23,7,90,0
+2024-06-19,Bbq Fried Wings 6 Pcs.,Snacks,31,30,1,65,0
+2024-06-19,Cold Coffee,Cold Beverages,29,27,2,25,0
+2024-06-19,Virgin Mojito,Mocktails,34,36,0,30,0
+2024-06-20,Chicken Lollipop 6pcs,Starter,24,24,0,70,0
+2024-06-20,Chilli Baby Corn (dry),Starter,17,19,0,50,0
+2024-06-20,Chicken Pepper Bbq Pizza (Medium),Pizza,32,26,6,90,0
+2024-06-20,Bbq Fried Wings 6 Pcs.,Snacks,34,32,2,65,0
+2024-06-20,Cold Coffee,Cold Beverages,37,36,1,25,0
+2024-06-20,Virgin Mojito,Mocktails,34,33,1,30,0
+2024-06-21,Chicken Lollipop 6pcs,Starter,32,32,0,70,0
+2024-06-21,Chilli Baby Corn (dry),Starter,11,10,1,50,0
+2024-06-21,Chicken Pepper Bbq Pizza (Medium),Pizza,47,41,6,90,0
+2024-06-21,Bbq Fried Wings 6 Pcs.,Snacks,45,37,8,65,0
+2024-06-21,Cold Coffee,Cold Beverages,32,30,2,25,0
+2024-06-21,Virgin Mojito,Mocktails,25,25,0,30,0
+2024-06-22,Chicken Lollipop 6pcs,Starter,42,34,8,70,0
+2024-06-22,Chilli Baby Corn (dry),Starter,28,28,0,50,0
+2024-06-22,Chicken Pepper Bbq Pizza (Medium),Pizza,35,30,5,90,0
+2024-06-22,Bbq Fried Wings 6 Pcs.,Snacks,9,18,0,65,0
+2024-06-22,Cold Coffee,Cold Beverages,21,25,0,25,0
+2024-06-22,Virgin Mojito,Mocktails,26,25,1,30,0
+2024-06-23,Chicken Lollipop 6pcs,Starter,35,26,9,70,0
+2024-06-23,Chilli Baby Corn (dry),Starter,35,32,3,50,0
+2024-06-23,Chicken Pepper Bbq Pizza (Medium),Pizza,31,34,0,90,0
+2024-06-23,Bbq Fried Wings 6 Pcs.,Snacks,39,38,1,65,0
+2024-06-23,Cold Coffee,Cold Beverages,32,35,0,25,0
+2024-06-23,Virgin Mojito,Mocktails,23,17,6,30,0
+2024-06-24,Chicken Lollipop 6pcs,Starter,31,33,0,70,0
+2024-06-24,Chilli Baby Corn (dry),Starter,30,23,7,50,0
+2024-06-24,Chicken Pepper Bbq Pizza (Medium),Pizza,30,20,10,90,0
+2024-06-24,Bbq Fried Wings 6 Pcs.,Snacks,27,22,5,65,0
+2024-06-24,Cold Coffee,Cold Beverages,32,27,5,25,0
+2024-06-24,Virgin Mojito,Mocktails,26,25,1,30,0
+2024-06-25,Chicken Lollipop 6pcs,Starter,27,30,0,70,0
+2024-06-25,Chilli Baby Corn (dry),Starter,35,35,0,50,0
+2024-06-25,Chicken Pepper Bbq Pizza (Medium),Pizza,26,28,0,90,0
+2024-06-25,Bbq Fried Wings 6 Pcs.,Snacks,10,9,1,65,0
+2024-06-25,Cold Coffee,Cold Beverages,54,49,5,25,0
+2024-06-25,Virgin Mojito,Mocktails,29,29,0,30,0
+2024-06-26,Chicken Lollipop 6pcs,Starter,34,30,4,70,0
+2024-06-26,Chilli Baby Corn (dry),Starter,27,20,7,50,0
+2024-06-26,Chicken Pepper Bbq Pizza (Medium),Pizza,40,35,5,90,0
+2024-06-26,Bbq Fried Wings 6 Pcs.,Snacks,35,33,2,65,0
+2024-06-26,Cold Coffee,Cold Beverages,39,35,4,25,0
+2024-06-26,Virgin Mojito,Mocktails,27,27,0,30,0
+2024-06-27,Chicken Lollipop 6pcs,Starter,39,30,9,70,0
+2024-06-27,Chilli Baby Corn (dry),Starter,15,20,0,50,0
+2024-06-27,Chicken Pepper Bbq Pizza (Medium),Pizza,33,31,2,90,0
+2024-06-27,Bbq Fried Wings 6 Pcs.,Snacks,34,31,3,65,0
+2024-06-27,Cold Coffee,Cold Beverages,37,28,9,25,0
+2024-06-27,Virgin Mojito,Mocktails,15,17,0,30,0
+2024-06-28,Chicken Lollipop 6pcs,Starter,23,29,0,70,0
+2024-06-28,Chilli Baby Corn (dry),Starter,38,28,10,50,0
+2024-06-28,Chicken Pepper Bbq Pizza (Medium),Pizza,33,30,3,90,0
+2024-06-28,Bbq Fried Wings 6 Pcs.,Snacks,18,19,0,65,0
+2024-06-28,Cold Coffee,Cold Beverages,26,26,0,25,0
+2024-06-28,Virgin Mojito,Mocktails,44,40,4,30,0
+2024-06-29,Chicken Lollipop 6pcs,Starter,24,21,3,70,0
+2024-06-29,Chilli Baby Corn (dry),Starter,40,33,7,50,0
+2024-06-29,Chicken Pepper Bbq Pizza (Medium),Pizza,39,42,0,90,0
+2024-06-29,Bbq Fried Wings 6 Pcs.,Snacks,19,23,0,65,0
+2024-06-29,Cold Coffee,Cold Beverages,32,28,4,25,0
+2024-06-29,Virgin Mojito,Mocktails,38,37,1,30,0
+2024-06-30,Chicken Lollipop 6pcs,Starter,29,27,2,70,0
+2024-06-30,Chilli Baby Corn (dry),Starter,35,23,12,50,0
+2024-06-30,Chicken Pepper Bbq Pizza (Medium),Pizza,19,17,2,90,0
+2024-06-30,Bbq Fried Wings 6 Pcs.,Snacks,48,46,2,65,0
+2024-06-30,Cold Coffee,Cold Beverages,28,28,0,25,0
+2024-06-30,Virgin Mojito,Mocktails,36,28,8,30,0
+2024-07-01,Chicken Lollipop 6pcs,Starter,21,12,9,70,0
+2024-07-01,Chilli Baby Corn (dry),Starter,18,18,0,50,0
+2024-07-01,Chicken Pepper Bbq Pizza (Medium),Pizza,30,26,4,90,0
+2024-07-01,Bbq Fried Wings 6 Pcs.,Snacks,21,17,4,65,0
+2024-07-01,Cold Coffee,Cold Beverages,42,46,0,25,0
+2024-07-01,Virgin Mojito,Mocktails,30,31,0,30,0
+2024-07-02,Chicken Lollipop 6pcs,Starter,35,33,2,70,0
+2024-07-02,Chilli Baby Corn (dry),Starter,28,24,4,50,0
+2024-07-02,Chicken Pepper Bbq Pizza (Medium),Pizza,45,44,1,90,0
+2024-07-02,Bbq Fried Wings 6 Pcs.,Snacks,31,35,0,65,0
+2024-07-02,Cold Coffee,Cold Beverages,26,22,4,25,0
+2024-07-02,Virgin Mojito,Mocktails,44,41,3,30,0
+2024-07-03,Chicken Lollipop 6pcs,Starter,28,27,1,70,0
+2024-07-03,Chilli Baby Corn (dry),Starter,24,19,5,50,0
+2024-07-03,Chicken Pepper Bbq Pizza (Medium),Pizza,37,37,0,90,0
+2024-07-03,Bbq Fried Wings 6 Pcs.,Snacks,29,26,3,65,0
+2024-07-03,Cold Coffee,Cold Beverages,27,26,1,25,0
+2024-07-03,Virgin Mojito,Mocktails,46,46,0,30,0
+2024-07-04,Chicken Lollipop 6pcs,Starter,26,27,0,70,0
+2024-07-04,Chilli Baby Corn (dry),Starter,36,35,1,50,0
+2024-07-04,Chicken Pepper Bbq Pizza (Medium),Pizza,32,24,8,90,0
+2024-07-04,Bbq Fried Wings 6 Pcs.,Snacks,40,41,0,65,0
+2024-07-04,Cold Coffee,Cold Beverages,22,15,7,25,0
+2024-07-04,Virgin Mojito,Mocktails,29,24,5,30,0
+2024-07-05,Chicken Lollipop 6pcs,Starter,20,14,6,70,0
+2024-07-05,Chilli Baby Corn (dry),Starter,25,20,5,50,0
+2024-07-05,Chicken Pepper Bbq Pizza (Medium),Pizza,28,30,0,90,0
+2024-07-05,Bbq Fried Wings 6 Pcs.,Snacks,31,26,5,65,0
+2024-07-05,Cold Coffee,Cold Beverages,34,30,4,25,0
+2024-07-05,Virgin Mojito,Mocktails,40,45,0,30,0
+2024-07-06,Chicken Lollipop 6pcs,Starter,44,42,2,70,0
+2024-07-06,Chilli Baby Corn (dry),Starter,18,22,0,50,0
+2024-07-06,Chicken Pepper Bbq Pizza (Medium),Pizza,34,28,6,90,0
+2024-07-06,Bbq Fried Wings 6 Pcs.,Snacks,37,28,9,65,0
+2024-07-06,Cold Coffee,Cold Beverages,19,18,1,25,0
+2024-07-06,Virgin Mojito,Mocktails,22,19,3,30,0
+2024-07-07,Chicken Lollipop 6pcs,Starter,37,37,0,70,0
+2024-07-07,Chilli Baby Corn (dry),Starter,11,9,2,50,0
+2024-07-07,Chicken Pepper Bbq Pizza (Medium),Pizza,37,33,4,90,0
+2024-07-07,Bbq Fried Wings 6 Pcs.,Snacks,36,39,0,65,0
+2024-07-07,Cold Coffee,Cold Beverages,42,35,7,25,0
+2024-07-07,Virgin Mojito,Mocktails,18,15,3,30,0
+2024-07-08,Chicken Lollipop 6pcs,Starter,26,25,1,70,0
+2024-07-08,Chilli Baby Corn (dry),Starter,32,32,0,50,0
+2024-07-08,Chicken Pepper Bbq Pizza (Medium),Pizza,26,24,2,90,0
+2024-07-08,Bbq Fried Wings 6 Pcs.,Snacks,18,21,0,65,0
+2024-07-08,Cold Coffee,Cold Beverages,32,35,0,25,0
+2024-07-08,Virgin Mojito,Mocktails,39,35,4,30,0
+2024-07-09,Chicken Lollipop 6pcs,Starter,15,16,0,70,0
+2024-07-09,Chilli Baby Corn (dry),Starter,37,39,0,50,0
+2024-07-09,Chicken Pepper Bbq Pizza (Medium),Pizza,30,26,4,90,0
+2024-07-09,Bbq Fried Wings 6 Pcs.,Snacks,36,36,0,65,0
+2024-07-09,Cold Coffee,Cold Beverages,34,25,9,25,0
+2024-07-09,Virgin Mojito,Mocktails,49,43,6,30,0
+2024-07-10,Chicken Lollipop 6pcs,Starter,28,30,0,70,0
+2024-07-10,Chilli Baby Corn (dry),Starter,27,23,4,50,0
+2024-07-10,Chicken Pepper Bbq Pizza (Medium),Pizza,42,33,9,90,0
+2024-07-10,Bbq Fried Wings 6 Pcs.,Snacks,30,35,0,65,0
+2024-07-10,Cold Coffee,Cold Beverages,36,38,0,25,0
+2024-07-10,Virgin Mojito,Mocktails,29,26,3,30,0
+2024-07-11,Chicken Lollipop 6pcs,Starter,62,45,17,70,0
+2024-07-11,Chilli Baby Corn (dry),Starter,35,34,1,50,0
+2024-07-11,Chicken Pepper Bbq Pizza (Medium),Pizza,40,34,6,90,0
+2024-07-11,Bbq Fried Wings 6 Pcs.,Snacks,37,27,10,65,0
+2024-07-11,Cold Coffee,Cold Beverages,35,31,4,25,0
+2024-07-11,Virgin Mojito,Mocktails,39,35,4,30,0
+2024-07-12,Chicken Lollipop 6pcs,Starter,35,36,0,70,0
+2024-07-12,Chilli Baby Corn (dry),Starter,22,25,0,50,0
+2024-07-12,Chicken Pepper Bbq Pizza (Medium),Pizza,38,33,5,90,0
+2024-07-12,Bbq Fried Wings 6 Pcs.,Snacks,43,33,10,65,0
+2024-07-12,Cold Coffee,Cold Beverages,34,29,5,25,0
+2024-07-12,Virgin Mojito,Mocktails,21,21,0,30,0
+2024-07-13,Chicken Lollipop 6pcs,Starter,41,35,6,70,0
+2024-07-13,Chilli Baby Corn (dry),Starter,28,27,1,50,0
+2024-07-13,Chicken Pepper Bbq Pizza (Medium),Pizza,17,17,0,90,0
+2024-07-13,Bbq Fried Wings 6 Pcs.,Snacks,41,37,4,65,0
+2024-07-13,Cold Coffee,Cold Beverages,36,34,2,25,0
+2024-07-13,Virgin Mojito,Mocktails,29,30,0,30,0
+2024-07-14,Chicken Lollipop 6pcs,Starter,39,35,4,70,0
+2024-07-14,Chilli Baby Corn (dry),Starter,33,33,0,50,0
+2024-07-14,Chicken Pepper Bbq Pizza (Medium),Pizza,19,12,7,90,0
+2024-07-14,Bbq Fried Wings 6 Pcs.,Snacks,24,26,0,65,0
+2024-07-14,Cold Coffee,Cold Beverages,35,35,0,25,0
+2024-07-14,Virgin Mojito,Mocktails,43,38,5,30,0
+2024-07-15,Chicken Lollipop 6pcs,Starter,31,35,0,70,0
+2024-07-15,Chilli Baby Corn (dry),Starter,42,39,3,50,0
+2024-07-15,Chicken Pepper Bbq Pizza (Medium),Pizza,29,27,2,90,0
+2024-07-15,Bbq Fried Wings 6 Pcs.,Snacks,19,15,4,65,0
+2024-07-15,Cold Coffee,Cold Beverages,17,21,0,25,0
+2024-07-15,Virgin Mojito,Mocktails,24,17,7,30,0
+2024-07-16,Chicken Lollipop 6pcs,Starter,33,24,9,70,0
+2024-07-16,Chilli Baby Corn (dry),Starter,19,25,0,50,0
+2024-07-16,Chicken Pepper Bbq Pizza (Medium),Pizza,29,21,8,90,0
+2024-07-16,Bbq Fried Wings 6 Pcs.,Snacks,28,28,0,65,0
+2024-07-16,Cold Coffee,Cold Beverages,35,31,4,25,0
+2024-07-16,Virgin Mojito,Mocktails,47,38,9,30,0
+2024-07-17,Chicken Lollipop 6pcs,Starter,23,27,0,70,0
+2024-07-17,Chilli Baby Corn (dry),Starter,29,26,3,50,0
+2024-07-17,Chicken Pepper Bbq Pizza (Medium),Pizza,20,22,0,90,0
+2024-07-17,Bbq Fried Wings 6 Pcs.,Snacks,33,32,1,65,0
+2024-07-17,Cold Coffee,Cold Beverages,29,30,0,25,0
+2024-07-17,Virgin Mojito,Mocktails,26,28,0,30,0
+2024-07-18,Chicken Lollipop 6pcs,Starter,44,37,7,70,0
+2024-07-18,Chilli Baby Corn (dry),Starter,13,15,0,50,0
+2024-07-18,Chicken Pepper Bbq Pizza (Medium),Pizza,17,18,0,90,0
+2024-07-18,Bbq Fried Wings 6 Pcs.,Snacks,24,29,0,65,0
+2024-07-18,Cold Coffee,Cold Beverages,19,22,0,25,0
+2024-07-18,Virgin Mojito,Mocktails,33,31,2,30,0
+2024-07-19,Chicken Lollipop 6pcs,Starter,26,24,2,70,0
+2024-07-19,Chilli Baby Corn (dry),Starter,25,25,0,50,0
+2024-07-19,Chicken Pepper Bbq Pizza (Medium),Pizza,51,43,8,90,0
+2024-07-19,Bbq Fried Wings 6 Pcs.,Snacks,25,19,6,65,0
+2024-07-19,Cold Coffee,Cold Beverages,33,36,0,25,0
+2024-07-19,Virgin Mojito,Mocktails,45,36,9,30,0
+2024-07-20,Chicken Lollipop 6pcs,Starter,19,21,0,70,0
+2024-07-20,Chilli Baby Corn (dry),Starter,41,38,3,50,0
+2024-07-20,Chicken Pepper Bbq Pizza (Medium),Pizza,37,34,3,90,0
+2024-07-20,Bbq Fried Wings 6 Pcs.,Snacks,29,33,0,65,0
+2024-07-20,Cold Coffee,Cold Beverages,45,38,7,25,0
+2024-07-20,Virgin Mojito,Mocktails,29,28,1,30,0
+2024-07-21,Chicken Lollipop 6pcs,Starter,21,17,4,70,0
+2024-07-21,Chilli Baby Corn (dry),Starter,35,34,1,50,0
+2024-07-21,Chicken Pepper Bbq Pizza (Medium),Pizza,38,38,0,90,0
+2024-07-21,Bbq Fried Wings 6 Pcs.,Snacks,31,34,0,65,0
+2024-07-21,Cold Coffee,Cold Beverages,30,29,1,25,0
+2024-07-21,Virgin Mojito,Mocktails,31,31,0,30,0
+2024-07-22,Chicken Lollipop 6pcs,Starter,34,28,6,70,0
+2024-07-22,Chilli Baby Corn (dry),Starter,20,26,0,50,0
+2024-07-22,Chicken Pepper Bbq Pizza (Medium),Pizza,51,43,8,90,0
+2024-07-22,Bbq Fried Wings 6 Pcs.,Snacks,24,19,5,65,0
+2024-07-22,Cold Coffee,Cold Beverages,28,25,3,25,0
+2024-07-22,Virgin Mojito,Mocktails,32,32,0,30,0
+2024-07-23,Chicken Lollipop 6pcs,Starter,22,23,0,70,0
+2024-07-23,Chilli Baby Corn (dry),Starter,20,22,0,50,0
+2024-07-23,Chicken Pepper Bbq Pizza (Medium),Pizza,28,29,0,90,0
+2024-07-23,Bbq Fried Wings 6 Pcs.,Snacks,44,35,9,65,0
+2024-07-23,Cold Coffee,Cold Beverages,28,25,3,25,0
+2024-07-23,Virgin Mojito,Mocktails,37,33,4,30,0
+2024-07-24,Chicken Lollipop 6pcs,Starter,35,30,5,70,0
+2024-07-24,Chilli Baby Corn (dry),Starter,29,33,0,50,0
+2024-07-24,Chicken Pepper Bbq Pizza (Medium),Pizza,42,36,6,90,0
+2024-07-24,Bbq Fried Wings 6 Pcs.,Snacks,25,23,2,65,0
+2024-07-24,Cold Coffee,Cold Beverages,35,35,0,25,0
+2024-07-24,Virgin Mojito,Mocktails,51,38,13,30,0
+2024-07-25,Chicken Lollipop 6pcs,Starter,19,23,0,70,0
+2024-07-25,Chilli Baby Corn (dry),Starter,37,32,5,50,0
+2024-07-25,Chicken Pepper Bbq Pizza (Medium),Pizza,37,28,9,90,0
+2024-07-25,Bbq Fried Wings 6 Pcs.,Snacks,24,19,5,65,0
+2024-07-25,Cold Coffee,Cold Beverages,35,25,10,25,0
+2024-07-25,Virgin Mojito,Mocktails,44,45,0,30,0
+2024-07-26,Chicken Lollipop 6pcs,Starter,31,25,6,70,0
+2024-07-26,Chilli Baby Corn (dry),Starter,27,26,1,50,0
+2024-07-26,Chicken Pepper Bbq Pizza (Medium),Pizza,23,30,0,90,0
+2024-07-26,Bbq Fried Wings 6 Pcs.,Snacks,28,29,0,65,0
+2024-07-26,Cold Coffee,Cold Beverages,35,26,9,25,0
+2024-07-26,Virgin Mojito,Mocktails,25,19,6,30,0
+2024-07-27,Chicken Lollipop 6pcs,Starter,27,27,0,70,0
+2024-07-27,Chilli Baby Corn (dry),Starter,39,36,3,50,0
+2024-07-27,Chicken Pepper Bbq Pizza (Medium),Pizza,40,34,6,90,0
+2024-07-27,Bbq Fried Wings 6 Pcs.,Snacks,26,27,0,65,0
+2024-07-27,Cold Coffee,Cold Beverages,19,21,0,25,0
+2024-07-27,Virgin Mojito,Mocktails,61,53,8,30,0
+2024-07-28,Chicken Lollipop 6pcs,Starter,15,19,0,70,0
+2024-07-28,Chilli Baby Corn (dry),Starter,37,33,4,50,0
+2024-07-28,Chicken Pepper Bbq Pizza (Medium),Pizza,34,34,0,90,0
+2024-07-28,Bbq Fried Wings 6 Pcs.,Snacks,31,28,3,65,0
+2024-07-28,Cold Coffee,Cold Beverages,21,30,0,25,0
+2024-07-28,Virgin Mojito,Mocktails,26,28,0,30,0
+2024-07-29,Chicken Lollipop 6pcs,Starter,47,31,16,70,0
+2024-07-29,Chilli Baby Corn (dry),Starter,32,32,0,50,0
+2024-07-29,Chicken Pepper Bbq Pizza (Medium),Pizza,41,37,4,90,0
+2024-07-29,Bbq Fried Wings 6 Pcs.,Snacks,38,33,5,65,0
+2024-07-29,Cold Coffee,Cold Beverages,43,46,0,25,0
+2024-07-29,Virgin Mojito,Mocktails,31,33,0,30,0
+2024-07-30,Chicken Lollipop 6pcs,Starter,32,34,0,70,0
+2024-07-30,Chilli Baby Corn (dry),Starter,26,26,0,50,0
+2024-07-30,Chicken Pepper Bbq Pizza (Medium),Pizza,43,37,6,90,0
+2024-07-30,Bbq Fried Wings 6 Pcs.,Snacks,22,20,2,65,0
+2024-07-30,Cold Coffee,Cold Beverages,20,24,0,25,0
+2024-07-30,Virgin Mojito,Mocktails,28,28,0,30,0
+2024-07-31,Chicken Lollipop 6pcs,Starter,53,49,4,70,0
+2024-07-31,Chilli Baby Corn (dry),Starter,18,18,0,50,0
+2024-07-31,Chicken Pepper Bbq Pizza (Medium),Pizza,50,38,12,90,0
+2024-07-31,Bbq Fried Wings 6 Pcs.,Snacks,10,17,0,65,0
+2024-07-31,Cold Coffee,Cold Beverages,47,44,3,25,0
+2024-07-31,Virgin Mojito,Mocktails,27,23,4,30,0
+2024-08-01,Chicken Lollipop 6pcs,Starter,10,8,2,70,0
+2024-08-01,Chilli Baby Corn (dry),Starter,38,32,6,50,0
+2024-08-01,Chicken Pepper Bbq Pizza (Medium),Pizza,23,21,2,90,0
+2024-08-01,Bbq Fried Wings 6 Pcs.,Snacks,25,22,3,65,0
+2024-08-01,Cold Coffee,Cold Beverages,22,22,0,25,0
+2024-08-01,Virgin Mojito,Mocktails,27,22,5,30,0
+2024-08-02,Chicken Lollipop 6pcs,Starter,36,36,0,70,0
+2024-08-02,Chilli Baby Corn (dry),Starter,25,30,0,50,0
+2024-08-02,Chicken Pepper Bbq Pizza (Medium),Pizza,28,27,1,90,0
+2024-08-02,Bbq Fried Wings 6 Pcs.,Snacks,47,50,0,65,0
+2024-08-02,Cold Coffee,Cold Beverages,47,41,6,25,0
+2024-08-02,Virgin Mojito,Mocktails,42,32,10,30,0
+2024-08-03,Chicken Lollipop 6pcs,Starter,35,32,3,70,0
+2024-08-03,Chilli Baby Corn (dry),Starter,37,29,8,50,0
+2024-08-03,Chicken Pepper Bbq Pizza (Medium),Pizza,37,38,0,90,0
+2024-08-03,Bbq Fried Wings 6 Pcs.,Snacks,19,19,0,65,0
+2024-08-03,Cold Coffee,Cold Beverages,24,23,1,25,0
+2024-08-03,Virgin Mojito,Mocktails,39,39,0,30,0
+2024-08-04,Chicken Lollipop 6pcs,Starter,31,29,2,70,0
+2024-08-04,Chilli Baby Corn (dry),Starter,27,36,0,50,0
+2024-08-04,Chicken Pepper Bbq Pizza (Medium),Pizza,28,25,3,90,0
+2024-08-04,Bbq Fried Wings 6 Pcs.,Snacks,39,39,0,65,0
+2024-08-04,Cold Coffee,Cold Beverages,19,14,5,25,0
+2024-08-04,Virgin Mojito,Mocktails,21,24,0,30,0
+2024-08-05,Chicken Lollipop 6pcs,Starter,26,25,1,70,0
+2024-08-05,Chilli Baby Corn (dry),Starter,16,25,0,50,0
+2024-08-05,Chicken Pepper Bbq Pizza (Medium),Pizza,45,37,8,90,0
+2024-08-05,Bbq Fried Wings 6 Pcs.,Snacks,32,35,0,65,0
+2024-08-05,Cold Coffee,Cold Beverages,29,28,1,25,0
+2024-08-05,Virgin Mojito,Mocktails,39,34,5,30,0
+2024-08-06,Chicken Lollipop 6pcs,Starter,26,24,2,70,0
+2024-08-06,Chilli Baby Corn (dry),Starter,42,33,9,50,0
+2024-08-06,Chicken Pepper Bbq Pizza (Medium),Pizza,40,35,5,90,0
+2024-08-06,Bbq Fried Wings 6 Pcs.,Snacks,39,30,9,65,0
+2024-08-06,Cold Coffee,Cold Beverages,31,33,0,25,0
+2024-08-06,Virgin Mojito,Mocktails,46,41,5,30,0
+2024-08-07,Chicken Lollipop 6pcs,Starter,26,26,0,70,0
+2024-08-07,Chilli Baby Corn (dry),Starter,36,32,4,50,0
+2024-08-07,Chicken Pepper Bbq Pizza (Medium),Pizza,34,31,3,90,0
+2024-08-07,Bbq Fried Wings 6 Pcs.,Snacks,50,43,7,65,0
+2024-08-07,Cold Coffee,Cold Beverages,37,31,6,25,0
+2024-08-07,Virgin Mojito,Mocktails,24,21,3,30,0
+2024-08-08,Chicken Lollipop 6pcs,Starter,44,44,0,70,0
+2024-08-08,Chilli Baby Corn (dry),Starter,22,23,0,50,0
+2024-08-08,Chicken Pepper Bbq Pizza (Medium),Pizza,20,21,0,90,0
+2024-08-08,Bbq Fried Wings 6 Pcs.,Snacks,22,27,0,65,0
+2024-08-08,Cold Coffee,Cold Beverages,36,30,6,25,0
+2024-08-08,Virgin Mojito,Mocktails,31,22,9,30,0
+2024-08-09,Chicken Lollipop 6pcs,Starter,41,34,7,70,0
+2024-08-09,Chilli Baby Corn (dry),Starter,30,24,6,50,0
+2024-08-09,Chicken Pepper Bbq Pizza (Medium),Pizza,27,21,6,90,0
+2024-08-09,Bbq Fried Wings 6 Pcs.,Snacks,35,31,4,65,0
+2024-08-09,Cold Coffee,Cold Beverages,18,20,0,25,0
+2024-08-09,Virgin Mojito,Mocktails,32,34,0,30,0
+2024-08-10,Chicken Lollipop 6pcs,Starter,29,33,0,70,0
+2024-08-10,Chilli Baby Corn (dry),Starter,32,36,0,50,0
+2024-08-10,Chicken Pepper Bbq Pizza (Medium),Pizza,39,34,5,90,0
+2024-08-10,Bbq Fried Wings 6 Pcs.,Snacks,28,24,4,65,0
+2024-08-10,Cold Coffee,Cold Beverages,32,32,0,25,0
+2024-08-10,Virgin Mojito,Mocktails,14,21,0,30,0
+2024-08-11,Chicken Lollipop 6pcs,Starter,27,32,0,70,0
+2024-08-11,Chilli Baby Corn (dry),Starter,30,30,0,50,0
+2024-08-11,Chicken Pepper Bbq Pizza (Medium),Pizza,35,35,0,90,0
+2024-08-11,Bbq Fried Wings 6 Pcs.,Snacks,32,27,5,65,0
+2024-08-11,Cold Coffee,Cold Beverages,35,32,3,25,0
+2024-08-11,Virgin Mojito,Mocktails,28,33,0,30,0
+2024-08-12,Chicken Lollipop 6pcs,Starter,41,36,5,70,0
+2024-08-12,Chilli Baby Corn (dry),Starter,21,21,0,50,0
+2024-08-12,Chicken Pepper Bbq Pizza (Medium),Pizza,30,29,1,90,0
+2024-08-12,Bbq Fried Wings 6 Pcs.,Snacks,41,32,9,65,0
+2024-08-12,Cold Coffee,Cold Beverages,34,38,0,25,0
+2024-08-12,Virgin Mojito,Mocktails,42,34,8,30,0
+2024-08-13,Chicken Lollipop 6pcs,Starter,40,33,7,70,0
+2024-08-13,Chilli Baby Corn (dry),Starter,53,46,7,50,0
+2024-08-13,Chicken Pepper Bbq Pizza (Medium),Pizza,38,31,7,90,0
+2024-08-13,Bbq Fried Wings 6 Pcs.,Snacks,33,31,2,65,0
+2024-08-13,Cold Coffee,Cold Beverages,36,27,9,25,0
+2024-08-13,Virgin Mojito,Mocktails,32,23,9,30,0
+2024-08-14,Chicken Lollipop 6pcs,Starter,29,33,0,70,0
+2024-08-14,Chilli Baby Corn (dry),Starter,24,32,0,50,0
+2024-08-14,Chicken Pepper Bbq Pizza (Medium),Pizza,41,35,6,90,0
+2024-08-14,Bbq Fried Wings 6 Pcs.,Snacks,27,25,2,65,0
+2024-08-14,Cold Coffee,Cold Beverages,45,45,0,25,0
+2024-08-14,Virgin Mojito,Mocktails,30,21,9,30,0
+2024-08-15,Chicken Lollipop 6pcs,Starter,47,45,2,70,0
+2024-08-15,Chilli Baby Corn (dry),Starter,46,38,8,50,0
+2024-08-15,Chicken Pepper Bbq Pizza (Medium),Pizza,24,24,0,90,0
+2024-08-15,Bbq Fried Wings 6 Pcs.,Snacks,49,39,10,65,0
+2024-08-15,Cold Coffee,Cold Beverages,32,34,0,25,0
+2024-08-15,Virgin Mojito,Mocktails,45,45,0,30,0
+2024-08-16,Chicken Lollipop 6pcs,Starter,30,27,3,70,0
+2024-08-16,Chilli Baby Corn (dry),Starter,48,42,6,50,0
+2024-08-16,Chicken Pepper Bbq Pizza (Medium),Pizza,37,33,4,90,0
+2024-08-16,Bbq Fried Wings 6 Pcs.,Snacks,34,30,4,65,0
+2024-08-16,Cold Coffee,Cold Beverages,9,9,0,25,0
+2024-08-16,Virgin Mojito,Mocktails,28,31,0,30,0
+2024-08-17,Chicken Lollipop 6pcs,Starter,33,33,0,70,0
+2024-08-17,Chilli Baby Corn (dry),Starter,53,44,9,50,0
+2024-08-17,Chicken Pepper Bbq Pizza (Medium),Pizza,27,26,1,90,0
+2024-08-17,Bbq Fried Wings 6 Pcs.,Snacks,29,29,0,65,0
+2024-08-17,Cold Coffee,Cold Beverages,30,31,0,25,0
+2024-08-17,Virgin Mojito,Mocktails,25,20,5,30,0
+2024-08-18,Chicken Lollipop 6pcs,Starter,33,35,0,70,0
+2024-08-18,Chilli Baby Corn (dry),Starter,36,37,0,50,0
+2024-08-18,Chicken Pepper Bbq Pizza (Medium),Pizza,38,32,6,90,0
+2024-08-18,Bbq Fried Wings 6 Pcs.,Snacks,33,29,4,65,0
+2024-08-18,Cold Coffee,Cold Beverages,26,25,1,25,0
+2024-08-18,Virgin Mojito,Mocktails,27,28,0,30,0
+2024-08-19,Chicken Lollipop 6pcs,Starter,23,28,0,70,0
+2024-08-19,Chilli Baby Corn (dry),Starter,26,26,0,50,0
+2024-08-19,Chicken Pepper Bbq Pizza (Medium),Pizza,27,27,0,90,0
+2024-08-19,Bbq Fried Wings 6 Pcs.,Snacks,33,29,4,65,0
+2024-08-19,Cold Coffee,Cold Beverages,35,36,0,25,0
+2024-08-19,Virgin Mojito,Mocktails,17,20,0,30,0
+2024-08-20,Chicken Lollipop 6pcs,Starter,26,26,0,70,0
+2024-08-20,Chilli Baby Corn (dry),Starter,19,23,0,50,0
+2024-08-20,Chicken Pepper Bbq Pizza (Medium),Pizza,28,26,2,90,0
+2024-08-20,Bbq Fried Wings 6 Pcs.,Snacks,34,34,0,65,0
+2024-08-20,Cold Coffee,Cold Beverages,24,26,0,25,0
+2024-08-20,Virgin Mojito,Mocktails,27,29,0,30,0
+2024-08-21,Chicken Lollipop 6pcs,Starter,28,34,0,70,0
+2024-08-21,Chilli Baby Corn (dry),Starter,30,27,3,50,0
+2024-08-21,Chicken Pepper Bbq Pizza (Medium),Pizza,46,31,15,90,0
+2024-08-21,Bbq Fried Wings 6 Pcs.,Snacks,29,32,0,65,0
+2024-08-21,Cold Coffee,Cold Beverages,23,29,0,25,0
+2024-08-21,Virgin Mojito,Mocktails,27,29,0,30,0
+2024-08-22,Chicken Lollipop 6pcs,Starter,37,37,0,70,0
+2024-08-22,Chilli Baby Corn (dry),Starter,28,29,0,50,0
+2024-08-22,Chicken Pepper Bbq Pizza (Medium),Pizza,43,43,0,90,0
+2024-08-22,Bbq Fried Wings 6 Pcs.,Snacks,50,44,6,65,0
+2024-08-22,Cold Coffee,Cold Beverages,36,33,3,25,0
+2024-08-22,Virgin Mojito,Mocktails,26,33,0,30,0
+2024-08-23,Chicken Lollipop 6pcs,Starter,33,27,6,70,0
+2024-08-23,Chilli Baby Corn (dry),Starter,24,29,0,50,0
+2024-08-23,Chicken Pepper Bbq Pizza (Medium),Pizza,39,29,10,90,0
+2024-08-23,Bbq Fried Wings 6 Pcs.,Snacks,40,39,1,65,0
+2024-08-23,Cold Coffee,Cold Beverages,37,37,0,25,0
+2024-08-23,Virgin Mojito,Mocktails,14,16,0,30,0
+2024-08-24,Chicken Lollipop 6pcs,Starter,42,42,0,70,0
+2024-08-24,Chilli Baby Corn (dry),Starter,28,28,0,50,0
+2024-08-24,Chicken Pepper Bbq Pizza (Medium),Pizza,55,45,10,90,0
+2024-08-24,Bbq Fried Wings 6 Pcs.,Snacks,48,47,1,65,0
+2024-08-24,Cold Coffee,Cold Beverages,27,32,0,25,0
+2024-08-24,Virgin Mojito,Mocktails,38,41,0,30,0
+2024-08-25,Chicken Lollipop 6pcs,Starter,28,31,0,70,0
+2024-08-25,Chilli Baby Corn (dry),Starter,23,25,0,50,0
+2024-08-25,Chicken Pepper Bbq Pizza (Medium),Pizza,25,25,0,90,0
+2024-08-25,Bbq Fried Wings 6 Pcs.,Snacks,31,25,6,65,0
+2024-08-25,Cold Coffee,Cold Beverages,24,21,3,25,0
+2024-08-25,Virgin Mojito,Mocktails,39,39,0,30,0
+2024-08-26,Chicken Lollipop 6pcs,Starter,24,24,0,70,0
+2024-08-26,Chilli Baby Corn (dry),Starter,41,39,2,50,0
+2024-08-26,Chicken Pepper Bbq Pizza (Medium),Pizza,29,25,4,90,0
+2024-08-26,Bbq Fried Wings 6 Pcs.,Snacks,26,21,5,65,0
+2024-08-26,Cold Coffee,Cold Beverages,33,33,0,25,0
+2024-08-26,Virgin Mojito,Mocktails,21,23,0,30,0
+2024-08-27,Chicken Lollipop 6pcs,Starter,42,34,8,70,0
+2024-08-27,Chilli Baby Corn (dry),Starter,28,24,4,50,0
+2024-08-27,Chicken Pepper Bbq Pizza (Medium),Pizza,13,13,0,90,0
+2024-08-27,Bbq Fried Wings 6 Pcs.,Snacks,27,29,0,65,0
+2024-08-27,Cold Coffee,Cold Beverages,21,22,0,25,0
+2024-08-27,Virgin Mojito,Mocktails,33,32,1,30,0
+2024-08-28,Chicken Lollipop 6pcs,Starter,4,12,0,70,0
+2024-08-28,Chilli Baby Corn (dry),Starter,29,25,4,50,0
+2024-08-28,Chicken Pepper Bbq Pizza (Medium),Pizza,8,8,0,90,0
+2024-08-28,Bbq Fried Wings 6 Pcs.,Snacks,33,25,8,65,0
+2024-08-28,Cold Coffee,Cold Beverages,29,26,3,25,0
+2024-08-28,Virgin Mojito,Mocktails,23,31,0,30,0
+2024-08-29,Chicken Lollipop 6pcs,Starter,39,36,3,70,0
+2024-08-29,Chilli Baby Corn (dry),Starter,55,34,21,50,0
+2024-08-29,Chicken Pepper Bbq Pizza (Medium),Pizza,23,13,10,90,0
+2024-08-29,Bbq Fried Wings 6 Pcs.,Snacks,30,27,3,65,0
+2024-08-29,Cold Coffee,Cold Beverages,29,29,0,25,0
+2024-08-29,Virgin Mojito,Mocktails,28,25,3,30,0
+2024-08-30,Chicken Lollipop 6pcs,Starter,22,17,5,70,0
+2024-08-30,Chilli Baby Corn (dry),Starter,23,26,0,50,0
+2024-08-30,Chicken Pepper Bbq Pizza (Medium),Pizza,34,26,8,90,0
+2024-08-30,Bbq Fried Wings 6 Pcs.,Snacks,28,25,3,65,0
+2024-08-30,Cold Coffee,Cold Beverages,29,24,5,25,0
+2024-08-30,Virgin Mojito,Mocktails,46,35,11,30,0
+2024-08-31,Chicken Lollipop 6pcs,Starter,33,28,5,70,0
+2024-08-31,Chilli Baby Corn (dry),Starter,38,30,8,50,0
+2024-08-31,Chicken Pepper Bbq Pizza (Medium),Pizza,29,24,5,90,0
+2024-08-31,Bbq Fried Wings 6 Pcs.,Snacks,29,28,1,65,0
+2024-08-31,Cold Coffee,Cold Beverages,33,30,3,25,0
+2024-08-31,Virgin Mojito,Mocktails,32,29,3,30,0
+2024-09-01,Chicken Lollipop 6pcs,Starter,48,42,6,70,0
+2024-09-01,Chilli Baby Corn (dry),Starter,36,36,0,50,0
+2024-09-01,Chicken Pepper Bbq Pizza (Medium),Pizza,28,22,6,90,0
+2024-09-01,Bbq Fried Wings 6 Pcs.,Snacks,46,37,9,65,0
+2024-09-01,Cold Coffee,Cold Beverages,25,25,0,25,0
+2024-09-01,Virgin Mojito,Mocktails,16,16,0,30,0
+2024-09-02,Chicken Lollipop 6pcs,Starter,37,37,0,70,0
+2024-09-02,Chilli Baby Corn (dry),Starter,36,35,1,50,0
+2024-09-02,Chicken Pepper Bbq Pizza (Medium),Pizza,29,32,0,90,0
+2024-09-02,Bbq Fried Wings 6 Pcs.,Snacks,18,30,0,65,0
+2024-09-02,Cold Coffee,Cold Beverages,22,28,0,25,0
+2024-09-02,Virgin Mojito,Mocktails,44,39,5,30,0
+2024-09-03,Chicken Lollipop 6pcs,Starter,42,33,9,70,0
+2024-09-03,Chilli Baby Corn (dry),Starter,32,22,10,50,0
+2024-09-03,Chicken Pepper Bbq Pizza (Medium),Pizza,37,37,0,90,0
+2024-09-03,Bbq Fried Wings 6 Pcs.,Snacks,36,39,0,65,0
+2024-09-03,Cold Coffee,Cold Beverages,22,23,0,25,0
+2024-09-03,Virgin Mojito,Mocktails,22,25,0,30,0
+2024-09-04,Chicken Lollipop 6pcs,Starter,39,39,0,70,0
+2024-09-04,Chilli Baby Corn (dry),Starter,32,32,0,50,0
+2024-09-04,Chicken Pepper Bbq Pizza (Medium),Pizza,18,15,3,90,0
+2024-09-04,Bbq Fried Wings 6 Pcs.,Snacks,15,14,1,65,0
+2024-09-04,Cold Coffee,Cold Beverages,30,19,11,25,0
+2024-09-04,Virgin Mojito,Mocktails,39,37,2,30,0
+2024-09-05,Chicken Lollipop 6pcs,Starter,38,40,0,70,0
+2024-09-05,Chilli Baby Corn (dry),Starter,36,34,2,50,0
+2024-09-05,Chicken Pepper Bbq Pizza (Medium),Pizza,40,32,8,90,0
+2024-09-05,Bbq Fried Wings 6 Pcs.,Snacks,38,35,3,65,0
+2024-09-05,Cold Coffee,Cold Beverages,14,16,0,25,0
+2024-09-05,Virgin Mojito,Mocktails,31,29,2,30,0
+2024-09-06,Chicken Lollipop 6pcs,Starter,34,20,14,70,0
+2024-09-06,Chilli Baby Corn (dry),Starter,47,42,5,50,0
+2024-09-06,Chicken Pepper Bbq Pizza (Medium),Pizza,30,30,0,90,0
+2024-09-06,Bbq Fried Wings 6 Pcs.,Snacks,24,22,2,65,0
+2024-09-06,Cold Coffee,Cold Beverages,28,32,0,25,0
+2024-09-06,Virgin Mojito,Mocktails,33,32,1,30,0
+2024-09-07,Chicken Lollipop 6pcs,Starter,12,14,0,70,0
+2024-09-07,Chilli Baby Corn (dry),Starter,37,26,11,50,0
+2024-09-07,Chicken Pepper Bbq Pizza (Medium),Pizza,30,34,0,90,0
+2024-09-07,Bbq Fried Wings 6 Pcs.,Snacks,28,33,0,65,0
+2024-09-07,Cold Coffee,Cold Beverages,38,38,0,25,0
+2024-09-07,Virgin Mojito,Mocktails,37,29,8,30,0
+2024-09-08,Chicken Lollipop 6pcs,Starter,15,19,0,70,0
+2024-09-08,Chilli Baby Corn (dry),Starter,32,25,7,50,0
+2024-09-08,Chicken Pepper Bbq Pizza (Medium),Pizza,5,17,0,90,0
+2024-09-08,Bbq Fried Wings 6 Pcs.,Snacks,30,26,4,65,0
+2024-09-08,Cold Coffee,Cold Beverages,39,39,0,25,0
+2024-09-08,Virgin Mojito,Mocktails,33,26,7,30,0
+2024-09-09,Chicken Lollipop 6pcs,Starter,15,15,0,70,0
+2024-09-09,Chilli Baby Corn (dry),Starter,35,31,4,50,0
+2024-09-09,Chicken Pepper Bbq Pizza (Medium),Pizza,27,25,2,90,0
+2024-09-09,Bbq Fried Wings 6 Pcs.,Snacks,9,10,0,65,0
+2024-09-09,Cold Coffee,Cold Beverages,31,33,0,25,0
+2024-09-09,Virgin Mojito,Mocktails,34,30,4,30,0
+2024-09-10,Chicken Lollipop 6pcs,Starter,29,27,2,70,0
+2024-09-10,Chilli Baby Corn (dry),Starter,22,22,0,50,0
+2024-09-10,Chicken Pepper Bbq Pizza (Medium),Pizza,36,34,2,90,0
+2024-09-10,Bbq Fried Wings 6 Pcs.,Snacks,28,25,3,65,0
+2024-09-10,Cold Coffee,Cold Beverages,27,35,0,25,0
+2024-09-10,Virgin Mojito,Mocktails,39,39,0,30,0
+2024-09-11,Chicken Lollipop 6pcs,Starter,40,33,7,70,0
+2024-09-11,Chilli Baby Corn (dry),Starter,18,19,0,50,0
+2024-09-11,Chicken Pepper Bbq Pizza (Medium),Pizza,26,27,0,90,0
+2024-09-11,Bbq Fried Wings 6 Pcs.,Snacks,41,43,0,65,0
+2024-09-11,Cold Coffee,Cold Beverages,28,25,3,25,0
+2024-09-11,Virgin Mojito,Mocktails,20,20,0,30,0
+2024-09-12,Chicken Lollipop 6pcs,Starter,32,32,0,70,0
+2024-09-12,Chilli Baby Corn (dry),Starter,29,29,0,50,0
+2024-09-12,Chicken Pepper Bbq Pizza (Medium),Pizza,20,17,3,90,0
+2024-09-12,Bbq Fried Wings 6 Pcs.,Snacks,46,44,2,65,0
+2024-09-12,Cold Coffee,Cold Beverages,36,31,5,25,0
+2024-09-12,Virgin Mojito,Mocktails,29,19,10,30,0
+2024-09-13,Chicken Lollipop 6pcs,Starter,41,31,10,70,0
+2024-09-13,Chilli Baby Corn (dry),Starter,35,24,11,50,0
+2024-09-13,Chicken Pepper Bbq Pizza (Medium),Pizza,40,36,4,90,0
+2024-09-13,Bbq Fried Wings 6 Pcs.,Snacks,31,31,0,65,0
+2024-09-13,Cold Coffee,Cold Beverages,41,39,2,25,0
+2024-09-13,Virgin Mojito,Mocktails,11,14,0,30,0
+2024-09-14,Chicken Lollipop 6pcs,Starter,31,28,3,70,0
+2024-09-14,Chilli Baby Corn (dry),Starter,37,29,8,50,0
+2024-09-14,Chicken Pepper Bbq Pizza (Medium),Pizza,16,14,2,90,0
+2024-09-14,Bbq Fried Wings 6 Pcs.,Snacks,20,15,5,65,0
+2024-09-14,Cold Coffee,Cold Beverages,33,29,4,25,0
+2024-09-14,Virgin Mojito,Mocktails,31,23,8,30,0
+2024-09-15,Chicken Lollipop 6pcs,Starter,42,38,4,70,0
+2024-09-15,Chilli Baby Corn (dry),Starter,32,28,4,50,0
+2024-09-15,Chicken Pepper Bbq Pizza (Medium),Pizza,30,24,6,90,0
+2024-09-15,Bbq Fried Wings 6 Pcs.,Snacks,50,43,7,65,0
+2024-09-15,Cold Coffee,Cold Beverages,27,24,3,25,0
+2024-09-15,Virgin Mojito,Mocktails,23,19,4,30,0
+2024-09-16,Chicken Lollipop 6pcs,Starter,26,33,0,70,0
+2024-09-16,Chilli Baby Corn (dry),Starter,20,20,0,50,0
+2024-09-16,Chicken Pepper Bbq Pizza (Medium),Pizza,23,27,0,90,0
+2024-09-16,Bbq Fried Wings 6 Pcs.,Snacks,36,33,3,65,0
+2024-09-16,Cold Coffee,Cold Beverages,27,28,0,25,0
+2024-09-16,Virgin Mojito,Mocktails,48,38,10,30,0
+2024-09-17,Chicken Lollipop 6pcs,Starter,25,26,0,70,0
+2024-09-17,Chilli Baby Corn (dry),Starter,33,33,0,50,0
+2024-09-17,Chicken Pepper Bbq Pizza (Medium),Pizza,33,28,5,90,0
+2024-09-17,Bbq Fried Wings 6 Pcs.,Snacks,22,14,8,65,0
+2024-09-17,Cold Coffee,Cold Beverages,30,30,0,25,0
+2024-09-17,Virgin Mojito,Mocktails,30,29,1,30,0
+2024-09-18,Chicken Lollipop 6pcs,Starter,25,16,9,70,0
+2024-09-18,Chilli Baby Corn (dry),Starter,34,30,4,50,0
+2024-09-18,Chicken Pepper Bbq Pizza (Medium),Pizza,34,37,0,90,0
+2024-09-18,Bbq Fried Wings 6 Pcs.,Snacks,33,33,0,65,0
+2024-09-18,Cold Coffee,Cold Beverages,28,36,0,25,0
+2024-09-18,Virgin Mojito,Mocktails,28,29,0,30,0
+2024-09-19,Chicken Lollipop 6pcs,Starter,37,33,4,70,0
+2024-09-19,Chilli Baby Corn (dry),Starter,23,24,0,50,0
+2024-09-19,Chicken Pepper Bbq Pizza (Medium),Pizza,27,29,0,90,0
+2024-09-19,Bbq Fried Wings 6 Pcs.,Snacks,36,36,0,65,0
+2024-09-19,Cold Coffee,Cold Beverages,6,6,0,25,0
+2024-09-19,Virgin Mojito,Mocktails,15,21,0,30,0
+2024-09-20,Chicken Lollipop 6pcs,Starter,22,20,2,70,0
+2024-09-20,Chilli Baby Corn (dry),Starter,43,40,3,50,0
+2024-09-20,Chicken Pepper Bbq Pizza (Medium),Pizza,29,25,4,90,0
+2024-09-20,Bbq Fried Wings 6 Pcs.,Snacks,25,26,0,65,0
+2024-09-20,Cold Coffee,Cold Beverages,14,20,0,25,0
+2024-09-20,Virgin Mojito,Mocktails,28,26,2,30,0
+2024-09-21,Chicken Lollipop 6pcs,Starter,29,29,0,70,0
+2024-09-21,Chilli Baby Corn (dry),Starter,27,22,5,50,0
+2024-09-21,Chicken Pepper Bbq Pizza (Medium),Pizza,24,19,5,90,0
+2024-09-21,Bbq Fried Wings 6 Pcs.,Snacks,20,21,0,65,0
+2024-09-21,Cold Coffee,Cold Beverages,18,18,0,25,0
+2024-09-21,Virgin Mojito,Mocktails,41,37,4,30,0
+2024-09-22,Chicken Lollipop 6pcs,Starter,41,37,4,70,0
+2024-09-22,Chilli Baby Corn (dry),Starter,21,21,0,50,0
+2024-09-22,Chicken Pepper Bbq Pizza (Medium),Pizza,31,23,8,90,0
+2024-09-22,Bbq Fried Wings 6 Pcs.,Snacks,26,20,6,65,0
+2024-09-22,Cold Coffee,Cold Beverages,48,37,11,25,0
+2024-09-22,Virgin Mojito,Mocktails,31,26,5,30,0
+2024-09-23,Chicken Lollipop 6pcs,Starter,47,48,0,70,0
+2024-09-23,Chilli Baby Corn (dry),Starter,10,17,0,50,0
+2024-09-23,Chicken Pepper Bbq Pizza (Medium),Pizza,28,35,0,90,0
+2024-09-23,Bbq Fried Wings 6 Pcs.,Snacks,31,27,4,65,0
+2024-09-23,Cold Coffee,Cold Beverages,35,31,4,25,0
+2024-09-23,Virgin Mojito,Mocktails,39,31,8,30,0
+2024-09-24,Chicken Lollipop 6pcs,Starter,21,22,0,70,0
+2024-09-24,Chilli Baby Corn (dry),Starter,29,23,6,50,0
+2024-09-24,Chicken Pepper Bbq Pizza (Medium),Pizza,41,37,4,90,0
+2024-09-24,Bbq Fried Wings 6 Pcs.,Snacks,36,39,0,65,0
+2024-09-24,Cold Coffee,Cold Beverages,52,43,9,25,0
+2024-09-24,Virgin Mojito,Mocktails,45,35,10,30,0
+2024-09-25,Chicken Lollipop 6pcs,Starter,16,16,0,70,0
+2024-09-25,Chilli Baby Corn (dry),Starter,29,24,5,50,0
+2024-09-25,Chicken Pepper Bbq Pizza (Medium),Pizza,26,21,5,90,0
+2024-09-25,Bbq Fried Wings 6 Pcs.,Snacks,45,40,5,65,0
+2024-09-25,Cold Coffee,Cold Beverages,30,32,0,25,0
+2024-09-25,Virgin Mojito,Mocktails,31,23,8,30,0
+2024-09-26,Chicken Lollipop 6pcs,Starter,37,36,1,70,0
+2024-09-26,Chilli Baby Corn (dry),Starter,18,26,0,50,0
+2024-09-26,Chicken Pepper Bbq Pizza (Medium),Pizza,32,21,11,90,0
+2024-09-26,Bbq Fried Wings 6 Pcs.,Snacks,21,19,2,65,0
+2024-09-26,Cold Coffee,Cold Beverages,34,38,0,25,0
+2024-09-26,Virgin Mojito,Mocktails,37,31,6,30,0
+2024-09-27,Chicken Lollipop 6pcs,Starter,46,30,16,70,0
+2024-09-27,Chilli Baby Corn (dry),Starter,23,16,7,50,0
+2024-09-27,Chicken Pepper Bbq Pizza (Medium),Pizza,33,28,5,90,0
+2024-09-27,Bbq Fried Wings 6 Pcs.,Snacks,32,33,0,65,0
+2024-09-27,Cold Coffee,Cold Beverages,24,31,0,25,0
+2024-09-27,Virgin Mojito,Mocktails,37,34,3,30,0
+2024-09-28,Chicken Lollipop 6pcs,Starter,42,35,7,70,0
+2024-09-28,Chilli Baby Corn (dry),Starter,34,32,2,50,0
+2024-09-28,Chicken Pepper Bbq Pizza (Medium),Pizza,21,22,0,90,0
+2024-09-28,Bbq Fried Wings 6 Pcs.,Snacks,48,39,9,65,0
+2024-09-28,Cold Coffee,Cold Beverages,30,28,2,25,0
+2024-09-28,Virgin Mojito,Mocktails,29,22,7,30,0
+2024-09-29,Chicken Lollipop 6pcs,Starter,46,35,11,70,0
+2024-09-29,Chilli Baby Corn (dry),Starter,22,22,0,50,0
+2024-09-29,Chicken Pepper Bbq Pizza (Medium),Pizza,36,31,5,90,0
+2024-09-29,Bbq Fried Wings 6 Pcs.,Snacks,26,28,0,65,0
+2024-09-29,Cold Coffee,Cold Beverages,42,37,5,25,0
+2024-09-29,Virgin Mojito,Mocktails,30,22,8,30,0
+2024-09-30,Chicken Lollipop 6pcs,Starter,41,39,2,70,0
+2024-09-30,Chilli Baby Corn (dry),Starter,34,30,4,50,0
+2024-09-30,Chicken Pepper Bbq Pizza (Medium),Pizza,25,23,2,90,0
+2024-09-30,Bbq Fried Wings 6 Pcs.,Snacks,18,12,6,65,0
+2024-09-30,Cold Coffee,Cold Beverages,26,17,9,25,0
+2024-09-30,Virgin Mojito,Mocktails,27,27,0,30,0
+2024-10-01,Chicken Lollipop 6pcs,Starter,24,24,0,70,0
+2024-10-01,Chilli Baby Corn (dry),Starter,31,41,0,50,0
+2024-10-01,Chicken Pepper Bbq Pizza (Medium),Pizza,43,40,3,90,0
+2024-10-01,Bbq Fried Wings 6 Pcs.,Snacks,17,20,0,65,0
+2024-10-01,Cold Coffee,Cold Beverages,41,43,0,25,0
+2024-10-01,Virgin Mojito,Mocktails,27,20,7,30,0
+2024-10-02,Chicken Lollipop 6pcs,Starter,30,32,0,70,0
+2024-10-02,Chilli Baby Corn (dry),Starter,28,31,0,50,0
+2024-10-02,Chicken Pepper Bbq Pizza (Medium),Pizza,45,38,7,90,0
+2024-10-02,Bbq Fried Wings 6 Pcs.,Snacks,37,34,3,65,0
+2024-10-02,Cold Coffee,Cold Beverages,45,44,1,25,0
+2024-10-02,Virgin Mojito,Mocktails,24,20,4,30,0
+2024-10-03,Chicken Lollipop 6pcs,Starter,43,46,0,70,0
+2024-10-03,Chilli Baby Corn (dry),Starter,31,27,4,50,0
+2024-10-03,Chicken Pepper Bbq Pizza (Medium),Pizza,27,29,0,90,0
+2024-10-03,Bbq Fried Wings 6 Pcs.,Snacks,51,38,13,65,0
+2024-10-03,Cold Coffee,Cold Beverages,29,31,0,25,0
+2024-10-03,Virgin Mojito,Mocktails,20,17,3,30,0
+2024-10-04,Chicken Lollipop 6pcs,Starter,42,38,4,70,0
+2024-10-04,Chilli Baby Corn (dry),Starter,29,29,0,50,0
+2024-10-04,Chicken Pepper Bbq Pizza (Medium),Pizza,27,21,6,90,0
+2024-10-04,Bbq Fried Wings 6 Pcs.,Snacks,32,37,0,65,0
+2024-10-04,Cold Coffee,Cold Beverages,46,42,4,25,0
+2024-10-04,Virgin Mojito,Mocktails,37,41,0,30,0
+2024-10-05,Chicken Lollipop 6pcs,Starter,20,19,1,70,0
+2024-10-05,Chilli Baby Corn (dry),Starter,44,34,10,50,0
+2024-10-05,Chicken Pepper Bbq Pizza (Medium),Pizza,35,35,0,90,0
+2024-10-05,Bbq Fried Wings 6 Pcs.,Snacks,29,21,8,65,0
+2024-10-05,Cold Coffee,Cold Beverages,32,22,10,25,0
+2024-10-05,Virgin Mojito,Mocktails,36,27,9,30,0
+2024-10-06,Chicken Lollipop 6pcs,Starter,36,35,1,70,0
+2024-10-06,Chilli Baby Corn (dry),Starter,25,25,0,50,0
+2024-10-06,Chicken Pepper Bbq Pizza (Medium),Pizza,35,33,2,90,0
+2024-10-06,Bbq Fried Wings 6 Pcs.,Snacks,26,25,1,65,0
+2024-10-06,Cold Coffee,Cold Beverages,22,30,0,25,0
+2024-10-06,Virgin Mojito,Mocktails,31,33,0,30,0
+2024-10-07,Chicken Lollipop 6pcs,Starter,14,20,0,70,0
+2024-10-07,Chilli Baby Corn (dry),Starter,11,15,0,50,0
+2024-10-07,Chicken Pepper Bbq Pizza (Medium),Pizza,35,24,11,90,0
+2024-10-07,Bbq Fried Wings 6 Pcs.,Snacks,27,25,2,65,0
+2024-10-07,Cold Coffee,Cold Beverages,35,33,2,25,0
+2024-10-07,Virgin Mojito,Mocktails,26,29,0,30,0
+2024-10-08,Chicken Lollipop 6pcs,Starter,52,41,11,70,0
+2024-10-08,Chilli Baby Corn (dry),Starter,13,16,0,50,0
+2024-10-08,Chicken Pepper Bbq Pizza (Medium),Pizza,25,27,0,90,0
+2024-10-08,Bbq Fried Wings 6 Pcs.,Snacks,33,34,0,65,0
+2024-10-08,Cold Coffee,Cold Beverages,54,47,7,25,0
+2024-10-08,Virgin Mojito,Mocktails,38,31,7,30,0
+2024-10-09,Chicken Lollipop 6pcs,Starter,38,38,0,70,0
+2024-10-09,Chilli Baby Corn (dry),Starter,25,23,2,50,0
+2024-10-09,Chicken Pepper Bbq Pizza (Medium),Pizza,38,36,2,90,0
+2024-10-09,Bbq Fried Wings 6 Pcs.,Snacks,15,17,0,65,0
+2024-10-09,Cold Coffee,Cold Beverages,30,29,1,25,0
+2024-10-09,Virgin Mojito,Mocktails,41,45,0,30,0
+2024-10-10,Chicken Lollipop 6pcs,Starter,43,34,9,70,0
+2024-10-10,Chilli Baby Corn (dry),Starter,48,48,0,50,0
+2024-10-10,Chicken Pepper Bbq Pizza (Medium),Pizza,37,33,4,90,0
+2024-10-10,Bbq Fried Wings 6 Pcs.,Snacks,32,31,1,65,0
+2024-10-10,Cold Coffee,Cold Beverages,23,33,0,25,0
+2024-10-10,Virgin Mojito,Mocktails,37,35,2,30,0
+2024-10-11,Chicken Lollipop 6pcs,Starter,40,28,12,70,0
+2024-10-11,Chilli Baby Corn (dry),Starter,24,24,0,50,0
+2024-10-11,Chicken Pepper Bbq Pizza (Medium),Pizza,43,45,0,90,0
+2024-10-11,Bbq Fried Wings 6 Pcs.,Snacks,26,25,1,65,0
+2024-10-11,Cold Coffee,Cold Beverages,39,36,3,25,0
+2024-10-11,Virgin Mojito,Mocktails,19,19,0,30,0
+2024-10-12,Chicken Lollipop 6pcs,Starter,26,25,1,70,0
+2024-10-12,Chilli Baby Corn (dry),Starter,37,33,4,50,0
+2024-10-12,Chicken Pepper Bbq Pizza (Medium),Pizza,22,15,7,90,0
+2024-10-12,Bbq Fried Wings 6 Pcs.,Snacks,40,32,8,65,0
+2024-10-12,Cold Coffee,Cold Beverages,40,33,7,25,0
+2024-10-12,Virgin Mojito,Mocktails,41,33,8,30,0
+2024-10-13,Chicken Lollipop 6pcs,Starter,35,34,1,70,0
+2024-10-13,Chilli Baby Corn (dry),Starter,54,48,6,50,0
+2024-10-13,Chicken Pepper Bbq Pizza (Medium),Pizza,30,34,0,90,0
+2024-10-13,Bbq Fried Wings 6 Pcs.,Snacks,22,19,3,65,0
+2024-10-13,Cold Coffee,Cold Beverages,30,31,0,25,0
+2024-10-13,Virgin Mojito,Mocktails,40,31,9,30,0
+2024-10-14,Chicken Lollipop 6pcs,Starter,32,35,0,70,0
+2024-10-14,Chilli Baby Corn (dry),Starter,27,29,0,50,0
+2024-10-14,Chicken Pepper Bbq Pizza (Medium),Pizza,26,26,0,90,0
+2024-10-14,Bbq Fried Wings 6 Pcs.,Snacks,22,26,0,65,0
+2024-10-14,Cold Coffee,Cold Beverages,28,28,0,25,0
+2024-10-14,Virgin Mojito,Mocktails,18,6,12,30,0
+2024-10-15,Chicken Lollipop 6pcs,Starter,38,38,0,70,0
+2024-10-15,Chilli Baby Corn (dry),Starter,27,30,0,50,0
+2024-10-15,Chicken Pepper Bbq Pizza (Medium),Pizza,54,43,11,90,0
+2024-10-15,Bbq Fried Wings 6 Pcs.,Snacks,38,31,7,65,0
+2024-10-15,Cold Coffee,Cold Beverages,27,31,0,25,0
+2024-10-15,Virgin Mojito,Mocktails,28,26,2,30,0
+2024-10-16,Chicken Lollipop 6pcs,Starter,26,26,0,70,0
+2024-10-16,Chilli Baby Corn (dry),Starter,30,29,1,50,0
+2024-10-16,Chicken Pepper Bbq Pizza (Medium),Pizza,27,30,0,90,0
+2024-10-16,Bbq Fried Wings 6 Pcs.,Snacks,20,24,0,65,0
+2024-10-16,Cold Coffee,Cold Beverages,29,37,0,25,0
+2024-10-16,Virgin Mojito,Mocktails,47,39,8,30,0
+2024-10-17,Chicken Lollipop 6pcs,Starter,16,27,0,70,0
+2024-10-17,Chilli Baby Corn (dry),Starter,28,27,1,50,0
+2024-10-17,Chicken Pepper Bbq Pizza (Medium),Pizza,21,21,0,90,0
+2024-10-17,Bbq Fried Wings 6 Pcs.,Snacks,47,42,5,65,0
+2024-10-17,Cold Coffee,Cold Beverages,17,22,0,25,0
+2024-10-17,Virgin Mojito,Mocktails,27,27,0,30,0
+2024-10-18,Chicken Lollipop 6pcs,Starter,33,33,0,70,0
+2024-10-18,Chilli Baby Corn (dry),Starter,45,34,11,50,0
+2024-10-18,Chicken Pepper Bbq Pizza (Medium),Pizza,37,36,1,90,0
+2024-10-18,Bbq Fried Wings 6 Pcs.,Snacks,28,28,0,65,0
+2024-10-18,Cold Coffee,Cold Beverages,38,39,0,25,0
+2024-10-18,Virgin Mojito,Mocktails,32,30,2,30,0
+2024-10-19,Chicken Lollipop 6pcs,Starter,21,25,0,70,0
+2024-10-19,Chilli Baby Corn (dry),Starter,33,32,1,50,0
+2024-10-19,Chicken Pepper Bbq Pizza (Medium),Pizza,34,34,0,90,0
+2024-10-19,Bbq Fried Wings 6 Pcs.,Snacks,37,39,0,65,0
+2024-10-19,Cold Coffee,Cold Beverages,37,43,0,25,0
+2024-10-19,Virgin Mojito,Mocktails,37,33,4,30,0
+2024-10-20,Chicken Lollipop 6pcs,Starter,27,23,4,70,0
+2024-10-20,Chilli Baby Corn (dry),Starter,31,40,0,50,0
+2024-10-20,Chicken Pepper Bbq Pizza (Medium),Pizza,24,34,0,90,0
+2024-10-20,Bbq Fried Wings 6 Pcs.,Snacks,32,22,10,65,0
+2024-10-20,Cold Coffee,Cold Beverages,22,25,0,25,0
+2024-10-20,Virgin Mojito,Mocktails,40,28,12,30,0
+2024-10-21,Chicken Lollipop 6pcs,Starter,12,15,0,70,0
+2024-10-21,Chilli Baby Corn (dry),Starter,52,41,11,50,0
+2024-10-21,Chicken Pepper Bbq Pizza (Medium),Pizza,25,29,0,90,0
+2024-10-21,Bbq Fried Wings 6 Pcs.,Snacks,55,46,9,65,0
+2024-10-21,Cold Coffee,Cold Beverages,33,35,0,25,0
+2024-10-21,Virgin Mojito,Mocktails,30,29,1,30,0
+2024-10-22,Chicken Lollipop 6pcs,Starter,41,32,9,70,0
+2024-10-22,Chilli Baby Corn (dry),Starter,34,37,0,50,0
+2024-10-22,Chicken Pepper Bbq Pizza (Medium),Pizza,44,41,3,90,0
+2024-10-22,Bbq Fried Wings 6 Pcs.,Snacks,44,35,9,65,0
+2024-10-22,Cold Coffee,Cold Beverages,22,21,1,25,0
+2024-10-22,Virgin Mojito,Mocktails,20,25,0,30,0
+2024-10-23,Chicken Lollipop 6pcs,Starter,46,32,14,70,0
+2024-10-23,Chilli Baby Corn (dry),Starter,16,15,1,50,0
+2024-10-23,Chicken Pepper Bbq Pizza (Medium),Pizza,37,35,2,90,0
+2024-10-23,Bbq Fried Wings 6 Pcs.,Snacks,25,29,0,65,0
+2024-10-23,Cold Coffee,Cold Beverages,30,31,0,25,0
+2024-10-23,Virgin Mojito,Mocktails,19,12,7,30,0
+2024-10-24,Chicken Lollipop 6pcs,Starter,39,37,2,70,0
+2024-10-24,Chilli Baby Corn (dry),Starter,38,31,7,50,0
+2024-10-24,Chicken Pepper Bbq Pizza (Medium),Pizza,37,31,6,90,0
+2024-10-24,Bbq Fried Wings 6 Pcs.,Snacks,35,27,8,65,0
+2024-10-24,Cold Coffee,Cold Beverages,34,32,2,25,0
+2024-10-24,Virgin Mojito,Mocktails,22,19,3,30,0
+2024-10-25,Chicken Lollipop 6pcs,Starter,22,23,0,70,0
+2024-10-25,Chilli Baby Corn (dry),Starter,20,23,0,50,0
+2024-10-25,Chicken Pepper Bbq Pizza (Medium),Pizza,54,46,8,90,0
+2024-10-25,Bbq Fried Wings 6 Pcs.,Snacks,41,45,0,65,0
+2024-10-25,Cold Coffee,Cold Beverages,26,30,0,25,0
+2024-10-25,Virgin Mojito,Mocktails,22,24,0,30,0
+2024-10-26,Chicken Lollipop 6pcs,Starter,39,39,0,70,0
+2024-10-26,Chilli Baby Corn (dry),Starter,43,38,5,50,0
+2024-10-26,Chicken Pepper Bbq Pizza (Medium),Pizza,43,48,0,90,0
+2024-10-26,Bbq Fried Wings 6 Pcs.,Snacks,47,40,7,65,0
+2024-10-26,Cold Coffee,Cold Beverages,29,22,7,25,0
+2024-10-26,Virgin Mojito,Mocktails,32,32,0,30,0
+2024-10-27,Chicken Lollipop 6pcs,Starter,22,23,0,70,0
+2024-10-27,Chilli Baby Corn (dry),Starter,48,46,2,50,0
+2024-10-27,Chicken Pepper Bbq Pizza (Medium),Pizza,35,36,0,90,0
+2024-10-27,Bbq Fried Wings 6 Pcs.,Snacks,30,23,7,65,0
+2024-10-27,Cold Coffee,Cold Beverages,19,19,0,25,0
+2024-10-27,Virgin Mojito,Mocktails,32,30,2,30,0
+2024-10-28,Chicken Lollipop 6pcs,Starter,31,28,3,70,0
+2024-10-28,Chilli Baby Corn (dry),Starter,40,35,5,50,0
+2024-10-28,Chicken Pepper Bbq Pizza (Medium),Pizza,22,22,0,90,0
+2024-10-28,Bbq Fried Wings 6 Pcs.,Snacks,45,39,6,65,0
+2024-10-28,Cold Coffee,Cold Beverages,22,19,3,25,0
+2024-10-28,Virgin Mojito,Mocktails,16,14,2,30,0
+2024-10-29,Chicken Lollipop 6pcs,Starter,43,45,0,70,0
+2024-10-29,Chilli Baby Corn (dry),Starter,28,23,5,50,0
+2024-10-29,Chicken Pepper Bbq Pizza (Medium),Pizza,16,17,0,90,0
+2024-10-29,Bbq Fried Wings 6 Pcs.,Snacks,33,34,0,65,0
+2024-10-29,Cold Coffee,Cold Beverages,33,28,5,25,0
+2024-10-29,Virgin Mojito,Mocktails,36,33,3,30,0
+2024-10-30,Chicken Lollipop 6pcs,Starter,30,27,3,70,0
+2024-10-30,Chilli Baby Corn (dry),Starter,33,29,4,50,0
+2024-10-30,Chicken Pepper Bbq Pizza (Medium),Pizza,27,26,1,90,0
+2024-10-30,Bbq Fried Wings 6 Pcs.,Snacks,23,22,1,65,0
+2024-10-30,Cold Coffee,Cold Beverages,20,23,0,25,0
+2024-10-30,Virgin Mojito,Mocktails,35,32,3,30,0
+2024-10-31,Chicken Lollipop 6pcs,Starter,36,36,0,70,0
+2024-10-31,Chilli Baby Corn (dry),Starter,37,33,4,50,0
+2024-10-31,Chicken Pepper Bbq Pizza (Medium),Pizza,31,33,0,90,0
+2024-10-31,Bbq Fried Wings 6 Pcs.,Snacks,34,31,3,65,0
+2024-10-31,Cold Coffee,Cold Beverages,22,30,0,25,0
+2024-10-31,Virgin Mojito,Mocktails,44,31,13,30,0
+2024-11-01,Chicken Lollipop 6pcs,Starter,26,27,0,70,0
+2024-11-01,Chilli Baby Corn (dry),Starter,35,32,3,50,0
+2024-11-01,Chicken Pepper Bbq Pizza (Medium),Pizza,35,39,0,90,0
+2024-11-01,Bbq Fried Wings 6 Pcs.,Snacks,39,35,4,65,0
+2024-11-01,Cold Coffee,Cold Beverages,31,28,3,25,0
+2024-11-01,Virgin Mojito,Mocktails,44,38,6,30,0
+2024-11-02,Chicken Lollipop 6pcs,Starter,26,20,6,70,0
+2024-11-02,Chilli Baby Corn (dry),Starter,31,29,2,50,0
+2024-11-02,Chicken Pepper Bbq Pizza (Medium),Pizza,31,30,1,90,0
+2024-11-02,Bbq Fried Wings 6 Pcs.,Snacks,40,39,1,65,0
+2024-11-02,Cold Coffee,Cold Beverages,21,21,0,25,0
+2024-11-02,Virgin Mojito,Mocktails,39,31,8,30,0
+2024-11-03,Chicken Lollipop 6pcs,Starter,32,34,0,70,0
+2024-11-03,Chilli Baby Corn (dry),Starter,52,49,3,50,0
+2024-11-03,Chicken Pepper Bbq Pizza (Medium),Pizza,41,40,1,90,0
+2024-11-03,Bbq Fried Wings 6 Pcs.,Snacks,40,34,6,65,0
+2024-11-03,Cold Coffee,Cold Beverages,46,39,7,25,0
+2024-11-03,Virgin Mojito,Mocktails,36,36,0,30,0
+2024-11-04,Chicken Lollipop 6pcs,Starter,28,25,3,70,0
+2024-11-04,Chilli Baby Corn (dry),Starter,37,37,0,50,0
+2024-11-04,Chicken Pepper Bbq Pizza (Medium),Pizza,47,38,9,90,0
+2024-11-04,Bbq Fried Wings 6 Pcs.,Snacks,20,22,0,65,0
+2024-11-04,Cold Coffee,Cold Beverages,31,28,3,25,0
+2024-11-04,Virgin Mojito,Mocktails,33,25,8,30,0
+2024-11-05,Chicken Lollipop 6pcs,Starter,35,33,2,70,0
+2024-11-05,Chilli Baby Corn (dry),Starter,14,18,0,50,0
+2024-11-05,Chicken Pepper Bbq Pizza (Medium),Pizza,24,32,0,90,0
+2024-11-05,Bbq Fried Wings 6 Pcs.,Snacks,39,38,1,65,0
+2024-11-05,Cold Coffee,Cold Beverages,68,55,13,25,0
+2024-11-05,Virgin Mojito,Mocktails,29,28,1,30,0
+2024-11-06,Chicken Lollipop 6pcs,Starter,47,37,10,70,0
+2024-11-06,Chilli Baby Corn (dry),Starter,10,16,0,50,0
+2024-11-06,Chicken Pepper Bbq Pizza (Medium),Pizza,29,25,4,90,0
+2024-11-06,Bbq Fried Wings 6 Pcs.,Snacks,40,33,7,65,0
+2024-11-06,Cold Coffee,Cold Beverages,11,20,0,25,0
+2024-11-06,Virgin Mojito,Mocktails,34,36,0,30,0
+2024-11-07,Chicken Lollipop 6pcs,Starter,15,13,2,70,0
+2024-11-07,Chilli Baby Corn (dry),Starter,37,36,1,50,0
+2024-11-07,Chicken Pepper Bbq Pizza (Medium),Pizza,27,26,1,90,0
+2024-11-07,Bbq Fried Wings 6 Pcs.,Snacks,23,27,0,65,0
+2024-11-07,Cold Coffee,Cold Beverages,28,24,4,25,0
+2024-11-07,Virgin Mojito,Mocktails,34,32,2,30,0
+2024-11-08,Chicken Lollipop 6pcs,Starter,23,22,1,70,0
+2024-11-08,Chilli Baby Corn (dry),Starter,14,12,2,50,0
+2024-11-08,Chicken Pepper Bbq Pizza (Medium),Pizza,36,41,0,90,0
+2024-11-08,Bbq Fried Wings 6 Pcs.,Snacks,28,25,3,65,0
+2024-11-08,Cold Coffee,Cold Beverages,40,40,0,25,0
+2024-11-08,Virgin Mojito,Mocktails,17,24,0,30,0
+2024-11-09,Chicken Lollipop 6pcs,Starter,42,30,12,70,0
+2024-11-09,Chilli Baby Corn (dry),Starter,33,32,1,50,0
+2024-11-09,Chicken Pepper Bbq Pizza (Medium),Pizza,33,32,1,90,0
+2024-11-09,Bbq Fried Wings 6 Pcs.,Snacks,29,23,6,65,0
+2024-11-09,Cold Coffee,Cold Beverages,33,31,2,25,0
+2024-11-09,Virgin Mojito,Mocktails,30,22,8,30,0
+2024-11-10,Chicken Lollipop 6pcs,Starter,35,35,0,70,0
+2024-11-10,Chilli Baby Corn (dry),Starter,38,38,0,50,0
+2024-11-10,Chicken Pepper Bbq Pizza (Medium),Pizza,22,23,0,90,0
+2024-11-10,Bbq Fried Wings 6 Pcs.,Snacks,19,15,4,65,0
+2024-11-10,Cold Coffee,Cold Beverages,11,15,0,25,0
+2024-11-10,Virgin Mojito,Mocktails,14,13,1,30,0
+2024-11-11,Chicken Lollipop 6pcs,Starter,28,28,0,70,0
+2024-11-11,Chilli Baby Corn (dry),Starter,18,21,0,50,0
+2024-11-11,Chicken Pepper Bbq Pizza (Medium),Pizza,33,33,0,90,0
+2024-11-11,Bbq Fried Wings 6 Pcs.,Snacks,30,32,0,65,0
+2024-11-11,Cold Coffee,Cold Beverages,39,31,8,25,0
+2024-11-11,Virgin Mojito,Mocktails,34,34,0,30,0
+2024-11-12,Chicken Lollipop 6pcs,Starter,32,32,0,70,0
+2024-11-12,Chilli Baby Corn (dry),Starter,30,30,0,50,0
+2024-11-12,Chicken Pepper Bbq Pizza (Medium),Pizza,31,28,3,90,0
+2024-11-12,Bbq Fried Wings 6 Pcs.,Snacks,19,22,0,65,0
+2024-11-12,Cold Coffee,Cold Beverages,12,18,0,25,0
+2024-11-12,Virgin Mojito,Mocktails,22,20,2,30,0
+2024-11-13,Chicken Lollipop 6pcs,Starter,26,22,4,70,0
+2024-11-13,Chilli Baby Corn (dry),Starter,23,30,0,50,0
+2024-11-13,Chicken Pepper Bbq Pizza (Medium),Pizza,41,35,6,90,0
+2024-11-13,Bbq Fried Wings 6 Pcs.,Snacks,26,22,4,65,0
+2024-11-13,Cold Coffee,Cold Beverages,25,23,2,25,0
+2024-11-13,Virgin Mojito,Mocktails,13,19,0,30,0
+2024-11-14,Chicken Lollipop 6pcs,Starter,27,26,1,70,0
+2024-11-14,Chilli Baby Corn (dry),Starter,23,26,0,50,0
+2024-11-14,Chicken Pepper Bbq Pizza (Medium),Pizza,29,26,3,90,0
+2024-11-14,Bbq Fried Wings 6 Pcs.,Snacks,31,29,2,65,0
+2024-11-14,Cold Coffee,Cold Beverages,31,24,7,25,0
+2024-11-14,Virgin Mojito,Mocktails,24,20,4,30,0
+2024-11-15,Chicken Lollipop 6pcs,Starter,43,39,4,70,0
+2024-11-15,Chilli Baby Corn (dry),Starter,28,28,0,50,0
+2024-11-15,Chicken Pepper Bbq Pizza (Medium),Pizza,33,38,0,90,0
+2024-11-15,Bbq Fried Wings 6 Pcs.,Snacks,22,22,0,65,0
+2024-11-15,Cold Coffee,Cold Beverages,42,39,3,25,0
+2024-11-15,Virgin Mojito,Mocktails,22,22,0,30,0
+2024-11-16,Chicken Lollipop 6pcs,Starter,24,25,0,70,0
+2024-11-16,Chilli Baby Corn (dry),Starter,33,37,0,50,0
+2024-11-16,Chicken Pepper Bbq Pizza (Medium),Pizza,48,42,6,90,0
+2024-11-16,Bbq Fried Wings 6 Pcs.,Snacks,38,38,0,65,0
+2024-11-16,Cold Coffee,Cold Beverages,23,28,0,25,0
+2024-11-16,Virgin Mojito,Mocktails,29,25,4,30,0
+2024-11-17,Chicken Lollipop 6pcs,Starter,37,40,0,70,0
+2024-11-17,Chilli Baby Corn (dry),Starter,28,27,1,50,0
+2024-11-17,Chicken Pepper Bbq Pizza (Medium),Pizza,22,18,4,90,0
+2024-11-17,Bbq Fried Wings 6 Pcs.,Snacks,25,24,1,65,0
+2024-11-17,Cold Coffee,Cold Beverages,25,26,0,25,0
+2024-11-17,Virgin Mojito,Mocktails,29,29,0,30,0
+2024-11-18,Chicken Lollipop 6pcs,Starter,26,27,0,70,0
+2024-11-18,Chilli Baby Corn (dry),Starter,42,32,10,50,0
+2024-11-18,Chicken Pepper Bbq Pizza (Medium),Pizza,37,31,6,90,0
+2024-11-18,Bbq Fried Wings 6 Pcs.,Snacks,20,18,2,65,0
+2024-11-18,Cold Coffee,Cold Beverages,16,21,0,25,0
+2024-11-18,Virgin Mojito,Mocktails,31,24,7,30,0
+2024-11-19,Chicken Lollipop 6pcs,Starter,40,37,3,70,0
+2024-11-19,Chilli Baby Corn (dry),Starter,18,17,1,50,0
+2024-11-19,Chicken Pepper Bbq Pizza (Medium),Pizza,34,32,2,90,0
+2024-11-19,Bbq Fried Wings 6 Pcs.,Snacks,13,15,0,65,0
+2024-11-19,Cold Coffee,Cold Beverages,33,29,4,25,0
+2024-11-19,Virgin Mojito,Mocktails,13,12,1,30,0
+2024-11-20,Chicken Lollipop 6pcs,Starter,37,31,6,70,0
+2024-11-20,Chilli Baby Corn (dry),Starter,39,35,4,50,0
+2024-11-20,Chicken Pepper Bbq Pizza (Medium),Pizza,16,23,0,90,0
+2024-11-20,Bbq Fried Wings 6 Pcs.,Snacks,33,26,7,65,0
+2024-11-20,Cold Coffee,Cold Beverages,46,41,5,25,0
+2024-11-20,Virgin Mojito,Mocktails,36,33,3,30,0
+2024-11-21,Chicken Lollipop 6pcs,Starter,26,25,1,70,0
+2024-11-21,Chilli Baby Corn (dry),Starter,41,43,0,50,0
+2024-11-21,Chicken Pepper Bbq Pizza (Medium),Pizza,42,42,0,90,0
+2024-11-21,Bbq Fried Wings 6 Pcs.,Snacks,35,40,0,65,0
+2024-11-21,Cold Coffee,Cold Beverages,33,34,0,25,0
+2024-11-21,Virgin Mojito,Mocktails,21,18,3,30,0
+2024-11-22,Chicken Lollipop 6pcs,Starter,36,38,0,70,0
+2024-11-22,Chilli Baby Corn (dry),Starter,19,18,1,50,0
+2024-11-22,Chicken Pepper Bbq Pizza (Medium),Pizza,33,29,4,90,0
+2024-11-22,Bbq Fried Wings 6 Pcs.,Snacks,38,37,1,65,0
+2024-11-22,Cold Coffee,Cold Beverages,47,44,3,25,0
+2024-11-22,Virgin Mojito,Mocktails,21,27,0,30,0
+2024-11-23,Chicken Lollipop 6pcs,Starter,27,27,0,70,0
+2024-11-23,Chilli Baby Corn (dry),Starter,41,37,4,50,0
+2024-11-23,Chicken Pepper Bbq Pizza (Medium),Pizza,22,20,2,90,0
+2024-11-23,Bbq Fried Wings 6 Pcs.,Snacks,44,35,9,65,0
+2024-11-23,Cold Coffee,Cold Beverages,42,37,5,25,0
+2024-11-23,Virgin Mojito,Mocktails,33,30,3,30,0
+2024-11-24,Chicken Lollipop 6pcs,Starter,35,39,0,70,0
+2024-11-24,Chilli Baby Corn (dry),Starter,26,27,0,50,0
+2024-11-24,Chicken Pepper Bbq Pizza (Medium),Pizza,41,33,8,90,0
+2024-11-24,Bbq Fried Wings 6 Pcs.,Snacks,16,25,0,65,0
+2024-11-24,Cold Coffee,Cold Beverages,32,26,6,25,0
+2024-11-24,Virgin Mojito,Mocktails,38,34,4,30,0
+2024-11-25,Chicken Lollipop 6pcs,Starter,23,27,0,70,0
+2024-11-25,Chilli Baby Corn (dry),Starter,32,34,0,50,0
+2024-11-25,Chicken Pepper Bbq Pizza (Medium),Pizza,51,47,4,90,0
+2024-11-25,Bbq Fried Wings 6 Pcs.,Snacks,24,25,0,65,0
+2024-11-25,Cold Coffee,Cold Beverages,29,29,0,25,0
+2024-11-25,Virgin Mojito,Mocktails,40,38,2,30,0
+2024-11-26,Chicken Lollipop 6pcs,Starter,35,24,11,70,0
+2024-11-26,Chilli Baby Corn (dry),Starter,35,30,5,50,0
+2024-11-26,Chicken Pepper Bbq Pizza (Medium),Pizza,28,25,3,90,0
+2024-11-26,Bbq Fried Wings 6 Pcs.,Snacks,25,32,0,65,0
+2024-11-26,Cold Coffee,Cold Beverages,54,46,8,25,0
+2024-11-26,Virgin Mojito,Mocktails,23,26,0,30,0
+2024-11-27,Chicken Lollipop 6pcs,Starter,34,32,2,70,0
+2024-11-27,Chilli Baby Corn (dry),Starter,34,32,2,50,0
+2024-11-27,Chicken Pepper Bbq Pizza (Medium),Pizza,43,34,9,90,0
+2024-11-27,Bbq Fried Wings 6 Pcs.,Snacks,31,34,0,65,0
+2024-11-27,Cold Coffee,Cold Beverages,50,40,10,25,0
+2024-11-27,Virgin Mojito,Mocktails,52,55,0,30,0
+2024-11-28,Chicken Lollipop 6pcs,Starter,23,31,0,70,0
+2024-11-28,Chilli Baby Corn (dry),Starter,34,34,0,50,0
+2024-11-28,Chicken Pepper Bbq Pizza (Medium),Pizza,44,45,0,90,0
+2024-11-28,Bbq Fried Wings 6 Pcs.,Snacks,16,16,0,65,0
+2024-11-28,Cold Coffee,Cold Beverages,19,14,5,25,0
+2024-11-28,Virgin Mojito,Mocktails,15,13,2,30,0
+2024-11-29,Chicken Lollipop 6pcs,Starter,13,13,0,70,0
+2024-11-29,Chilli Baby Corn (dry),Starter,46,43,3,50,0
+2024-11-29,Chicken Pepper Bbq Pizza (Medium),Pizza,24,23,1,90,0
+2024-11-29,Bbq Fried Wings 6 Pcs.,Snacks,34,30,4,65,0
+2024-11-29,Cold Coffee,Cold Beverages,23,19,4,25,0
+2024-11-29,Virgin Mojito,Mocktails,7,8,0,30,0
+2024-11-30,Chicken Lollipop 6pcs,Starter,31,26,5,70,0
+2024-11-30,Chilli Baby Corn (dry),Starter,25,30,0,50,0
+2024-11-30,Chicken Pepper Bbq Pizza (Medium),Pizza,24,22,2,90,0
+2024-11-30,Bbq Fried Wings 6 Pcs.,Snacks,29,29,0,65,0
+2024-11-30,Cold Coffee,Cold Beverages,31,26,5,25,0
+2024-11-30,Virgin Mojito,Mocktails,26,25,1,30,0
+2024-12-01,Chicken Lollipop 6pcs,Starter,42,47,0,70,0
+2024-12-01,Chilli Baby Corn (dry),Starter,20,15,5,50,0
+2024-12-01,Chicken Pepper Bbq Pizza (Medium),Pizza,24,24,0,90,0
+2024-12-01,Bbq Fried Wings 6 Pcs.,Snacks,23,23,0,65,0
+2024-12-01,Cold Coffee,Cold Beverages,48,42,6,25,0
+2024-12-01,Virgin Mojito,Mocktails,31,36,0,30,0
+2024-12-02,Chicken Lollipop 6pcs,Starter,8,20,0,70,0
+2024-12-02,Chilli Baby Corn (dry),Starter,29,23,6,50,0
+2024-12-02,Chicken Pepper Bbq Pizza (Medium),Pizza,34,34,0,90,0
+2024-12-02,Bbq Fried Wings 6 Pcs.,Snacks,28,29,0,65,0
+2024-12-02,Cold Coffee,Cold Beverages,36,31,5,25,0
+2024-12-02,Virgin Mojito,Mocktails,20,17,3,30,0
+2024-12-03,Chicken Lollipop 6pcs,Starter,37,37,0,70,0
+2024-12-03,Chilli Baby Corn (dry),Starter,51,35,16,50,0
+2024-12-03,Chicken Pepper Bbq Pizza (Medium),Pizza,32,29,3,90,0
+2024-12-03,Bbq Fried Wings 6 Pcs.,Snacks,26,24,2,65,0
+2024-12-03,Cold Coffee,Cold Beverages,35,33,2,25,0
+2024-12-03,Virgin Mojito,Mocktails,24,21,3,30,0
+2024-12-04,Chicken Lollipop 6pcs,Starter,45,41,4,70,0
+2024-12-04,Chilli Baby Corn (dry),Starter,37,37,0,50,0
+2024-12-04,Chicken Pepper Bbq Pizza (Medium),Pizza,38,35,3,90,0
+2024-12-04,Bbq Fried Wings 6 Pcs.,Snacks,25,22,3,65,0
+2024-12-04,Cold Coffee,Cold Beverages,21,22,0,25,0
+2024-12-04,Virgin Mojito,Mocktails,34,31,3,30,0
+2024-12-05,Chicken Lollipop 6pcs,Starter,27,20,7,70,0
+2024-12-05,Chilli Baby Corn (dry),Starter,33,34,0,50,0
+2024-12-05,Chicken Pepper Bbq Pizza (Medium),Pizza,18,17,1,90,0
+2024-12-05,Bbq Fried Wings 6 Pcs.,Snacks,28,26,2,65,0
+2024-12-05,Cold Coffee,Cold Beverages,19,27,0,25,0
+2024-12-05,Virgin Mojito,Mocktails,26,26,0,30,0
+2024-12-06,Chicken Lollipop 6pcs,Starter,34,35,0,70,0
+2024-12-06,Chilli Baby Corn (dry),Starter,36,43,0,50,0
+2024-12-06,Chicken Pepper Bbq Pizza (Medium),Pizza,40,40,0,90,0
+2024-12-06,Bbq Fried Wings 6 Pcs.,Snacks,38,36,2,65,0
+2024-12-06,Cold Coffee,Cold Beverages,39,39,0,25,0
+2024-12-06,Virgin Mojito,Mocktails,30,21,9,30,0
+2024-12-07,Chicken Lollipop 6pcs,Starter,32,29,3,70,0
+2024-12-07,Chilli Baby Corn (dry),Starter,36,39,0,50,0
+2024-12-07,Chicken Pepper Bbq Pizza (Medium),Pizza,34,34,0,90,0
+2024-12-07,Bbq Fried Wings 6 Pcs.,Snacks,30,28,2,65,0
+2024-12-07,Cold Coffee,Cold Beverages,16,17,0,25,0
+2024-12-07,Virgin Mojito,Mocktails,46,40,6,30,0
+2024-12-08,Chicken Lollipop 6pcs,Starter,32,29,3,70,0
+2024-12-08,Chilli Baby Corn (dry),Starter,35,27,8,50,0
+2024-12-08,Chicken Pepper Bbq Pizza (Medium),Pizza,31,28,3,90,0
+2024-12-08,Bbq Fried Wings 6 Pcs.,Snacks,38,39,0,65,0
+2024-12-08,Cold Coffee,Cold Beverages,37,42,0,25,0
+2024-12-08,Virgin Mojito,Mocktails,43,43,0,30,0
+2024-12-09,Chicken Lollipop 6pcs,Starter,21,28,0,70,0
+2024-12-09,Chilli Baby Corn (dry),Starter,23,26,0,50,0
+2024-12-09,Chicken Pepper Bbq Pizza (Medium),Pizza,26,25,1,90,0
+2024-12-09,Bbq Fried Wings 6 Pcs.,Snacks,40,37,3,65,0
+2024-12-09,Cold Coffee,Cold Beverages,29,32,0,25,0
+2024-12-09,Virgin Mojito,Mocktails,32,22,10,30,0
+2024-12-10,Chicken Lollipop 6pcs,Starter,34,24,10,70,0
+2024-12-10,Chilli Baby Corn (dry),Starter,30,28,2,50,0
+2024-12-10,Chicken Pepper Bbq Pizza (Medium),Pizza,46,38,8,90,0
+2024-12-10,Bbq Fried Wings 6 Pcs.,Snacks,29,29,0,65,0
+2024-12-10,Cold Coffee,Cold Beverages,32,29,3,25,0
+2024-12-10,Virgin Mojito,Mocktails,39,37,2,30,0
+2024-12-11,Chicken Lollipop 6pcs,Starter,44,34,10,70,0
+2024-12-11,Chilli Baby Corn (dry),Starter,36,33,3,50,0
+2024-12-11,Chicken Pepper Bbq Pizza (Medium),Pizza,6,17,0,90,0
+2024-12-11,Bbq Fried Wings 6 Pcs.,Snacks,34,33,1,65,0
+2024-12-11,Cold Coffee,Cold Beverages,28,25,3,25,0
+2024-12-11,Virgin Mojito,Mocktails,36,29,7,30,0
+2024-12-12,Chicken Lollipop 6pcs,Starter,29,30,0,70,0
+2024-12-12,Chilli Baby Corn (dry),Starter,37,37,0,50,0
+2024-12-12,Chicken Pepper Bbq Pizza (Medium),Pizza,34,34,0,90,0
+2024-12-12,Bbq Fried Wings 6 Pcs.,Snacks,26,24,2,65,0
+2024-12-12,Cold Coffee,Cold Beverages,34,30,4,25,0
+2024-12-12,Virgin Mojito,Mocktails,20,27,0,30,0
+2024-12-13,Chicken Lollipop 6pcs,Starter,31,26,5,70,0
+2024-12-13,Chilli Baby Corn (dry),Starter,27,27,0,50,0
+2024-12-13,Chicken Pepper Bbq Pizza (Medium),Pizza,36,37,0,90,0
+2024-12-13,Bbq Fried Wings 6 Pcs.,Snacks,18,17,1,65,0
+2024-12-13,Cold Coffee,Cold Beverages,24,26,0,25,0
+2024-12-13,Virgin Mojito,Mocktails,32,28,4,30,0
+2024-12-14,Chicken Lollipop 6pcs,Starter,32,29,3,70,0
+2024-12-14,Chilli Baby Corn (dry),Starter,44,44,0,50,0
+2024-12-14,Chicken Pepper Bbq Pizza (Medium),Pizza,32,32,0,90,0
+2024-12-14,Bbq Fried Wings 6 Pcs.,Snacks,23,23,0,65,0
+2024-12-14,Cold Coffee,Cold Beverages,29,26,3,25,0
+2024-12-14,Virgin Mojito,Mocktails,47,48,0,30,0
+2024-12-15,Chicken Lollipop 6pcs,Starter,27,26,1,70,0
+2024-12-15,Chilli Baby Corn (dry),Starter,36,33,3,50,0
+2024-12-15,Chicken Pepper Bbq Pizza (Medium),Pizza,30,40,0,90,0
+2024-12-15,Bbq Fried Wings 6 Pcs.,Snacks,10,10,0,65,0
+2024-12-15,Cold Coffee,Cold Beverages,33,38,0,25,0
+2024-12-15,Virgin Mojito,Mocktails,9,5,4,30,0
+2024-12-16,Chicken Lollipop 6pcs,Starter,28,31,0,70,0
+2024-12-16,Chilli Baby Corn (dry),Starter,20,22,0,50,0
+2024-12-16,Chicken Pepper Bbq Pizza (Medium),Pizza,29,30,0,90,0
+2024-12-16,Bbq Fried Wings 6 Pcs.,Snacks,21,33,0,65,0
+2024-12-16,Cold Coffee,Cold Beverages,20,23,0,25,0
+2024-12-16,Virgin Mojito,Mocktails,27,27,0,30,0
+2024-12-17,Chicken Lollipop 6pcs,Starter,29,36,0,70,0
+2024-12-17,Chilli Baby Corn (dry),Starter,34,30,4,50,0
+2024-12-17,Chicken Pepper Bbq Pizza (Medium),Pizza,44,44,0,90,0
+2024-12-17,Bbq Fried Wings 6 Pcs.,Snacks,25,32,0,65,0
+2024-12-17,Cold Coffee,Cold Beverages,16,10,6,25,0
+2024-12-17,Virgin Mojito,Mocktails,36,29,7,30,0
+2024-12-18,Chicken Lollipop 6pcs,Starter,23,19,4,70,0
+2024-12-18,Chilli Baby Corn (dry),Starter,48,44,4,50,0
+2024-12-18,Chicken Pepper Bbq Pizza (Medium),Pizza,34,32,2,90,0
+2024-12-18,Bbq Fried Wings 6 Pcs.,Snacks,25,17,8,65,0
+2024-12-18,Cold Coffee,Cold Beverages,29,25,4,25,0
+2024-12-18,Virgin Mojito,Mocktails,14,17,0,30,0
+2024-12-19,Chicken Lollipop 6pcs,Starter,41,41,0,70,0
+2024-12-19,Chilli Baby Corn (dry),Starter,42,41,1,50,0
+2024-12-19,Chicken Pepper Bbq Pizza (Medium),Pizza,21,15,6,90,0
+2024-12-19,Bbq Fried Wings 6 Pcs.,Snacks,30,25,5,65,0
+2024-12-19,Cold Coffee,Cold Beverages,25,30,0,25,0
+2024-12-19,Virgin Mojito,Mocktails,43,31,12,30,0
+2024-12-20,Chicken Lollipop 6pcs,Starter,34,33,1,70,0
+2024-12-20,Chilli Baby Corn (dry),Starter,41,38,3,50,0
+2024-12-20,Chicken Pepper Bbq Pizza (Medium),Pizza,28,31,0,90,0
+2024-12-20,Bbq Fried Wings 6 Pcs.,Snacks,38,31,7,65,0
+2024-12-20,Cold Coffee,Cold Beverages,32,23,9,25,0
+2024-12-20,Virgin Mojito,Mocktails,27,29,0,30,0
+2024-12-21,Chicken Lollipop 6pcs,Starter,37,37,0,70,0
+2024-12-21,Chilli Baby Corn (dry),Starter,36,36,0,50,0
+2024-12-21,Chicken Pepper Bbq Pizza (Medium),Pizza,33,29,4,90,0
+2024-12-21,Bbq Fried Wings 6 Pcs.,Snacks,25,32,0,65,0
+2024-12-21,Cold Coffee,Cold Beverages,27,21,6,25,0
+2024-12-21,Virgin Mojito,Mocktails,28,28,0,30,0
+2024-12-22,Chicken Lollipop 6pcs,Starter,16,19,0,70,0
+2024-12-22,Chilli Baby Corn (dry),Starter,14,13,1,50,0
+2024-12-22,Chicken Pepper Bbq Pizza (Medium),Pizza,23,25,0,90,0
+2024-12-22,Bbq Fried Wings 6 Pcs.,Snacks,32,29,3,65,0
+2024-12-22,Cold Coffee,Cold Beverages,41,46,0,25,0
+2024-12-22,Virgin Mojito,Mocktails,45,39,6,30,0
+2024-12-23,Chicken Lollipop 6pcs,Starter,26,23,3,70,0
+2024-12-23,Chilli Baby Corn (dry),Starter,28,26,2,50,0
+2024-12-23,Chicken Pepper Bbq Pizza (Medium),Pizza,47,42,5,90,0
+2024-12-23,Bbq Fried Wings 6 Pcs.,Snacks,34,34,0,65,0
+2024-12-23,Cold Coffee,Cold Beverages,18,18,0,25,0
+2024-12-23,Virgin Mojito,Mocktails,34,39,0,30,0
+2024-12-24,Chicken Lollipop 6pcs,Starter,23,21,2,70,0
+2024-12-24,Chilli Baby Corn (dry),Starter,21,22,0,50,0
+2024-12-24,Chicken Pepper Bbq Pizza (Medium),Pizza,22,26,0,90,0
+2024-12-24,Bbq Fried Wings 6 Pcs.,Snacks,27,22,5,65,0
+2024-12-24,Cold Coffee,Cold Beverages,14,19,0,25,0
+2024-12-24,Virgin Mojito,Mocktails,29,24,5,30,0
+2024-12-25,Chicken Lollipop 6pcs,Starter,28,28,0,70,0
+2024-12-25,Chilli Baby Corn (dry),Starter,24,30,0,50,0
+2024-12-25,Chicken Pepper Bbq Pizza (Medium),Pizza,36,33,3,90,0
+2024-12-25,Bbq Fried Wings 6 Pcs.,Snacks,33,26,7,65,0
+2024-12-25,Cold Coffee,Cold Beverages,27,20,7,25,0
+2024-12-25,Virgin Mojito,Mocktails,31,31,0,30,0
+2024-12-26,Chicken Lollipop 6pcs,Starter,30,29,1,70,0
+2024-12-26,Chilli Baby Corn (dry),Starter,36,39,0,50,0
+2024-12-26,Chicken Pepper Bbq Pizza (Medium),Pizza,30,23,7,90,0
+2024-12-26,Bbq Fried Wings 6 Pcs.,Snacks,31,25,6,65,0
+2024-12-26,Cold Coffee,Cold Beverages,43,43,0,25,0
+2024-12-26,Virgin Mojito,Mocktails,32,35,0,30,0
+2024-12-27,Chicken Lollipop 6pcs,Starter,38,36,2,70,0
+2024-12-27,Chilli Baby Corn (dry),Starter,32,33,0,50,0
+2024-12-27,Chicken Pepper Bbq Pizza (Medium),Pizza,20,16,4,90,0
+2024-12-27,Bbq Fried Wings 6 Pcs.,Snacks,13,13,0,65,0
+2024-12-27,Cold Coffee,Cold Beverages,39,37,2,25,0
+2024-12-27,Virgin Mojito,Mocktails,52,45,7,30,0
+2024-12-28,Chicken Lollipop 6pcs,Starter,26,24,2,70,0
+2024-12-28,Chilli Baby Corn (dry),Starter,24,29,0,50,0
+2024-12-28,Chicken Pepper Bbq Pizza (Medium),Pizza,22,22,0,90,0
+2024-12-28,Bbq Fried Wings 6 Pcs.,Snacks,15,13,2,65,0
+2024-12-28,Cold Coffee,Cold Beverages,22,28,0,25,0
+2024-12-28,Virgin Mojito,Mocktails,38,33,5,30,0
+2024-12-29,Chicken Lollipop 6pcs,Starter,31,31,0,70,0
+2024-12-29,Chilli Baby Corn (dry),Starter,39,34,5,50,0
+2024-12-29,Chicken Pepper Bbq Pizza (Medium),Pizza,30,32,0,90,0
+2024-12-29,Bbq Fried Wings 6 Pcs.,Snacks,39,32,7,65,0
+2024-12-29,Cold Coffee,Cold Beverages,37,25,12,25,0
+2024-12-29,Virgin Mojito,Mocktails,27,25,2,30,0
+2024-12-30,Chicken Lollipop 6pcs,Starter,27,24,3,70,0
+2024-12-30,Chilli Baby Corn (dry),Starter,16,16,0,50,0
+2024-12-30,Chicken Pepper Bbq Pizza (Medium),Pizza,23,21,2,90,0
+2024-12-30,Bbq Fried Wings 6 Pcs.,Snacks,42,37,5,65,0
+2024-12-30,Cold Coffee,Cold Beverages,23,11,12,25,0
+2024-12-30,Virgin Mojito,Mocktails,31,32,0,30,0
+2024-12-31,Chicken Lollipop 6pcs,Starter,33,31,2,70,0
+2024-12-31,Chilli Baby Corn (dry),Starter,26,24,2,50,0
+2024-12-31,Chicken Pepper Bbq Pizza (Medium),Pizza,25,25,0,90,0
+2024-12-31,Bbq Fried Wings 6 Pcs.,Snacks,19,24,0,65,0
+2024-12-31,Cold Coffee,Cold Beverages,35,31,4,25,0
+2024-12-31,Virgin Mojito,Mocktails,40,34,6,30,0

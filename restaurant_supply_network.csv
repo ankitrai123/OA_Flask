@@ -1,0 +1,151 @@
+Route_ID,Supplier,Ingredient_Category,Delivery_Cost_INR,Lead_Time_Days,Minimum_Order_Qty
+RT-939,City Central Market,Vegetables,1358.4,2,50
+RT-808,Metro Wholesale,Poultry (Chicken),1445.47,2,50
+RT-670,Metro Wholesale,Vegetables,1483.63,2,50
+RT-718,City Central Market,Poultry (Chicken),1827.65,1,150
+RT-175,Metro Wholesale,Vegetables,1251.81,1,50
+RT-777,Metro Wholesale,Vegetables,1253.35,2,100
+RT-888,Metro Wholesale,Poultry (Chicken),1560.05,1,50
+RT-520,Local Farm Co.,Vegetables,778.94,5,50
+RT-207,City Central Market,Beverage Syrups,1819.12,1,100
+RT-408,Metro Wholesale,Beverage Syrups,1344.76,2,50
+RT-939,Metro Wholesale,Beverage Syrups,1789.88,1,50
+RT-205,Local Farm Co.,Dairy & Cheese,791.32,5,50
+RT-596,Metro Wholesale,Poultry (Chicken),1630.72,1,100
+RT-411,Local Farm Co.,Dairy & Cheese,771.95,4,150
+RT-904,Local Farm Co.,Beverage Syrups,535.32,5,100
+RT-150,City Central Market,Dairy & Cheese,1461.15,1,150
+RT-115,Local Farm Co.,Poultry (Chicken),758.77,3,100
+RT-195,Local Farm Co.,Poultry (Chicken),604.02,4,50
+RT-353,Metro Wholesale,Beverage Syrups,1629.75,1,150
+RT-190,Metro Wholesale,Poultry (Chicken),1364.6,1,150
+RT-178,Metro Wholesale,Vegetables,1926.88,2,50
+RT-541,City Central Market,Vegetables,1535.03,2,50
+RT-734,Metro Wholesale,Vegetables,1321.55,2,150
+RT-379,Local Farm Co.,Poultry (Chicken),728.34,5,150
+RT-162,Local Farm Co.,Dairy & Cheese,628.6,5,100
+RT-834,Local Farm Co.,Dairy & Cheese,785.89,5,150
+RT-284,Local Farm Co.,Poultry (Chicken),599.11,4,100
+RT-131,Local Farm Co.,Dairy & Cheese,699.72,5,50
+RT-362,Metro Wholesale,Poultry (Chicken),1469.35,2,100
+RT-115,City Central Market,Poultry (Chicken),1505.0,1,50
+RT-894,City Central Market,Poultry (Chicken),1223.7,2,150
+RT-307,City Central Market,Poultry (Chicken),1621.39,1,100
+RT-168,City Central Market,Beverage Syrups,1610.29,1,50
+RT-607,Metro Wholesale,Beverage Syrups,1358.44,2,100
+RT-380,Local Farm Co.,Dairy & Cheese,773.44,4,50
+RT-911,Local Farm Co.,Vegetables,533.71,5,50
+RT-740,Metro Wholesale,Poultry (Chicken),1505.67,1,50
+RT-851,Metro Wholesale,Dairy & Cheese,1301.1,2,50
+RT-778,City Central Market,Vegetables,1211.58,1,150
+RT-442,City Central Market,Vegetables,1699.17,1,100
+RT-619,City Central Market,Dairy & Cheese,1686.77,1,50
+RT-133,Local Farm Co.,Poultry (Chicken),533.05,3,100
+RT-290,Local Farm Co.,Beverage Syrups,762.15,3,150
+RT-506,Metro Wholesale,Dairy & Cheese,1915.95,1,50
+RT-340,Local Farm Co.,Vegetables,595.71,4,50
+RT-205,Local Farm Co.,Vegetables,678.99,4,50
+RT-947,City Central Market,Vegetables,1242.01,2,100
+RT-334,Metro Wholesale,Poultry (Chicken),1696.71,2,100
+RT-663,Local Farm Co.,Beverage Syrups,671.86,4,50
+RT-481,City Central Market,Poultry (Chicken),1513.78,2,100
+RT-841,Local Farm Co.,Vegetables,505.93,3,150
+RT-592,Local Farm Co.,Poultry (Chicken),574.29,5,100
+RT-493,Local Farm Co.,Dairy & Cheese,624.55,4,50
+RT-336,City Central Market,Dairy & Cheese,1345.64,1,50
+RT-811,Metro Wholesale,Dairy & Cheese,1388.27,1,100
+RT-236,Metro Wholesale,Poultry (Chicken),1446.36,2,150
+RT-717,City Central Market,Dairy & Cheese,1264.65,1,100
+RT-875,Metro Wholesale,Poultry (Chicken),1432.58,1,100
+RT-250,City Central Market,Poultry (Chicken),1263.3,2,100
+RT-945,Metro Wholesale,Poultry (Chicken),1970.88,2,50
+RT-245,City Central Market,Vegetables,1708.26,2,100
+RT-585,City Central Market,Vegetables,1574.3,1,100
+RT-715,Local Farm Co.,Poultry (Chicken),606.57,4,50
+RT-210,Local Farm Co.,Dairy & Cheese,697.99,3,50
+RT-320,City Central Market,Dairy & Cheese,1447.81,2,50
+RT-148,Metro Wholesale,Dairy & Cheese,1948.98,1,150
+RT-579,Metro Wholesale,Beverage Syrups,1601.88,1,150
+RT-757,Local Farm Co.,Poultry (Chicken),767.86,3,50
+RT-190,City Central Market,Beverage Syrups,1905.09,2,150
+RT-409,City Central Market,Beverage Syrups,1335.91,2,50
+RT-939,City Central Market,Dairy & Cheese,1338.7,1,50
+RT-969,City Central Market,Beverage Syrups,1788.62,2,50
+RT-323,City Central Market,Beverage Syrups,1483.43,1,150
+RT-175,Metro Wholesale,Poultry (Chicken),1720.32,1,50
+RT-937,Metro Wholesale,Poultry (Chicken),1855.34,2,150
+RT-222,Metro Wholesale,Beverage Syrups,1407.0,1,100
+RT-564,City Central Market,Dairy & Cheese,1410.02,1,50
+RT-904,Local Farm Co.,Poultry (Chicken),588.29,4,100
+RT-260,Local Farm Co.,Vegetables,550.86,4,100
+RT-119,Local Farm Co.,Dairy & Cheese,728.49,5,100
+RT-933,Local Farm Co.,Vegetables,534.71,4,150
+RT-331,Local Farm Co.,Dairy & Cheese,687.32,4,50
+RT-758,Metro Wholesale,Dairy & Cheese,1836.79,1,150
+RT-353,Metro Wholesale,Dairy & Cheese,1876.31,2,150
+RT-591,Local Farm Co.,Dairy & Cheese,686.28,3,50
+RT-578,City Central Market,Beverage Syrups,1946.03,1,50
+RT-895,City Central Market,Beverage Syrups,1373.96,1,50
+RT-304,Local Farm Co.,Poultry (Chicken),770.57,5,150
+RT-783,City Central Market,Poultry (Chicken),1616.63,1,150
+RT-807,Local Farm Co.,Dairy & Cheese,672.63,4,100
+RT-837,Local Farm Co.,Vegetables,759.56,4,150
+RT-143,Metro Wholesale,Vegetables,1666.78,1,150
+RT-743,City Central Market,Poultry (Chicken),1910.63,1,50
+RT-728,City Central Market,Dairy & Cheese,1299.17,1,100
+RT-501,Local Farm Co.,Vegetables,583.3,5,50
+RT-420,Metro Wholesale,Poultry (Chicken),1563.76,2,100
+RT-827,Metro Wholesale,Poultry (Chicken),1587.64,2,100
+RT-896,Local Farm Co.,Beverage Syrups,664.59,4,100
+RT-188,Metro Wholesale,Poultry (Chicken),1824.76,1,150
+RT-173,City Central Market,Dairy & Cheese,1661.09,2,150
+RT-220,City Central Market,Vegetables,1698.15,1,100
+RT-498,City Central Market,Dairy & Cheese,1664.74,2,100
+RT-787,Local Farm Co.,Beverage Syrups,531.98,4,100
+RT-999,Local Farm Co.,Beverage Syrups,700.77,3,150
+RT-637,Local Farm Co.,Vegetables,617.41,4,50
+RT-703,City Central Market,Vegetables,1785.2,1,150
+RT-457,Metro Wholesale,Dairy & Cheese,1705.12,1,150
+RT-237,Metro Wholesale,Dairy & Cheese,1385.66,2,50
+RT-865,Metro Wholesale,Vegetables,1855.9,2,100
+RT-125,Metro Wholesale,Poultry (Chicken),1646.67,2,50
+RT-543,Metro Wholesale,Dairy & Cheese,1236.01,1,150
+RT-261,Metro Wholesale,Vegetables,1369.77,2,50
+RT-620,City Central Market,Poultry (Chicken),1380.12,2,150
+RT-957,Metro Wholesale,Beverage Syrups,1303.62,1,100
+RT-207,Metro Wholesale,Poultry (Chicken),1456.9,1,150
+RT-318,Local Farm Co.,Vegetables,622.43,3,150
+RT-244,City Central Market,Poultry (Chicken),1813.57,2,150
+RT-540,Metro Wholesale,Poultry (Chicken),1950.43,2,50
+RT-416,City Central Market,Dairy & Cheese,1303.0,1,100
+RT-965,City Central Market,Dairy & Cheese,1515.27,1,150
+RT-595,Local Farm Co.,Poultry (Chicken),739.41,3,150
+RT-384,Local Farm Co.,Dairy & Cheese,671.47,5,150
+RT-494,City Central Market,Poultry (Chicken),1770.62,1,100
+RT-560,City Central Market,Vegetables,1804.36,2,100
+RT-131,City Central Market,Beverage Syrups,1494.22,1,50
+RT-602,Local Farm Co.,Vegetables,674.79,5,50
+RT-454,City Central Market,Dairy & Cheese,1672.38,1,150
+RT-498,Metro Wholesale,Vegetables,1416.03,2,50
+RT-528,Metro Wholesale,Beverage Syrups,1514.67,1,150
+RT-291,Local Farm Co.,Poultry (Chicken),777.98,4,50
+RT-391,Local Farm Co.,Dairy & Cheese,612.87,3,100
+RT-973,Metro Wholesale,Beverage Syrups,1405.99,2,100
+RT-409,Metro Wholesale,Vegetables,1700.44,1,150
+RT-281,Metro Wholesale,Poultry (Chicken),1689.89,1,150
+RT-305,City Central Market,Vegetables,1663.68,2,150
+RT-364,Metro Wholesale,Vegetables,1814.04,2,150
+RT-269,City Central Market,Poultry (Chicken),1468.46,2,50
+RT-566,Metro Wholesale,Beverage Syrups,1451.54,1,50
+RT-662,Local Farm Co.,Vegetables,724.64,5,50
+RT-684,Metro Wholesale,Dairy & Cheese,1982.99,1,100
+RT-633,Metro Wholesale,Poultry (Chicken),1610.32,1,150
+RT-341,Local Farm Co.,Poultry (Chicken),628.64,4,50
+RT-620,Local Farm Co.,Vegetables,797.25,4,150
+RT-254,Local Farm Co.,Poultry (Chicken),705.55,4,50
+RT-464,Metro Wholesale,Vegetables,1646.83,1,50
+RT-617,City Central Market,Beverage Syrups,1676.82,1,100
+RT-965,City Central Market,Poultry (Chicken),1218.81,1,150
+RT-326,Metro Wholesale,Beverage Syrups,1867.67,2,50
+RT-164,City Central Market,Dairy & Cheese,1483.96,2,100
+RT-795,City Central Market,Vegetables,1342.71,2,150
