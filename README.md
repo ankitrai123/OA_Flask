@@ -7,10 +7,30 @@ three built-in optimizers.
 
 ## Setup
 
+macOS / Linux:
+
 ```bash
 pip install -r requirements.txt
 cp .env.example .env
 ```
+
+Windows (`cmd.exe`):
+
+```cmd
+python -m pip install -r requirements.txt
+copy .env.example .env
+```
+
+Windows (PowerShell):
+
+```powershell
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
+```
+
+If `python` itself isn't recognized on Windows, install it from
+https://python.org/downloads and make sure "Add python.exe to PATH" is
+checked in the installer, then reopen your terminal.
 
 Edit `.env` and set:
 - `NVIDIA_API_KEY` — your key from https://build.nvidia.com
