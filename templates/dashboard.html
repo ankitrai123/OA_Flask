@@ -18,7 +18,7 @@
           <h1>Overview</h1>
           <div class="subtitle" id="date-range-subtitle">Loading…</div>
         </div>
-        <div class="slide-counter">1 / 5</div>
+        <div class="slide-counter">1 / 7</div>
       </div>
 
       <div class="kpi-row" id="overview-kpis"></div>
@@ -47,7 +47,7 @@
           <h1>Sales Analytics</h1>
           <div class="subtitle">Revenue, category mix, item performance, and daily traffic</div>
         </div>
-        <div class="slide-counter">2 / 5</div>
+        <div class="slide-counter">2 / 7</div>
       </div>
 
       <div class="kpi-row" id="sales-kpis"></div>
@@ -76,7 +76,7 @@
           <h1>Inventory &amp; Waste</h1>
           <div class="subtitle">Forecast accuracy, spoilage, and the prep optimizer</div>
         </div>
-        <div class="slide-counter">3 / 5</div>
+        <div class="slide-counter">3 / 7</div>
       </div>
 
       <div class="kpi-row" id="inventory-kpis"></div>
@@ -116,7 +116,7 @@
           <h1>Supply Chain</h1>
           <div class="subtitle">Supplier cost &amp; lead time, and the procurement optimizer</div>
         </div>
-        <div class="slide-counter">4 / 5</div>
+        <div class="slide-counter">4 / 7</div>
       </div>
 
       <div class="kpi-row" id="supply-kpis"></div>
@@ -153,7 +153,7 @@
           <h1>Pricing &amp; Discounts</h1>
           <div class="subtitle">Discount leakage and margin cushion by item</div>
         </div>
-        <div class="slide-counter">5 / 5</div>
+        <div class="slide-counter">5 / 7</div>
       </div>
 
       <div class="kpi-row" id="pricing-kpis"></div>
@@ -186,6 +186,159 @@
       </div>
     </section>
 
+    <!-- Slide 6: Forecasting & Simulation -->
+    <section class="slide" data-slide="5">
+      <div class="slide-header">
+        <div>
+          <h1>Forecasting &amp; Simulation</h1>
+          <div class="subtitle">ML demand forecast, backtest accuracy, and what-if scenarios</div>
+        </div>
+        <div class="slide-counter">6 / 7</div>
+      </div>
+
+      <div class="kpi-row" id="forecast-kpis"></div>
+
+      <div class="grid cols-2" style="flex: none; height: 190px;">
+        <div class="panel">
+          <h2>Backtest: Actual vs Predicted (last 30 holdout days)</h2>
+          <div class="chart-wrap"><canvas id="chart-backtest"></canvas></div>
+        </div>
+        <div class="panel">
+          <h2>14-Day Forecast — <span id="forecast-item-label"></span></h2>
+          <select class="item-select" id="forecast-item-select" style="margin-bottom: 6px;"></select>
+          <div class="chart-wrap"><canvas id="chart-forecast-future"></canvas></div>
+        </div>
+      </div>
+
+      <div class="grid cols-2" style="flex: 1; margin-top: 16px; min-height: 0;">
+        <div class="panel split-panel">
+          <h2>What-If: Demand &amp; Prep</h2>
+          <div class="control-row">
+            <div class="control-group">
+              <label>Item</label>
+              <select class="item-select" id="sim-prep-item"></select>
+            </div>
+            <div class="control-group">
+              <label>Demand growth <span class="range-value" id="sim-prep-growth-val">0%</span></label>
+              <input type="range" id="sim-prep-growth" min="-30" max="50" value="0">
+            </div>
+            <div class="control-group">
+              <label>Volatility <span class="range-value" id="sim-prep-vol-val">1.0x</span></label>
+              <input type="range" id="sim-prep-vol" min="50" max="200" value="100">
+            </div>
+            <button class="btn-primary" id="sim-prep-run" disabled>Loading model…</button>
+          </div>
+          <div class="result-row" id="sim-prep-results"></div>
+          <div class="note" id="sim-prep-note"></div>
+        </div>
+
+        <div class="panel split-panel">
+          <h2>What-If: Supplier &amp; Lead Time</h2>
+          <div class="control-row">
+            <div class="control-group">
+              <label>Category</label>
+              <select class="item-select" id="sim-supplier-category"></select>
+            </div>
+            <div class="control-group">
+              <label>Annual demand (units)</label>
+              <input type="number" id="sim-supplier-demand" value="12000" min="1">
+            </div>
+            <div class="control-group">
+              <label>Holding cost (₹/unit/yr)</label>
+              <input type="number" id="sim-supplier-holding" value="40" min="0.01" step="0.01">
+            </div>
+          </div>
+          <div class="control-row">
+            <div class="control-group">
+              <label>Lead time override (days)</label>
+              <input type="number" id="sim-supplier-leadtime" placeholder="category avg" min="0">
+            </div>
+            <div class="control-group">
+              <label>Demand growth <span class="range-value" id="sim-supplier-growth-val">0%</span></label>
+              <input type="range" id="sim-supplier-growth" min="-30" max="50" value="0">
+            </div>
+            <button class="btn-primary" id="sim-supplier-run">Run Simulation</button>
+          </div>
+          <div class="result-row" id="sim-supplier-results"></div>
+          <div class="note" id="sim-supplier-note"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 7: Menu & Supply Optimization -->
+    <section class="slide" data-slide="6">
+      <div class="slide-header">
+        <div>
+          <h1>Menu &amp; Supply Optimization</h1>
+          <div class="subtitle">Apriori basket analysis, EOQ, and supplier allocation</div>
+        </div>
+        <div class="slide-counter">7 / 7</div>
+      </div>
+
+      <div class="kpi-row" id="basket-kpis"></div>
+
+      <div class="panel" style="flex: none; height: 190px;">
+        <h2>Apriori Association Rules — Combo &amp; Upsell Recommendations</h2>
+        <div class="table-wrap">
+          <table id="table-basket-rules">
+            <thead>
+              <tr><th>If ordered</th><th>Then also order</th><th>Support %</th><th>Confidence %</th><th>Lift</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid cols-2" style="flex: 1; margin-top: 16px; min-height: 0;">
+        <div class="panel split-panel">
+          <h2>EOQ &amp; Reorder-Point Calculator</h2>
+          <div class="control-row">
+            <div class="control-group">
+              <label>Category</label>
+              <select class="item-select" id="eoq-category"></select>
+            </div>
+            <div class="control-group">
+              <label>Annual demand (units)</label>
+              <input type="number" id="eoq-demand" value="12000" min="1">
+            </div>
+            <div class="control-group">
+              <label>Holding cost (₹/unit/yr)</label>
+              <input type="number" id="eoq-holding" value="40" min="0.01" step="0.01">
+            </div>
+            <button class="btn-primary" id="eoq-run">Calculate</button>
+          </div>
+          <div class="result-row" id="eoq-results"></div>
+          <div class="note" id="eoq-note"></div>
+        </div>
+
+        <div class="panel split-panel">
+          <h2>Supplier Allocation Optimizer</h2>
+          <div class="control-row">
+            <div class="control-group">
+              <label>Category</label>
+              <select class="item-select" id="alloc-category"></select>
+            </div>
+            <div class="control-group">
+              <label>Required qty</label>
+              <input type="number" id="alloc-qty" value="500" min="1">
+            </div>
+            <div class="control-group">
+              <label>Diversify (max share/supplier) <span class="range-value" id="alloc-share-val">off</span></label>
+              <input type="range" id="alloc-share" min="0" max="100" value="0">
+            </div>
+            <button class="btn-primary" id="alloc-run">Optimize</button>
+          </div>
+          <div class="table-wrap" id="alloc-table-wrap" style="flex: 1;">
+            <table id="table-allocation">
+              <thead><tr><th>Supplier</th><th>Batches</th><th>Qty</th><th>Cost</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="note" id="alloc-note"></div>
+        </div>
+      </div>
+    </section>
+
   </div>
 
   <button class="nav-arrow prev" id="nav-prev" aria-label="Previous slide">‹</button>
@@ -211,6 +364,7 @@
 <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 <script src="{{ url_for('static', filename='js/slides.js') }}"></script>
 <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+<script src="{{ url_for('static', filename='js/advanced.js') }}"></script>
 <script src="{{ url_for('static', filename='js/agent.js') }}"></script>
 </body>
 </html>

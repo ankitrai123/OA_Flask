@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 from services.data_loader import get_data
+from services.item_economics import critical_ratio, margin as item_margin
 
 
 def _round(x, n=2):
@@ -39,16 +40,11 @@ def optimize_prep():
     pos = d["pos"]
     inv = d["inventory"]
 
-    price_cost = pos.groupby("Item_Name").agg(
-        avg_realized_price=("Unit_Price", lambda s: (s - pos.loc[s.index, "Discount_Applied"]).mean()),
-    )
-
     results = []
     for item, day in inv.groupby("Item_Name"):
         cost = day["Unit_Cost"].iloc[0]
-        avg_price = price_cost.loc[item, "avg_realized_price"] if item in price_cost.index else cost * 1.5
-        margin = max(avg_price - cost, 1e-6)
-        cr = margin / (margin + cost)
+        margin = item_margin(pos, item, cost)
+        cr = critical_ratio(pos, item, cost)
 
         forecast = day["Forecasted_Prep_Qty"].to_numpy()
         demand = day["Actual_Demand_Qty"].to_numpy()

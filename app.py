@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 
 from config import Config
+from routes.advanced import advanced_bp
 from routes.agent_routes import agent_bp
 from routes.api import api_bp
 
@@ -11,6 +12,7 @@ def create_app():
 
     app.register_blueprint(api_bp)
     app.register_blueprint(agent_bp)
+    app.register_blueprint(advanced_bp)
 
     @app.get("/")
     def dashboard():

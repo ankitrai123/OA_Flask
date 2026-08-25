@@ -12,15 +12,19 @@ import time
 from openai import APIError, AuthenticationError, OpenAI
 
 from config import Config
-from services import metrics, optimizer
+from services import basket_analysis, forecasting, metrics, optimizer
 
 SYSTEM_PROMPT = """You are the on-dashboard AI analyst for an Indian restaurant.
 You have tools to fetch the restaurant's real sales, inventory/waste, supplier,
-and optimizer numbers. ALWAYS call a tool before stating any figure — never
-guess or estimate a number yourself. Currency is INR (₹). Be concise, concrete,
-and action-oriented: prefer short bullet points with actual numbers over vague
-advice. If the user asks to see/plot/visualize/chart something, call
-generate_chart in addition to your text reply."""
+optimizer, ML forecast, and menu-basket numbers. ALWAYS call a tool before
+stating any figure — never guess or estimate a number yourself. Currency is
+INR (₹). Be concise, concrete, and action-oriented: prefer short bullet points
+with actual numbers over vague advice. If the user asks to see/plot/visualize/
+chart something, call generate_chart in addition to your text reply. The
+what-if simulator, EOQ calculator, and supplier-allocation optimizer are
+interactive forms on the Forecasting and Menu & Supply Optimization slides
+that need the owner's own inputs (annual demand, holding cost) — point the
+user there rather than guessing those figures yourself."""
 
 DATASETS = {
     "overview": metrics.kpi_overview,
@@ -34,6 +38,9 @@ DATASETS = {
     "optimizer_prep": optimizer.optimize_prep,
     "optimizer_pricing": optimizer.optimize_pricing,
     "optimizer_procurement": optimizer.optimize_procurement,
+    "ml_forecast_backtest": lambda: forecasting.get_forecast()["backtest_chart"],
+    "ml_forecast_accuracy": lambda: forecasting.get_forecast()["backtest_metrics"],
+    "menu_basket_rules": lambda: basket_analysis.get_association_rules()["rules"],
 }
 
 _DATASET_ENUM = list(DATASETS.keys())
@@ -80,6 +87,7 @@ _LIST_CHART_FIELDS = {
     "optimizer_pricing": ("item", "total_discount_given_inr"),
     "optimizer_procurement": ("category", "cost_savings_pct"),
     "supplier_comparison": ("Supplier", "avg_delivery_cost"),
+    "menu_basket_rules": ("antecedent", "lift"),
 }
 
 

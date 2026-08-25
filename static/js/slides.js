@@ -21,7 +21,13 @@
     dots.forEach((d, i) => d.classList.toggle("active", i === current));
     prevBtn.disabled = current === 0;
     nextBtn.disabled = current === slides.length - 1;
-    onActivate.forEach((fn) => fn(current));
+    onActivate.forEach((fn) => {
+      try {
+        fn(current);
+      } catch (err) {
+        console.error("A slide-activate callback threw", err);
+      }
+    });
   }
 
   function goTo(i) {

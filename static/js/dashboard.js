@@ -224,7 +224,7 @@
   const LOADERS = [loadOverview, loadSales, loadInventory, loadSupply, loadPricing];
 
   Slides.onActivate((index) => {
-    if (loaded.has(index)) return;
+    if (!LOADERS[index] || loaded.has(index)) return;
     loaded.add(index);
     LOADERS[index]().catch((err) => console.error(`Slide ${index} failed to load`, err));
   });
