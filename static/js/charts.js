@@ -113,6 +113,26 @@
       });
     },
 
+    // Stacked bar - e.g. LP allocation qty per supplier, stacked by category.
+    stackedBar(canvasId, labels, series) {
+      return upsertChart(canvasId, {
+        type: "bar",
+        data: {
+          labels,
+          datasets: series.map((s, i) => ({ label: s.label, data: s.data, backgroundColor: SERIES[i], borderRadius: 3, maxBarThickness: 60 })),
+        },
+        options: baseOptions({
+          scales: {
+            x: { stacked: true, grid: { display: false }, ticks: { color: TEXT_MUTED } },
+            y: { stacked: true, grid: { color: GRIDLINE }, ticks: { color: TEXT_MUTED }, beginAtZero: true },
+          },
+          plugins: {
+            legend: { display: true, position: "top", align: "end", labels: { boxWidth: 10, boxHeight: 10 } },
+          },
+        }),
+      });
+    },
+
     // Grouped bar for model/policy comparisons (e.g. baseline vs ARIMAX RMSE per fold).
     groupedBar(canvasId, labels, series) {
       return upsertChart(canvasId, {

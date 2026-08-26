@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 
-from services import data_quality, eda, forecasting, newsvendor, overview
+from services import automation, data_quality, eda, forecasting, newsvendor, overview, procurement, safety_stock
 
 analytics_bp = Blueprint("analytics", __name__, url_prefix="/api")
 
@@ -55,3 +55,38 @@ def api_prep_newsvendor_whatif():
 @analytics_bp.get("/prep/compare")
 def api_prep_compare():
     return jsonify(newsvendor.get_prep_compare_bundle())
+
+
+@analytics_bp.get("/prep/aggregate-comparison")
+def api_prep_aggregate_comparison():
+    return jsonify(newsvendor.get_prep_policy_aggregate_comparison())
+
+
+@analytics_bp.get("/inventory/safety-stock")
+def api_safety_stock():
+    service_level = request.args.get("service_level", safety_stock.DEFAULT_SERVICE_LEVEL)
+    b = safety_stock.safety_stock_bundle()
+    if service_level != safety_stock.DEFAULT_SERVICE_LEVEL:
+        b["items"] = {item: safety_stock.item_safety_stock(item, service_level=service_level) for item in safety_stock.ITEM_TO_CATEGORY}
+    return jsonify(b)
+
+
+@analytics_bp.get("/procurement")
+def api_procurement_get():
+    return jsonify(procurement.procurement_bundle())
+
+
+@analytics_bp.post("/procurement")
+def api_procurement_post():
+    body = request.get_json(silent=True) or {}
+    capacity = body.get("capacity")
+    if capacity is not None and not isinstance(capacity, dict):
+        return jsonify({"error": "capacity must be an object mapping supplier name to a numeric weekly capacity"}), 400
+    result = procurement.procurement_bundle(capacity=capacity)
+    status = 400 if "error" in result.get("lp_allocation", {}) else 200
+    return jsonify(result), status
+
+
+@analytics_bp.get("/automation")
+def api_automation():
+    return jsonify(automation.automation_bundle())

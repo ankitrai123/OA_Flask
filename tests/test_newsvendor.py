@@ -40,6 +40,19 @@ def test_defect_c_structural_separation():
         assert "cost_avoided_vs_current_judgment_pct" not in dynamic
 
 
+def test_aggregate_comparison_reproduces_reference_figures():
+    # Reference analysis: Current ~Rs5.5L, Static ~Rs9.5L, Dynamic ~Rs5.5L,
+    # critical ratio range 0.58-0.71, static ~74% worse than dynamic.
+    r = nv.get_prep_policy_aggregate_comparison()
+    assert r["status"] == "supported"
+    assert 500_000 < r["current"]["annual_cost_inr"] < 600_000
+    assert 900_000 < r["static"]["annual_cost_inr"] < 1_000_000
+    assert 500_000 < r["dynamic"]["annual_cost_inr"] < 600_000
+    assert 0.55 < r["critical_ratio_range"]["min"] < 0.62
+    assert 0.68 < r["critical_ratio_range"]["max"] < 0.75
+    assert 60 < r["static_worse_than_dynamic_pct"] < 90
+
+
 def test_unknown_item_returns_error_not_raise():
     assert "error" in nv.calculate_newsvendor("Not A Real Item")
     assert "error" in nv.compare_prep_policies("Not A Real Item")

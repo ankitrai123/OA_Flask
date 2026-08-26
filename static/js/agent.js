@@ -2,10 +2,10 @@
   const fab = document.getElementById("chat-fab");
   const panel = document.getElementById("chat-panel");
   const closeBtn = document.getElementById("chat-close");
-  const messagesEl = document.getElementById("chat-messages");
-  const input = document.getElementById("chat-input");
-  const sendBtn = document.getElementById("chat-send");
 
+  // Shared across both chat surfaces (the floating panel and the full-page
+  // AI Analyst slide) so a conversation started in one continues in the
+  // other, rather than each keeping its own disconnected history.
   let history = [];
   let chartCounter = 0;
 
@@ -18,7 +18,7 @@
     fab.style.display = "";
   });
 
-  function appendMessage(role, text) {
+  function appendMessage(messagesEl, role, text) {
     const div = document.createElement("div");
     div.className = `chat-msg ${role}`;
     div.textContent = text;
@@ -61,41 +61,46 @@
     });
   }
 
-  async function send() {
-    const message = input.value.trim();
-    if (!message) return;
-    input.value = "";
-    sendBtn.disabled = true;
+  function wireChat(messagesEl, input, sendBtn) {
+    async function send() {
+      const message = input.value.trim();
+      if (!message) return;
+      input.value = "";
+      sendBtn.disabled = true;
 
-    appendMessage("user", message);
-    const thinking = appendMessage("assistant", "Thinking…");
+      appendMessage(messagesEl, "user", message);
+      const thinking = appendMessage(messagesEl, "assistant", "Thinking…");
 
-    try {
-      const res = await fetch("/api/agent/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message, history }),
-      });
-      const data = await res.json();
+      try {
+        const res = await fetch("/api/agent/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message, history }),
+        });
+        const data = await res.json();
 
-      thinking.textContent = data.reply || "(no response)";
-      if (data.chart) renderChartInto(thinking, data.chart);
+        thinking.textContent = data.reply || "(no response)";
+        if (data.chart) renderChartInto(thinking, data.chart);
 
-      history.push({ role: "user", content: message });
-      history.push({ role: "assistant", content: data.reply || "" });
-      if (history.length > 20) history = history.slice(-20);
-    } catch (err) {
-      thinking.textContent = "Something went wrong reaching the AI assistant.";
-      console.error(err);
-    } finally {
-      sendBtn.disabled = false;
+        history.push({ role: "user", content: message });
+        history.push({ role: "assistant", content: data.reply || "" });
+        if (history.length > 20) history = history.slice(-20);
+      } catch (err) {
+        thinking.textContent = "Something went wrong reaching the AI assistant.";
+        console.error(err);
+      } finally {
+        sendBtn.disabled = false;
+      }
     }
+
+    sendBtn.addEventListener("click", send);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") send();
+    });
   }
 
-  sendBtn.addEventListener("click", send);
-  input.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") send();
-  });
+  wireChat(document.getElementById("chat-messages"), document.getElementById("chat-input"), document.getElementById("chat-send"));
+  wireChat(document.getElementById("page-chat-messages"), document.getElementById("page-chat-input"), document.getElementById("page-chat-send"));
 
   async function loadInsights(force = false) {
     const narrativeEl = document.getElementById("insight-narrative");

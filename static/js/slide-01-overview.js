@@ -3,20 +3,14 @@
 
   function formatKpiValue(key, k) {
     if (key === "annual_revenue" || key === "spoilage_cost") return UI.fmtINR(k.value);
-    if (key === "gross_margin") return UI.fmtPct(k.value);
+    if (key === "gross_margin" || key === "shortage_days") return UI.fmtPct(k.value);
     return UI.fmtNum(k.value);
   }
-
-  // Kept short so one not_supported tile's explanation doesn't stretch
-  // every KPI tile in the row to match its height (grid rows are equal-
-  // height by default) - the full reason still lives on the tile's title
-  // attribute and in the Decision Summary panel below.
-  const SHORT_REASON = "Needs Milestone 2's inventory/reorder-point model.";
 
   function renderKPIs(kpis) {
     const tiles = KPI_ORDER.map((key) => {
       const k = kpis[key];
-      if (k.status === "not_supported") return { status: "not_supported", label: k.label, reason: SHORT_REASON };
+      if (k.status === "not_supported") return { status: "not_supported", label: k.label, reason: k.reason };
       return { label: k.label, value: formatKpiValue(key, k), context: k.context };
     });
     UI.renderKPIs("overview-kpis", tiles);

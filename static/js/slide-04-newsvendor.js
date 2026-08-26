@@ -1,6 +1,32 @@
 (function () {
   let currentItem = null;
 
+  function renderAggregate(agg) {
+    if (agg.status !== "supported") {
+      document.getElementById("prep-aggregate-insight").innerHTML = `<span class="lead-label">Insight</span>${agg.reason || "Not supported."}`;
+      return;
+    }
+
+    document.getElementById("prep-aggregate-insight").innerHTML = `<span class="lead-label">Insight</span>${agg.interpretation}`;
+
+    UI.renderMiniStats("prep-aggregate-kpis", [
+      { label: "Current Judgment", value: UI.fmtINR(agg.current.annual_cost_inr), sub: "annual cost" },
+      { label: "Static (one qty for all)", value: UI.fmtINR(agg.static.annual_cost_inr), sub: `order-up-to ${agg.static.order_up_to_qty}` },
+      { label: "Dynamic (tailored per item)", value: UI.fmtINR(agg.dynamic.annual_cost_inr), sub: "annual cost" },
+      { label: "Static Worse Than Dynamic", value: UI.fmtPct(agg.static_worse_than_dynamic_pct), sub: `CR range ${agg.critical_ratio_range.min}–${agg.critical_ratio_range.max}` },
+    ]);
+
+    DashCharts.bar("chart-prep-aggregate", ["Current", "Static", "Dynamic"], [
+      agg.current.annual_cost_inr, agg.static.annual_cost_inr, agg.dynamic.annual_cost_inr,
+    ], [DashCharts.SERIES[0], DashCharts.SERIES[3], DashCharts.SERIES[2]]);
+  }
+
+  function renderCriticalRatioChart(nvBundle) {
+    const items = Object.keys(nvBundle.items);
+    const crs = items.map((i) => nvBundle.items[i].critical_ratio);
+    DashCharts.bar("chart-critical-ratio", items.map((i) => i.split(" ")[0]), crs);
+  }
+
   function renderInputs(inputs) {
     UI.renderMiniStats("nv-inputs-kpis", [
       { label: "Unit Cost (Co)", value: UI.fmtINR(inputs.unit_cost_inr) },
@@ -25,7 +51,7 @@
           <div class="mini-stat"><div class="label">Static Newsvendor</div><div class="value">${inv.static_newsvendor.avg_qty}</div><div class="sub">${UI.fmtINR(inv.static_newsvendor.annual_cost_inr)}/yr</div></div>
         </div>
         <div class="note">Cost avoided vs. current judgment: ${UI.fmtINR(inv.static_newsvendor.cost_avoided_vs_current_judgment_inr)}/yr (${UI.fmtPct(inv.static_newsvendor.cost_avoided_vs_current_judgment_pct)})</div>
-        <div class="note analyst-only">${inv.scope_note}</div>
+        <div class="note">${inv.scope_note}</div>
       `;
     }
 
@@ -39,13 +65,12 @@
           <div class="mini-stat"><div class="label">Dynamic Newsvendor</div><div class="value">${dyn.recommended_qty}</div><div class="sub">${UI.fmtINR(dyn.annual_cost_at_recommended_inr)}/yr</div></div>
         </div>
         <div class="note">Cost avoided vs. naive baseline: ${UI.fmtINR(dyn.cost_avoided_vs_naive_baseline_inr)}/yr (${UI.fmtPct(dyn.cost_avoided_vs_naive_baseline_pct)})</div>
-        <div class="note analyst-only">${dyn.scope_note}</div>
+        <div class="note">${dyn.scope_note}</div>
       `;
     }
 
-    html += `<div class="why-method-callout analyst-only" style="margin-top:14px;"><span class="label">Framing</span>${compare.framing_note}</div>`;
+    html += `<div class="why-method-callout" style="margin-top:14px;"><span class="label">Framing</span>${compare.framing_note}</div>`;
     document.getElementById("nv-policy-comparison").innerHTML = html;
-    Drawer.wire();
   }
 
   async function loadItem(item) {
@@ -96,13 +121,18 @@
   }
 
   let loaded = false;
-  async function loadSlide5() {
+  async function loadSlide4() {
     if (loaded) return;
     loaded = true;
 
-    const nvBundle = await Api.getJSON("/api/prep/newsvendor");
-    const items = Object.keys(nvBundle.items);
+    const [aggBundle, nvBundle] = await Promise.all([
+      Api.getJSON("/api/prep/aggregate-comparison"),
+      Api.getJSON("/api/prep/newsvendor"),
+    ]);
+    renderAggregate(aggBundle);
+    renderCriticalRatioChart(nvBundle);
 
+    const items = Object.keys(nvBundle.items);
     const select = document.getElementById("nv-item-select");
     select.innerHTML = items.map((i) => `<option value="${i}">${i}</option>`).join("");
     select.onchange = () => loadItem(select.value).catch((err) => console.error("Item reload failed", err));
@@ -110,9 +140,10 @@
     document.getElementById("nv-run").addEventListener("click", runWhatIf);
 
     await loadItem(items[0]);
+    Drawer.wire();
   }
 
   Slides.onActivate((index) => {
-    if (index === 4) loadSlide5().catch((err) => console.error("Slide 5 (Newsvendor) failed to load", err));
+    if (index === 3) loadSlide4().catch((err) => console.error("Slide 4 (Prep & Newsvendor) failed to load", err));
   });
 })();

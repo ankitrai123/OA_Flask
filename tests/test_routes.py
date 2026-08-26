@@ -1,7 +1,8 @@
 NEW_GET_ROUTES = [
     "/api/overview", "/api/data-quality", "/api/eda",
     "/api/demand/forecast", "/api/demand/validation",
-    "/api/prep/newsvendor", "/api/prep/compare",
+    "/api/prep/newsvendor", "/api/prep/compare", "/api/prep/aggregate-comparison",
+    "/api/inventory/safety-stock", "/api/procurement", "/api/automation",
 ]
 
 UNTOUCHED_GET_ROUTES = [
@@ -56,3 +57,24 @@ def test_old_forecast_route_removed(client):
 def test_agent_insights_still_works(client):
     r = client.get("/api/agent/insights")
     assert r.status_code == 200
+
+
+def test_procurement_post_capacity_override(client):
+    r = client.post("/api/procurement", json={"capacity": {"Local Farm Co.": 50}})
+    assert r.status_code == 200
+    assert "Local Farm Co." in r.get_json()["lp_allocation"]["binding_suppliers"]
+
+
+def test_procurement_post_bad_capacity_type(client):
+    r = client.post("/api/procurement", json={"capacity": "not-a-dict"})
+    assert r.status_code == 400
+
+
+def test_simulator_supplier_scenario_route_works(client):
+    # Existing route from an earlier milestone, first-ever frontend consumer
+    # is the What-if Simulator slide - verify it still works unchanged.
+    r = client.post("/api/simulator/supplier", json={
+        "category": "Vegetables", "annual_demand": 1000, "holding_cost_per_unit_per_year": 5,
+    })
+    assert r.status_code == 200
+    assert "reorder_point" in r.get_json()["inputs"]

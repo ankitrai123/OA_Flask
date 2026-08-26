@@ -174,15 +174,21 @@ def defect_c_inventory_vs_pos_demand():
     }
 
 
+_DUPLICATE_CHECK_COLS = ["Supplier", "Ingredient_Category", "Lead_Time_Days", "Minimum_Order_Qty", "Delivery_Cost_INR"]
+
+
 def defect_d_duplicate_route_id():
     d = get_data()
     sup = d["supply"]
 
-    combo_counts = sup.groupby("Route_ID")[["Supplier", "Lead_Time_Days", "Minimum_Order_Qty"]].apply(
-        lambda g: g.drop_duplicates().shape[0]
-    )
+    combo_counts = sup.groupby("Route_ID")[_DUPLICATE_CHECK_COLS].apply(lambda g: g.drop_duplicates().shape[0])
     duplicated_ids = combo_counts[combo_counts > 1]
     affected_rows = sup[sup["Route_ID"].isin(duplicated_ids.index)]
+    # Headline count: excess/redundant rows (each ID beyond the first sharing
+    # a Route_ID that already identifies a different route) - affected rows
+    # minus the distinct IDs they're spread across. E.g. one ID reused across
+    # 3 genuinely different rows contributes 2 "duplicates", not 3.
+    duplicate_row_count = int(len(affected_rows) - len(duplicated_ids))
 
     return {
         "tier": "derived",
@@ -190,12 +196,15 @@ def defect_d_duplicate_route_id():
         "title": "Duplicate Route_ID",
         "total_rows": int(len(sup)),
         "unique_route_ids": int(sup["Route_ID"].nunique()),
-        "duplicate_route_ids_found": int(len(duplicated_ids)),
+        "duplicate_route_ids_found": duplicate_row_count,
+        "distinct_ids_with_conflicts": int(len(duplicated_ids)),
         "affected_rows": int(len(affected_rows)),
         "verdict": (
             f"{len(sup)} supply rows carry only {sup['Route_ID'].nunique()} unique Route_ID values - "
-            f"{len(duplicated_ids)} IDs are reused across genuinely different Supplier/Lead_Time/MOQ "
-            f"combinations ({len(affected_rows)} rows affected). Route_ID is not a reliable unique key."
+            f"{duplicate_row_count} rows are duplicate/redundant reuses of an ID that already identifies "
+            f"a genuinely different Supplier/Category/Lead_Time/MOQ/Delivery_Cost combination "
+            f"({len(duplicated_ids)} distinct IDs affected across {len(affected_rows)} total rows). "
+            "Route_ID is not a reliable unique key."
         ),
         "existing_treatment": (
             "Supplier cost/lead-time analysis throughout this app aggregates by (Supplier, "

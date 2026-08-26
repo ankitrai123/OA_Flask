@@ -113,6 +113,16 @@ def seasonality():
 
     driving_items = [r["item"] for r in per_item_results if r["significant"] and (r["uplift_pct"] or 0) > 20]
 
+    # Weekly (day-of-week) seasonality: one-way ANOVA of total daily quantity
+    # grouped by weekday - tests whether a weekly (s=7) seasonal cycle would
+    # be worth modeling alongside the annual summer effect.
+    dow_labels = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    dow_names = daily.index.day_name()
+    dow_groups = [daily[dow_names == d].to_numpy() for d in dow_labels]
+    f_stat, dow_p = stats.f_oneway(*dow_groups)
+    dow_means = {d: float(daily[dow_names == d].mean()) for d in dow_labels}
+    dow_spread_pct = (max(dow_means.values()) - min(dow_means.values())) / daily.mean() * 100
+
     return {
         "summer_months": list(SUMMER_MONTHS),
         "monthly_index": {"labels": [f"{m:02d}" for m in monthly_index.index], "index": [_round(v) for v in monthly_index]},
@@ -125,6 +135,23 @@ def seasonality():
             "significant": bool(p_value < 0.05),
         },
         "per_item_summer_uplift": sorted(per_item_results, key=lambda r: -(r["uplift_pct"] or 0)),
+        "weekday_seasonality": {
+            "method": "One-way ANOVA of total daily POS quantity, grouped by day of week",
+            "labels": dow_labels,
+            "means": {d: _round(v) for d, v in dow_means.items()},
+            "f_stat": _round(float(f_stat), 3),
+            "p_value": _round(float(dow_p), 4),
+            "spread_pct_of_mean": _round(dow_spread_pct),
+            "significant_at_05": bool(dow_p < 0.05),
+            "actionable": False,
+            "interpretation": (
+                f"A weekly cycle is borderline-significant (p={_round(float(dow_p), 3)}) with only a "
+                f"~{_round(dow_spread_pct)}% spread between the busiest and quietest day - too weak and "
+                "too marginal to justify a weekly seasonal term (e.g. SARIMA with s=7) on top of the much "
+                "stronger, clearly significant annual summer effect. Demand Sensing carries only the "
+                "annual Summer regressor."
+            ),
+        },
         "interpretation": (
             f"The Apr-Jun uplift is real and highly significant in aggregate, but concentrated almost "
             f"entirely in {', '.join(driving_items) if driving_items else 'no single item'} - food "

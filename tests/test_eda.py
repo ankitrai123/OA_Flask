@@ -17,6 +17,14 @@ def test_seasonality_significance_pattern():
     assert by_item["Bbq Fried Wings 6 Pcs."]["significant"] is False
 
 
+def test_weekday_seasonality_not_actionable():
+    r = eda.seasonality()
+    w = r["weekday_seasonality"]
+    assert w["p_value"] < 0.06  # borderline-significant, matching the reference analysis's p=0.049
+    assert w["actionable"] is False
+    assert w["spread_pct_of_mean"] < 20
+
+
 def test_hourly_pattern_inadmissible():
     r = eda.hourly_pattern_status()
     assert r["status"] == "inadmissible"
