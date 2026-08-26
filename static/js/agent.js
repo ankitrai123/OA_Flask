@@ -100,6 +100,7 @@
   async function loadInsights(force = false) {
     const narrativeEl = document.getElementById("insight-narrative");
     const recsEl = document.getElementById("insight-recs");
+    const updatedEl = document.getElementById("insight-updated");
     if (force) narrativeEl.innerHTML = 'Regenerating<span class="loading-dots"></span>';
 
     try {
@@ -109,6 +110,11 @@
       recsEl.innerHTML = (data.recommendations || [])
         .map((r) => `<li>${r.replace(/^\d+\.\s*/, "")}</li>`)
         .join("");
+      if (updatedEl) {
+        updatedEl.textContent = data.generated_at
+          ? `Last updated ${new Date(data.generated_at * 1000).toLocaleString()}`
+          : "";
+      }
     } catch (err) {
       narrativeEl.textContent = "Couldn't load AI insights right now.";
       console.error(err);

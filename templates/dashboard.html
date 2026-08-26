@@ -3,25 +3,47 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Restaurant Command Center</title>
+  <title>Peyala Pulse</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
   <script src="{{ url_for('static', filename='js/vendor/chart.umd.js') }}"></script>
 </head>
 <body>
 <div id="app">
+
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <div class="sidebar-title">Peyala Pulse</div>
+      <div class="sidebar-subtitle">Operations Analytics Decision Console</div>
+    </div>
+    <ul class="sidebar-nav" id="sidebar-nav"></ul>
+    <div class="sidebar-progress" id="sidebar-progress"></div>
+    <div class="mode-toggle" id="mode-toggle">
+      <button type="button" class="mode-toggle-btn" data-mode="executive">Executive</button>
+      <button type="button" class="mode-toggle-btn" data-mode="analyst">Analyst</button>
+    </div>
+  </nav>
+
   <div class="slides">
 
-    <!-- Slide 1: Overview -->
-    <section class="slide" data-slide="0">
+    <!-- Slide 01: Executive Overview -->
+    <section class="slide" data-slide="0" data-slide-title="Executive Overview">
       <div class="slide-header">
-        <div>
-          <h1>Overview</h1>
-          <div class="subtitle" id="date-range-subtitle">Loading…</div>
-        </div>
-        <div class="slide-counter">1 / 5</div>
+        <h1>Peyala Pulse</h1>
+        <div class="subtitle">Turns today's sales into tomorrow's preparation, replenishment and purchasing decisions.</div>
       </div>
 
       <div class="kpi-row" id="overview-kpis"></div>
+
+      <div class="grid cols-2" style="flex: none; margin-bottom: 16px;">
+        <div class="panel">
+          <h2>Decision Pipeline</h2>
+          <div id="decision-pipeline"></div>
+        </div>
+        <div class="panel">
+          <h2>Executive Decision Summary</h2>
+          <div id="decision-summary"></div>
+        </div>
+      </div>
 
       <div class="insight-card">
         <div class="head">
@@ -30,158 +52,160 @@
         </div>
         <div class="insight-narrative" id="insight-narrative">Generating insights<span class="loading-dots"></span></div>
         <ol class="insight-recs" id="insight-recs"></ol>
-      </div>
-
-      <div class="grid cols-2" style="flex: none; height: 240px;">
-        <div class="panel span-2">
-          <h2>Revenue &amp; Profit Trend</h2>
-          <div class="chart-wrap"><canvas id="chart-overview-trend"></canvas></div>
-        </div>
+        <div class="note" id="insight-updated"></div>
       </div>
     </section>
 
-    <!-- Slide 2: Sales Analytics -->
-    <section class="slide" data-slide="1">
+    <!-- Slide 02: Data Quality & Audit -->
+    <section class="slide" data-slide="1" data-slide-title="Data Quality &amp; Audit">
       <div class="slide-header">
-        <div>
-          <h1>Sales Analytics</h1>
-          <div class="subtitle">Revenue, category mix, item performance, and daily traffic</div>
-        </div>
-        <div class="slide-counter">2 / 5</div>
+        <h1>Data Quality &amp; Audit</h1>
+        <div class="subtitle">Three source files, four identified defects, and how each is treated</div>
       </div>
 
-      <div class="kpi-row" id="sales-kpis"></div>
+      <div class="taxonomy-legend" id="taxonomy-legend"></div>
+      <div class="source-card-row" id="data-source-cards"></div>
+      <div id="defect-cards" style="flex: 1; overflow-y: auto; min-height: 0;"></div>
+    </section>
 
-      <div class="grid cols-2">
+    <!-- Slide 03: Exploratory Data Analysis -->
+    <section class="slide" data-slide="2" data-slide-title="Exploratory Data Analysis">
+      <div class="slide-header">
+        <h1>Exploratory Data Analysis</h1>
+        <div class="subtitle">Revenue mix, demand distribution, seasonality, and prep/spoilage behavior</div>
+      </div>
+
+      <div class="kpi-row" id="eda-kpis"></div>
+
+      <div class="grid cols-2" style="flex: none; height: 210px;">
         <div class="panel">
-          <h2>Revenue by Category</h2>
-          <div class="chart-wrap"><canvas id="chart-revenue-category"></canvas></div>
+          <h2>Revenue by Item</h2>
+          <div class="chart-wrap"><canvas id="chart-revenue-mix"></canvas></div>
           <div class="legend-row" id="legend-category"></div>
         </div>
         <div class="panel">
-          <h2>Item Performance (Revenue)</h2>
-          <div class="chart-wrap"><canvas id="chart-item-performance"></canvas></div>
+          <h2>Monthly Seasonal Index (100 = year average)</h2>
+          <div class="chart-wrap"><canvas id="chart-seasonality"></canvas></div>
         </div>
-        <div class="panel span-2">
-          <h2>Transactions by Hour of Day</h2>
-          <div class="chart-wrap"><canvas id="chart-hourly"></canvas></div>
+      </div>
+
+      <div class="grid cols-2" style="flex: 1; margin-top: 16px; min-height: 0;">
+        <div class="panel">
+          <h2>Prep vs Actual Demand vs Spoilage (avg/day, by item)</h2>
+          <div class="chart-wrap"><canvas id="chart-spoilage-bias"></canvas></div>
+          <div class="note" id="spoilage-scope-note"></div>
+        </div>
+        <div class="panel split-panel">
+          <h2>Seasonality — Per-Item Significance</h2>
+          <div class="table-wrap analyst-only">
+            <table id="table-seasonality">
+              <thead><tr><th>Item</th><th>Summer Avg</th><th>Rest Avg</th><th>Uplift %</th><th>p-value</th><th>Significant</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="recommendation-callout" id="seasonality-interpretation"></div>
+          <div class="not-supported-note" id="hourly-status-card" style="margin-top: 10px;"></div>
+          <div class="panel" id="menu-affinity-card" style="margin-top: 10px; background: var(--surface-2);"></div>
         </div>
       </div>
     </section>
 
-    <!-- Slide 3: Inventory & Waste -->
-    <section class="slide" data-slide="2">
+    <!-- Slide 04: Demand Sensing -->
+    <section class="slide" data-slide="3" data-slide-title="Demand Sensing">
       <div class="slide-header">
-        <div>
-          <h1>Inventory &amp; Waste</h1>
-          <div class="subtitle">Forecast accuracy, spoilage, and the prep optimizer</div>
-        </div>
-        <div class="slide-counter">3 / 5</div>
+        <h1>Demand Sensing</h1>
+        <div class="subtitle">ARIMAX(0,1,1) + summer regressor, validated by rolling-origin backtesting</div>
       </div>
 
-      <div class="kpi-row" id="inventory-kpis"></div>
+      <div class="kpi-row" id="forecast-kpis"></div>
 
-      <div class="grid cols-2" style="flex: none; height: 200px;">
+      <div class="grid cols-2" style="flex: 1; min-height: 0;">
         <div class="panel">
-          <h2>Forecasted vs Actual Demand (Monthly)</h2>
-          <div class="chart-wrap"><canvas id="chart-forecast-actual"></canvas></div>
+          <h2>Forecast — <span id="forecast-item-label"></span></h2>
+          <select class="item-select" id="forecast-item-select" style="margin-bottom: 8px;"></select>
+          <div class="chart-wrap"><canvas id="chart-forecast-band"></canvas></div>
+          <div class="recommendation-callout" id="forecast-interpretation"></div>
+          <div class="drawer analyst-only" data-drawer>
+            <button type="button" class="drawer-trigger">Model Information <span class="chevron">▾</span></button>
+            <div class="drawer-panel"><div class="drawer-panel-inner" id="model-info-drawer"></div></div>
+          </div>
         </div>
-        <div class="panel">
-          <h2>Avg Spoilage % of Forecast, by Item</h2>
-          <div class="chart-wrap"><canvas id="chart-waste-item"></canvas></div>
+        <div class="panel split-panel">
+          <h2>Model Validation — Baseline vs ARIMAX Forecast Error</h2>
+          <div class="chart-wrap" style="flex: none; height: 160px;"><canvas id="chart-validation-error"></canvas></div>
+          <div class="table-wrap analyst-only">
+            <table id="table-validation-folds">
+              <thead><tr><th>Fold</th><th>Cutoff</th><th>ARIMAX RMSE</th><th>Naive RMSE</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="why-method-callout">
+            <span class="label">Why ARIMAX?</span>
+            Demand exhibits a real seasonal effect (see Data Quality / EDA), and an exogenous
+            regressor lets the model incorporate that external signal directly, rather than
+            inferring it purely from the series' own history.
+          </div>
         </div>
-      </div>
-
-      <div class="panel" style="flex: 1; margin-top: 16px;">
-        <h2>Prep Optimizer — Newsvendor Bias Correction</h2>
-        <div class="table-wrap">
-          <table id="table-prep-optimizer">
-            <thead>
-              <tr>
-                <th>Item</th><th>Current Avg Prep/Day</th><th>Adjustment</th><th>Recommended Avg Prep/Day</th>
-                <th>Current Annual Cost</th><th>Projected Annual Cost</th><th>Savings</th><th>Savings %</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-        <div class="note">Adjustment shifts each day's existing forecast by a constant found from historical over/understock costs (newsvendor critical ratio) — it does not discard the day-to-day forecast, only corrects its bias. 0 means that item's forecast is already well-calibrated.</div>
       </div>
     </section>
 
-    <!-- Slide 4: Supply Chain -->
-    <section class="slide" data-slide="3">
+    <!-- Slide 05: Prep Quantity / Newsvendor -->
+    <section class="slide" data-slide="4" data-slide-title="Prep &amp; Newsvendor">
       <div class="slide-header">
-        <div>
-          <h1>Supply Chain</h1>
-          <div class="subtitle">Supplier cost &amp; lead time, and the procurement optimizer</div>
-        </div>
-        <div class="slide-counter">4 / 5</div>
+        <h1>Prep Quantity — Newsvendor Model</h1>
+        <div class="subtitle">How much to prepare, given the cost of running out vs. the cost of spoilage</div>
       </div>
 
-      <div class="kpi-row" id="supply-kpis"></div>
-
-      <div class="grid cols-2" style="flex: none; height: 240px;">
-        <div class="panel span-2">
-          <h2>Avg Delivery Cost by Supplier &amp; Category</h2>
-          <div class="chart-wrap"><canvas id="chart-supplier-cost"></canvas></div>
-          <div class="legend-row" id="legend-supplier"></div>
+      <div class="control-row">
+        <div class="control-group">
+          <label>Item</label>
+          <select class="item-select" id="nv-item-select"></select>
         </div>
       </div>
 
-      <div class="panel" style="flex: 1; margin-top: 16px;">
-        <h2>Procurement Optimizer — Least-Cost Supplier Selection</h2>
-        <div class="table-wrap">
-          <table id="table-procurement-optimizer">
-            <thead>
-              <tr>
-                <th>Category</th><th>Recommended Supplier</th><th>Its Avg Cost</th><th>Its Avg Lead Time</th>
-                <th>Category Avg Cost</th><th>Category Avg Lead Time</th><th>Cost Savings %</th><th>Lead-Time Change</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-        <div class="note">Score = 0.6 × normalized delivery cost + 0.4 × normalized lead time, lowest wins per category. A large cost saving can come with a longer lead time — both columns are shown so you can judge the trade-off before switching.</div>
-      </div>
-    </section>
+      <div class="result-row" id="nv-inputs-kpis" style="margin-bottom: 16px;"></div>
 
-    <!-- Slide 5: Pricing -->
-    <section class="slide" data-slide="4">
-      <div class="slide-header">
-        <div>
-          <h1>Pricing &amp; Discounts</h1>
-          <div class="subtitle">Discount leakage and margin cushion by item</div>
+      <div class="grid cols-2" style="flex: none; margin-bottom: 16px;">
+        <div class="panel split-panel">
+          <h2>What if demand or costs change?</h2>
+          <div class="control-row">
+            <div class="control-group">
+              <label>Demand qty (blank = historical)</label>
+              <input type="number" id="nv-demand-qty" placeholder="historical">
+            </div>
+            <div class="control-group">
+              <label>Spoilage cost ₹/unit (Co)</label>
+              <input type="number" id="nv-spoilage-cost" placeholder="unit cost">
+            </div>
+            <div class="control-group">
+              <label>Stockout cost ₹/unit (Cu)</label>
+              <input type="number" id="nv-stockout-cost" placeholder="margin">
+            </div>
+            <div class="control-group">
+              <label>Service level %</label>
+              <input type="number" id="nv-service-level" placeholder="from costs" min="1" max="99.9" step="0.1">
+            </div>
+            <button class="btn-primary" id="nv-run">Calculate</button>
+          </div>
+          <div class="result-row" id="nv-whatif-results"></div>
+          <div class="note" id="nv-whatif-note"></div>
+          <div class="drawer analyst-only" data-drawer>
+            <button type="button" class="drawer-trigger">Methodology <span class="chevron">▾</span></button>
+            <div class="drawer-panel"><div class="drawer-panel-inner">
+              <div class="formula">Critical Ratio = Cu / (Cu + Co)</div>
+              <p><strong>Cu</strong> (understage/stockout cost) is the contribution margin lost when
+              demand exceeds what was prepared. <strong>Co</strong> (overage/spoilage cost) is the
+              unit cost of an item prepared but not sold (salvage value is ₹0 in this data).
+              The optimal prep quantity is the CR-th quantile of the demand distribution — for a
+              point forecast with uncertainty (mean, std), this is <code>mean + std × Φ⁻¹(CR)</code>,
+              the standard newsvendor closed form under a Normal approximation.</p>
+            </div></div>
+          </div>
         </div>
-        <div class="slide-counter">5 / 5</div>
-      </div>
 
-      <div class="kpi-row" id="pricing-kpis"></div>
-
-      <div class="grid cols-2" style="flex: none; height: 220px;">
-        <div class="panel">
-          <h2>Profit per Line by Discount Level — <span id="pricing-chart-item-label"></span></h2>
-          <div class="chart-wrap"><canvas id="chart-pricing-buckets"></canvas></div>
-        </div>
-        <div class="panel">
-          <label class="subtitle" style="display:block; margin-bottom:8px;">Item</label>
-          <select class="item-select" id="pricing-item-select"></select>
-          <div class="note" id="pricing-item-note" style="margin-top: 14px;"></div>
-        </div>
-      </div>
-
-      <div class="panel" style="flex: 1; margin-top: 16px;">
-        <h2>Pricing Optimizer — Discount Leakage</h2>
-        <div class="table-wrap">
-          <table id="table-pricing-optimizer">
-            <thead>
-              <tr>
-                <th>Item</th><th>Avg Discount %</th><th>Total Discount Given / yr</th>
-                <th>Leakage % of Gross Revenue</th><th>Margin Cushion %</th><th>If Halved</th><th>Priority</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
+        <div class="panel split-panel">
+          <h2>Policy Comparison</h2>
+          <div id="nv-policy-comparison"></div>
         </div>
       </div>
     </section>
@@ -190,7 +214,6 @@
 
   <button class="nav-arrow prev" id="nav-prev" aria-label="Previous slide">‹</button>
   <button class="nav-arrow next" id="nav-next" aria-label="Next slide">›</button>
-  <div class="dots" id="nav-dots"></div>
 
   <button class="chat-fab" id="chat-fab" aria-label="Open AI assistant">💬</button>
   <div class="chat-panel" id="chat-panel">
@@ -199,18 +222,26 @@
       <button id="chat-close" aria-label="Close">✕</button>
     </div>
     <div class="chat-messages" id="chat-messages">
-      <div class="chat-msg assistant">Ask me anything about your sales, waste, suppliers, or pricing — or ask me to plot something.</div>
+      <div class="chat-msg assistant">Ask me about demand sensing, prep policy, data quality, or anything else on this console — or ask me to plot something.</div>
     </div>
     <div class="chat-input-row">
-      <input type="text" id="chat-input" placeholder="e.g. Why is waste high for Cold Coffee?">
+      <input type="text" id="chat-input" placeholder="e.g. Why is Cold Coffee's forecast seasonal?">
       <button id="chat-send">Send</button>
     </div>
   </div>
 </div>
 
+<script src="{{ url_for('static', filename='js/api.js') }}"></script>
+<script src="{{ url_for('static', filename='js/ui.js') }}"></script>
 <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 <script src="{{ url_for('static', filename='js/slides.js') }}"></script>
-<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+<script src="{{ url_for('static', filename='js/mode-toggle.js') }}"></script>
+<script src="{{ url_for('static', filename='js/drawer.js') }}"></script>
+<script src="{{ url_for('static', filename='js/slide-01-overview.js') }}"></script>
+<script src="{{ url_for('static', filename='js/slide-02-data-quality.js') }}"></script>
+<script src="{{ url_for('static', filename='js/slide-03-eda.js') }}"></script>
+<script src="{{ url_for('static', filename='js/slide-04-demand-sensing.js') }}"></script>
+<script src="{{ url_for('static', filename='js/slide-05-newsvendor.js') }}"></script>
 <script src="{{ url_for('static', filename='js/agent.js') }}"></script>
 </body>
 </html>

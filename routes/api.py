@@ -16,7 +16,6 @@ def sales():
         "revenue_trend": metrics.revenue_trend(),
         "revenue_by_category": metrics.revenue_by_category(),
         "item_performance": metrics.item_performance(),
-        "hourly_pattern": metrics.hourly_pattern(),
     })
 
 

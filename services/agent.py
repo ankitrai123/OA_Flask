@@ -12,28 +12,43 @@ import time
 from openai import APIError, AuthenticationError, OpenAI
 
 from config import Config
-from services import metrics, optimizer
+from services import basket_analysis, data_quality, eda, forecasting, metrics, newsvendor, optimizer, overview
 
-SYSTEM_PROMPT = """You are the on-dashboard AI analyst for an Indian restaurant.
-You have tools to fetch the restaurant's real sales, inventory/waste, supplier,
-and optimizer numbers. ALWAYS call a tool before stating any figure — never
+SYSTEM_PROMPT = """You are the on-dashboard AI analyst for Peyala Cafe's Operations
+Analytics Decision Console. You have tools to fetch the cafe's real sales,
+inventory/waste, supplier, data-quality, EDA, demand-forecast (ARIMAX), and
+newsvendor-prep numbers. ALWAYS call a tool before stating any figure — never
 guess or estimate a number yourself. Currency is INR (₹). Be concise, concrete,
 and action-oriented: prefer short bullet points with actual numbers over vague
-advice. If the user asks to see/plot/visualize/chart something, call
-generate_chart in addition to your text reply."""
+advice. Never overclaim - a forecast "reduces error under rolling-origin
+validation", it does not "predict demand perfectly"; a cost figure is "avoided
+relative to a counterfactual", never a booked "saving". If the user asks to
+see/plot/visualize/chart something, call generate_chart in addition to your
+text reply. The prep what-if simulator is an interactive form on the Prep &
+Newsvendor slide that needs the owner's own scenario inputs — point the user
+there rather than guessing those figures yourself. Some analyses (e.g. hourly
+transaction patterns) are flagged inadmissible in the data-quality audit —
+never present them as valid despite being technically computable."""
 
 DATASETS = {
     "overview": metrics.kpi_overview,
     "revenue_trend": metrics.revenue_trend,
     "revenue_by_category": metrics.revenue_by_category,
     "item_performance": metrics.item_performance,
-    "hourly_pattern": metrics.hourly_pattern,
     "waste_by_item": metrics.waste_by_item,
     "forecast_vs_actual": metrics.forecast_vs_actual,
     "supplier_comparison": metrics.supplier_comparison,
     "optimizer_prep": optimizer.optimize_prep,
     "optimizer_pricing": optimizer.optimize_pricing,
     "optimizer_procurement": optimizer.optimize_procurement,
+    "menu_basket_rules": lambda: basket_analysis.get_association_rules()["rules"],
+    "data_quality": data_quality.data_quality_scorecard,
+    "eda": eda.eda_bundle,
+    "demand_forecast": forecasting.get_demand_forecast_bundle,
+    "demand_validation": forecasting.get_demand_validation_bundle,
+    "newsvendor": newsvendor.get_newsvendor_bundle,
+    "prep_compare": newsvendor.get_prep_compare_bundle,
+    "executive_overview": overview.get_executive_overview_bundle,
 }
 
 _DATASET_ENUM = list(DATASETS.keys())
@@ -80,6 +95,7 @@ _LIST_CHART_FIELDS = {
     "optimizer_pricing": ("item", "total_discount_given_inr"),
     "optimizer_procurement": ("category", "cost_savings_pct"),
     "supplier_comparison": ("Supplier", "avg_delivery_cost"),
+    "menu_basket_rules": ("antecedent", "lift"),
 }
 
 

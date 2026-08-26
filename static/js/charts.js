@@ -2,11 +2,9 @@
   const css = getComputedStyle(document.documentElement);
   const token = (name) => css.getPropertyValue(name).trim();
 
-  const SERIES = [1, 2, 3, 4, 5, 6, 7, 8].map((n) => token(`--series-${n}`));
-  const TEXT_SECONDARY = token("--text-secondary");
+  const SERIES = [1, 2, 3, 4, 5, 6].map((n) => token(`--series-${n}`));
   const TEXT_MUTED = token("--text-muted");
   const GRIDLINE = token("--gridline");
-  const SURFACE_1 = token("--surface-1");
 
   // Fixed categorical order — same entity always gets the same color across every chart.
   const CATEGORY_COLORS = {
@@ -27,11 +25,11 @@
   Chart.defaults.borderColor = GRIDLINE;
   Chart.defaults.font.family = "system-ui, -apple-system, 'Segoe UI', sans-serif";
   Chart.defaults.font.size = 11;
-  Chart.defaults.plugins.tooltip.backgroundColor = SURFACE_1;
+  Chart.defaults.plugins.tooltip.backgroundColor = "#1a1a18";
   Chart.defaults.plugins.tooltip.titleColor = "#ffffff";
-  Chart.defaults.plugins.tooltip.bodyColor = TEXT_SECONDARY;
+  Chart.defaults.plugins.tooltip.bodyColor = "#e5e3dd";
   Chart.defaults.plugins.tooltip.borderColor = GRIDLINE;
-  Chart.defaults.plugins.tooltip.borderWidth = 1;
+  Chart.defaults.plugins.tooltip.borderWidth = 0;
   Chart.defaults.plugins.tooltip.padding = 10;
   Chart.defaults.plugins.tooltip.cornerRadius = 6;
 
@@ -71,6 +69,10 @@
     return chart;
   }
 
+  function pad(arr, before, after) {
+    return [...new Array(before).fill(null), ...arr, ...new Array(after).fill(null)];
+  }
+
   window.DashCharts = {
     SERIES,
     CATEGORY_COLORS,
@@ -108,6 +110,56 @@
           datasets: [{ data, backgroundColor: colors || SERIES[0], borderRadius: 4, maxBarThickness: 40 }],
         },
         options: baseOptions(),
+      });
+    },
+
+    // Grouped bar for model/policy comparisons (e.g. baseline vs ARIMAX RMSE per fold).
+    groupedBar(canvasId, labels, series) {
+      return upsertChart(canvasId, {
+        type: "bar",
+        data: {
+          labels,
+          datasets: series.map((s, i) => ({ label: s.label, data: s.data, backgroundColor: SERIES[i], borderRadius: 4, maxBarThickness: 34 })),
+        },
+        options: baseOptions({
+          plugins: { legend: { display: true, position: "top", align: "end", labels: { boxWidth: 10, boxHeight: 10 } } },
+        }),
+      });
+    },
+
+    // History (actual) + in-sample fitted + future point/CI band, on one
+    // continuous timeline. Not zero-based — the point is showing the band
+    // clearly, not anchoring a magnitude comparison.
+    forecastBand(canvasId, { historyLabels, historyValues, fittedValues, futureLabels, futureMedian, futureLower, futureUpper }) {
+      const labels = [...historyLabels, ...futureLabels];
+      const nHist = historyLabels.length;
+      const nFuture = futureLabels.length;
+      const seriesColor = SERIES[0];
+
+      return upsertChart(canvasId, {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            { label: "Actual", data: pad(historyValues, 0, nFuture), borderColor: seriesColor, backgroundColor: seriesColor, borderWidth: 2, pointRadius: 0, fill: false, tension: 0.15 },
+            { label: "Fitted", data: pad(fittedValues, 0, nFuture), borderColor: SERIES[1], backgroundColor: SERIES[1], borderWidth: 1.5, borderDash: [3, 3], pointRadius: 0, fill: false, tension: 0.15 },
+            { label: "Lower", data: pad(futureLower, nHist, 0), borderColor: "transparent", backgroundColor: "transparent", pointRadius: 0, fill: false },
+            { label: "Upper", data: pad(futureUpper, nHist, 0), borderColor: "transparent", backgroundColor: seriesColor + "26", pointRadius: 0, fill: "-1" },
+            { label: "Forecast", data: pad(futureMedian, nHist, 0), borderColor: seriesColor, backgroundColor: seriesColor, borderWidth: 2, borderDash: [5, 3], pointRadius: 0, fill: false, tension: 0.15 },
+          ],
+        },
+        options: baseOptions({
+          scales: {
+            x: { grid: { display: false }, ticks: { color: TEXT_MUTED, maxRotation: 0, autoSkip: true, maxTicksLimit: 8 } },
+            y: { grid: { color: GRIDLINE }, ticks: { color: TEXT_MUTED }, beginAtZero: false },
+          },
+          plugins: {
+            legend: {
+              display: true, position: "top", align: "end",
+              labels: { boxWidth: 10, boxHeight: 10, filter: (item) => !["Lower", "Upper"].includes(item.text) },
+            },
+          },
+        }),
       });
     },
   };
