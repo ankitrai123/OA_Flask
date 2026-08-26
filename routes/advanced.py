@@ -1,13 +1,8 @@
 from flask import Blueprint, jsonify, request
 
-from services import basket_analysis, forecasting, simulator, supply_optimization
+from services import basket_analysis, simulator, supply_optimization
 
 advanced_bp = Blueprint("advanced", __name__, url_prefix="/api")
-
-
-@advanced_bp.get("/forecast")
-def forecast():
-    return jsonify(forecasting.get_forecast())
 
 
 @advanced_bp.post("/simulator/prep")
@@ -17,11 +12,15 @@ def simulator_prep():
     if not item:
         return jsonify({"error": "item is required"}), 400
 
+    unit_cost_override = body.get("unit_cost_override")
+    margin_override = body.get("margin_override")
     result = simulator.simulate_prep_scenario(
         item=item,
         demand_growth_pct=float(body.get("demand_growth_pct", 0)),
         demand_vol_multiplier=float(body.get("demand_vol_multiplier", 1.0)),
         prep_quantity=body.get("prep_quantity"),
+        unit_cost_override=float(unit_cost_override) if unit_cost_override not in (None, "") else None,
+        margin_override=float(margin_override) if margin_override not in (None, "") else None,
         n_trials=min(int(body.get("n_trials", 2000)), 5000),
         n_days=min(int(body.get("n_days", 90)), 365),
     )

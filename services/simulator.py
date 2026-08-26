@@ -7,6 +7,11 @@ assuming a closed-form distribution has to hold:
    prep at X units/day" - bootstraps real historical daily demand for the
    item, scales it, and re-runs the newsvendor cost math from optimizer.py
    across simulated days to show the resulting cost/waste/stockout spread.
+   Demand is sourced via forecasting.get_item_daily_demand() (POS-derived),
+   not the inventory log's Actual_Demand_Qty - those two series are
+   empirically uncorrelated (see services.data_quality.defect_c_...), so
+   bootstrapping from the wrong one would simulate a demand pattern that
+   doesn't match what the restaurant actually sells.
 
 2. Supplier scenario - "what if lead time increases / we switch supplier" -
    a classic periodic-review (reorder-point, order-quantity) simulation
@@ -17,7 +22,8 @@ assuming a closed-form distribution has to hold:
 import numpy as np
 
 from services.data_loader import get_data
-from services.item_economics import critical_ratio, margin as item_margin
+from services import forecasting
+from services.item_economics import margin as item_margin
 from services.supply_optimization import DEFAULT_DEMAND_CV, SERVICE_LEVEL_Z, category_supply_stats, eoq_calculator
 
 _RNG = np.random.default_rng(42)
@@ -27,7 +33,16 @@ def _percentiles(arr, ps=(10, 50, 90)):
     return {f"p{p}": round(float(np.percentile(arr, p)), 2) for p in ps}
 
 
-def simulate_prep_scenario(item, demand_growth_pct=0, demand_vol_multiplier=1.0, prep_quantity=None, n_trials=2000, n_days=90):
+def simulate_prep_scenario(
+    item,
+    demand_growth_pct=0,
+    demand_vol_multiplier=1.0,
+    prep_quantity=None,
+    unit_cost_override=None,
+    margin_override=None,
+    n_trials=2000,
+    n_days=90,
+):
     d = get_data()
     pos, inv = d["pos"], d["inventory"]
 
@@ -35,13 +50,16 @@ def simulate_prep_scenario(item, demand_growth_pct=0, demand_vol_multiplier=1.0,
     if item_rows.empty:
         return {"error": f"unknown item '{item}'"}
 
-    cost = item_rows["Unit_Cost"].iloc[0]
-    margin = item_margin(pos, item, cost)
-    hist_demand = item_rows["Actual_Demand_Qty"].to_numpy()
+    cost = unit_cost_override if unit_cost_override is not None else item_rows["Unit_Cost"].iloc[0]
+    margin = margin_override if margin_override is not None else item_margin(pos, item, cost)
+    hist_demand = forecasting.get_item_daily_demand(item).to_numpy()
     hist_mean = hist_demand.mean()
 
     if prep_quantity is None:
-        cr = critical_ratio(pos, item, cost)
+        # Computed from the (possibly overridden) cost/margin directly, not via
+        # item_economics.critical_ratio(), which would re-derive margin from real
+        # market price and silently ignore margin_override.
+        cr = margin / (margin + cost)
         prep_quantity = float(np.quantile(hist_demand, cr))
 
     sampled = _RNG.choice(hist_demand, size=(n_trials, n_days), replace=True).astype(float)

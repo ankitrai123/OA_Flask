@@ -81,6 +81,9 @@ def item_performance():
 
 
 def hourly_pattern():
+    """Not surfaced anywhere in the UI - the Time column is synthetic/
+    near-uniform (see services.data_quality.defect_b_synthetic_timestamp),
+    so time-of-day analysis is inadmissible. Kept for completeness/tests."""
     d = get_data()
     pos = d["pos"]
     g = pos.groupby("Hour").agg(transactions=("Transaction_ID", "count"), revenue=("Total_Amount", "sum"))
