@@ -42,7 +42,8 @@
     if (defect.defect === "D") {
       return `
         ${UI.fmtNum(defect.total_rows)} rows, ${defect.unique_route_ids} unique Route_IDs,
-        ${defect.duplicate_route_ids_found} reused across ${defect.affected_rows} affected rows.
+        ${defect.duplicate_route_ids_found} duplicate rows across ${defect.distinct_ids_with_conflicts}
+        distinct conflicting IDs (${defect.affected_rows} total rows affected).
       `;
     }
     return "";
@@ -62,7 +63,7 @@
         </div>
         <div class="verdict">${defect.verdict}</div>
         <div class="drawer analyst-only" data-drawer>
-          <button type="button" class="drawer-trigger">Methodology <span class="chevron">&#9662;</span></button>
+          <button type="button" class="drawer-trigger">Technical Details <span class="chevron">&#9662;</span></button>
           <div class="drawer-panel"><div class="drawer-panel-inner">${defectDetail(defect)}</div></div>
         </div>
         ${scopeNote ? `<div class="note" style="margin-top:8px;">${scopeNote}</div>` : ""}

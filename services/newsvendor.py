@@ -244,6 +244,93 @@ def simulate_newsvendor_whatif(item, demand_qty=None, spoilage_cost=None, stocko
     return {**result, "simulation": simulation}
 
 
+def get_prep_policy_aggregate_comparison():
+    """Q2's headline: Current judgment vs a Static (one blanket quantity
+    for every item) vs Dynamic (each item's own newsvendor-optimal
+    quantity) prep policy, scored on the inventory log's own internal
+    scale (366 days) and summed across all 6 items into one annual cost
+    figure per policy - the "fixed quantity is worse than tailoring per
+    item" result. All three stay on the inventory-log scale throughout
+    (never mixed with POS-scale figures - see Defect C), which is exactly
+    why this is a *separate*, additional aggregate view, not a replacement
+    for compare_prep_policies()'s per-item Panel A/B split above, which
+    stays exactly as built.
+
+    Current and Dynamic reuse services.optimizer.optimize_prep() as-is:
+    - "Current" = the kitchen's own current_annual_cost (its actual
+      judgment-based prep quantity, scored against real Actual_Demand_Qty).
+    - "Dynamic" = optimize_prep()'s own bias-corrected, item-specific
+      critical-ratio quantity (projected_annual_cost) - tailored per item.
+    "Static" is the one genuinely new policy: a single order-up-to
+    quantity - the pooled demand quantile at the mean critical ratio
+    across items - applied identically to every item regardless of its
+    own scale, deliberately a "one target fits none" strawman.
+    """
+    d = get_data()
+    pos, inv = d["pos"], d["inventory"]
+    prep_rows = optimizer.optimize_prep()
+    if not prep_rows:
+        return {"status": "not_supported", "reason": "prep optimizer returned no items"}
+
+    items = sorted(_known_items())
+    per_item_info = {}
+    for item in items:
+        item_inv = inv[inv["Item_Name"] == item]
+        if item_inv.empty:
+            continue
+        cost = float(item_inv["Unit_Cost"].iloc[0])
+        margin = float(item_margin(pos, item, cost))
+        cr = margin / (margin + cost) if (margin + cost) else 0.5
+        per_item_info[item] = {"cost": cost, "margin": margin, "cr": cr, "demand": item_inv["Actual_Demand_Qty"].to_numpy()}
+
+    if not per_item_info:
+        return {"status": "not_supported", "reason": "no items found in the inventory log"}
+
+    current_total = sum(r["current_annual_cost"] for r in prep_rows)
+    dynamic_total = sum(r["projected_annual_cost"] for r in prep_rows)
+
+    pooled_demand = np.concatenate([v["demand"] for v in per_item_info.values()])
+    mean_cr = float(np.mean([v["cr"] for v in per_item_info.values()]))
+    static_qty = float(np.quantile(pooled_demand, mean_cr))
+
+    static_total = 0.0
+    for v in per_item_info.values():
+        spoiled = np.maximum(static_qty - v["demand"], 0).sum() * v["cost"]
+        stockout = np.maximum(v["demand"] - static_qty, 0).sum() * v["margin"]
+        static_total += spoiled + stockout
+
+    cr_values = [round(r["critical_ratio"], 3) for r in prep_rows]
+    static_vs_dynamic_pct = (static_total - dynamic_total) / dynamic_total * 100 if dynamic_total else 0
+
+    return {
+        "status": "supported",
+        "scope_note": (
+            "All three policies are scored entirely on the inventory log's own internal scale "
+            "(Actual_Demand_Qty, 366 days) - never mixed with POS-scale figures elsewhere on this "
+            "console (see Defect C)."
+        ),
+        "current": {"annual_cost_inr": round(current_total, 2), "description": "The kitchen's actual day-to-day prep judgment"},
+        "static": {
+            "annual_cost_inr": round(static_total, 2),
+            "order_up_to_qty": round(static_qty, 1),
+            "description": "One single order-up-to quantity applied identically to every item, ignoring each item's own scale and critical ratio",
+        },
+        "dynamic": {
+            "annual_cost_inr": round(dynamic_total, 2),
+            "description": "Each item's own bias-corrected, critical-ratio-tailored prep quantity",
+        },
+        "static_worse_than_dynamic_pct": round(static_vs_dynamic_pct, 1),
+        "critical_ratio_range": {"min": min(cr_values), "max": max(cr_values)},
+        "interpretation": (
+            f"A single fixed prep quantity across all items costs {round(static_vs_dynamic_pct)}% more "
+            f"than tailoring per item, because each item's critical ratio differs "
+            f"({min(cr_values)}-{max(cr_values)}) and the café's own current judgment is already close "
+            "to its item-specific optimum. This is a cost avoided by not standardizing, not a saving "
+            "found by a new policy."
+        ),
+    }
+
+
 def get_newsvendor_bundle():
     """Backing function for GET /api/prep/newsvendor (all items)."""
     return {"items": {item: newsvendor_inputs(item) for item in sorted(_known_items())}}

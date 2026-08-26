@@ -12,22 +12,27 @@ import time
 from openai import APIError, AuthenticationError, OpenAI
 
 from config import Config
-from services import basket_analysis, data_quality, eda, forecasting, metrics, newsvendor, optimizer, overview
+from services import (
+    automation, basket_analysis, data_quality, eda, forecasting, metrics,
+    newsvendor, optimizer, overview, procurement, safety_stock,
+)
 
 SYSTEM_PROMPT = """You are the on-dashboard AI analyst for Peyala Cafe's Operations
 Analytics Decision Console. You have tools to fetch the cafe's real sales,
-inventory/waste, supplier, data-quality, EDA, demand-forecast (ARIMAX), and
-newsvendor-prep numbers. ALWAYS call a tool before stating any figure — never
-guess or estimate a number yourself. Currency is INR (₹). Be concise, concrete,
-and action-oriented: prefer short bullet points with actual numbers over vague
-advice. Never overclaim - a forecast "reduces error under rolling-origin
-validation", it does not "predict demand perfectly"; a cost figure is "avoided
-relative to a counterfactual", never a booked "saving". If the user asks to
-see/plot/visualize/chart something, call generate_chart in addition to your
-text reply. The prep what-if simulator is an interactive form on the Prep &
-Newsvendor slide that needs the owner's own scenario inputs — point the user
-there rather than guessing those figures yourself. Some analyses (e.g. hourly
-transaction patterns) are flagged inadmissible in the data-quality audit —
+inventory/waste, supplier, data-quality, EDA, demand-forecast (ARIMAX), newsvendor-prep,
+safety-stock/reorder-point, procurement (LP allocation + TOPSIS), and reorder-automation
+numbers. ALWAYS call a tool before stating any figure — never guess or estimate a number
+yourself. Currency is INR (₹). Be concise, concrete, and action-oriented: prefer short
+bullet points with actual numbers over vague advice. Never overclaim - a forecast
+"reduces error under rolling-origin validation", it does not "predict demand perfectly";
+a cost figure is "avoided relative to a counterfactual", never a booked "saving"; a
+supplier is never "the best" outright - TOPSIS rankings change with the weighting used,
+and procurement's LP shadow price is defined only for whatever supplier capacity was
+assumed (capacity is not in the source data). If the user asks to see/plot/visualize/chart
+something, call generate_chart in addition to your text reply. The prep what-if simulator
+and the What-if Simulator slide are interactive forms that need the owner's own scenario
+inputs — point the user there rather than guessing those figures yourself. Some analyses
+(e.g. hourly transaction patterns) are flagged inadmissible in the data-quality audit —
 never present them as valid despite being technically computable."""
 
 DATASETS = {
@@ -48,6 +53,10 @@ DATASETS = {
     "demand_validation": forecasting.get_demand_validation_bundle,
     "newsvendor": newsvendor.get_newsvendor_bundle,
     "prep_compare": newsvendor.get_prep_compare_bundle,
+    "prep_policy_aggregate": newsvendor.get_prep_policy_aggregate_comparison,
+    "safety_stock": safety_stock.safety_stock_bundle,
+    "procurement": procurement.procurement_bundle,
+    "automation": automation.automation_bundle,
     "executive_overview": overview.get_executive_overview_bundle,
 }
 

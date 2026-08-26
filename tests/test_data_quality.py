@@ -20,8 +20,9 @@ def test_defect_c_uncorrelated():
 
 def test_defect_d_duplicates_found():
     r = dq.defect_d_duplicate_route_id()
-    assert r["affected_rows"] > 0
-    assert r["duplicate_route_ids_found"] > 0
+    assert r["affected_rows"] == 27
+    assert r["distinct_ids_with_conflicts"] == 13
+    assert r["duplicate_route_ids_found"] == 14
 
 
 def test_scorecard_has_all_four_defects():
